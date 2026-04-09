@@ -1,0 +1,14 @@
+[build]
+  command = "node generate.js"
+  publish = "."
+
+# ── Episode fallback ────────────────────────────────────────────────────────
+# If a visitor lands on an /ep/*.html URL that doesn't have a static file yet
+# (e.g. a brand-new episode published before the next site rebuild), serve the
+# dynamic fallback page instead of a 404.  Netlify only applies this redirect
+# when the file does NOT exist (force = false is the default), so existing
+# static episode pages are always served as-is — no performance impact.
+[[redirects]]
+  from   = "/ep/*"
+  to     = "/episode-fallback.html"
+  status = 200

@@ -1,0 +1,167 @@
+PSYCHOTHERAPY AND APPLIED PSYCHOLOGY PODCAST WEBSITE
+=====================================================
+
+PROJECT STRUCTURE:
+==================
+
+/Podcast Website/
+├── index.html          (8.5 KB)  - Home page
+├── episodes.html       (8.2 KB)  - Full episode listing
+├── about.html          (13 KB)   - About podcast & host
+├── contact.html        (13 KB)   - Contact & subscribe
+├── style.css           (18 KB)   - Professional stylesheet
+├── shared.js           (8.6 KB)  - RSS parsing & logic
+└── README.md           (5.2 KB)  - Documentation
+
+
+KEY FEATURES:
+=============
+
+✓ Dynamic episode loading from Buzzsprout RSS feed
+✓ Search & filter functionality
+✓ Audio player on each episode
+✓ Mobile-responsive design (desktop, tablet, mobile)
+✓ Professional color scheme (deep teal, warm gold)
+✓ Smooth animations & transitions
+✓ Social media integration
+✓ Subscribe platform links
+✓ Contact & voicemail integration
+✓ Client-side caching for performance
+
+
+PAGES:
+======
+
+1. index.html
+   - Hero section with podcast artwork & CTA
+   - Latest 3 episodes preview
+   - About section with link to full about page
+   - Subscribe section with platform links
+
+2. episodes.html
+   - Full searchable episode listing
+   - Click to expand episodes
+   - Audio player with controls
+   - Load more functionality
+   - Search by title/description
+
+3. about.html
+   - About the podcast mission
+   - Host biography (Dr. Daniel W Cox, UBC)
+   - Who the podcast is for
+   - Commitment to quality & accessibility
+
+4. contact.html
+   - Subscribe links (all platforms)
+   - Speakpipe voicemail integration
+   - Email contact
+   - Social media links
+   - FAQ section
+
+
+DESIGN SPECIFICATIONS:
+======================
+
+Color Palette:
+  Primary Dark:  #1a3a52  (Deep teal/navy)
+  Primary:       #2c5aa0  (Professional blue)
+  Accent:        #d4a574  (Warm gold/amber)
+  Background:    #f8f7f5  (Warm off-white)
+
+Typography:
+  Headings: Playfair Display (serif)
+  Body:     Inter (sans-serif)
+  From Google Fonts (no local fonts needed)
+
+Responsive Breakpoints:
+  Desktop:  Full grid layouts
+  Tablet:   1-2 column layouts (≤768px)
+  Mobile:   Single column, optimized (≤480px)
+
+
+TECHNICAL IMPLEMENTATION:
+=========================
+
+RSS Feed Handling:
+  - Source: https://rss.buzzsprout.com/2324798.rss
+  - CORS Proxy: https://api.allorigins.win/raw?url=...
+  - Client-side parsing with DOMParser
+  - 1-hour caching to reduce requests
+  - Graceful error handling
+
+JavaScript Features:
+  - Async/await for clean code
+  - Error handling & fallbacks
+  - Dynamic HTML creation
+  - Event listeners for interactivity
+  - Search/filter functionality
+  - No external libraries or frameworks
+
+Podcast Integration:
+  - Buzzsprout hosting page
+  - YouTube channel
+  - Apple Podcasts link
+  - Spotify link
+  - Google Podcasts link
+  - Direct audio player
+  - Email contact
+  - Speakpipe voicemail
+  - LinkedIn & Bluesky social
+
+
+BROWSER SUPPORT:
+================
+  Modern browsers (Chrome, Firefox, Safari, Edge)
+  Requires JavaScript enabled
+  Responsive across all devices
+  Works when served locally
+
+
+USAGE:
+======
+
+Local:
+  1. Open any HTML file in browser
+  2. Or: python -m http.server 8000 (then http://localhost:8000)
+
+
+
+FILE SIZES:
+===========
+Total project: ~96 KB
+  - HTML files: ~42 KB combined
+  - CSS: 18 KB
+  - JavaScript: 8.6 KB
+  - Assets: Served from external URLs (no local assets)
+
+
+CUSTOMIZATION:
+==============
+
+Colors:
+  Edit CSS variables in style.css :root section
+
+Podcast Info:
+  Edit PODCAST_CONFIG object in shared.js
+
+Content:
+  Update text in corresponding HTML files
+  All content is inline for easy editing
+
+
+PERFORMANCE:
+============
+  Lightweight & fast loading
+  Efficient RSS caching
+  Optimized CSS & JS
+  Google Fonts (cached by browser)
+  No build tools needed
+  Direct file serving
+
+
+CREATED:
+========
+March 25, 2026
+For: Psychotherapy and Applied Psychology Podcast
+Host: Dr. Daniel W Cox, University of British Columbia
+

@@ -1,0 +1,314 @@
+================================================================================
+PSYCHOTHERAPY AND APPLIED PSYCHOLOGY PODCAST WEBSITE
+DEPLOYMENT & USAGE GUIDE
+================================================================================
+
+PROJECT COMPLETE - All files ready for deployment!
+
+LOCATION:
+/sessions/fervent-awesome-bohr/mnt/Podcast Website/
+
+FILES INCLUDED (9 total, 112 KB):
+================================================================================
+
+WEBSITE PAGES (4 HTML files):
+  1. index.html           (8.5 KB)  - Home page with hero and latest episodes
+  2. episodes.html        (8.2 KB)  - Full episode listing with search
+  3. about.html           (13 KB)   - About podcast and host
+  4. contact.html         (13 KB)   - Subscribe and contact info
+
+STYLING & FUNCTIONALITY:
+  5. style.css            (18 KB)   - Professional responsive stylesheet
+  6. shared.js            (8.6 KB)  - RSS parsing and episode loading
+
+DOCUMENTATION:
+  7. README.md            (5.9 KB)  - Complete technical documentation
+  8. GETTING-STARTED.md   (5.8 KB)  - Quick start and deployment guide
+  9. project-summary.txt  (4.1 KB)  - Project overview
+
+================================================================================
+QUICK START OPTIONS
+================================================================================
+
+OPTION 1 - LOCAL BROWSER (Easiest)
+  1. Download all files to a folder
+  2. Open 'index.html' in your web browser
+  3. Done! The site is fully functional
+
+OPTION 2 - LOCAL SERVER (Recommended for testing)
+  1. Navigate to the folder in terminal
+  2. Run: python -m http.server 8000
+  3. Visit: http://localhost:8000
+  4. Test the site fully before deployment
+
+
+================================================================================
+KEY FEATURES
+================================================================================
+
+✓ Dynamic RSS Feed Loading
+  - Automatically fetches episodes from Buzzsprout RSS feed
+  - CORS proxy handles cross-domain requests
+  - 1-hour caching to minimize API calls
+  - Graceful error handling
+
+✓ Interactive Episodes
+  - Click to expand episode details
+  - HTML5 audio player for listening
+  - Search and filter functionality
+  - Load more pagination
+
+✓ Professional Design
+  - Modern color scheme (deep teal, warm gold)
+  - Fully responsive (mobile, tablet, desktop)
+  - Smooth animations and transitions
+  - Google Fonts for typography
+  - Clean, accessible interface
+
+✓ Multi-Platform Integration
+  - Links to Buzzsprout, Apple Podcasts, Spotify, YouTube
+  - Speakpipe voicemail integration
+  - Email contact
+  - Social media links (LinkedIn, Bluesky)
+
+✓ Performance
+  - Lightweight (112 KB total)
+  - No external dependencies
+  - Fast loading times
+  - Efficient caching
+
+================================================================================
+DESIGN SPECIFICATIONS
+================================================================================
+
+COLOR PALETTE:
+  Primary Dark:   #1a3a52  (Deep Navy)
+  Primary:        #2c5aa0  (Professional Blue)
+  Accent:         #d4a574  (Warm Gold)
+  Background:     #f8f7f5  (Off-white)
+  Surface:        #ffffff  (White)
+
+TYPOGRAPHY:
+  Headings:   Playfair Display (serif, Google Fonts)
+  Body Text:  Inter (sans-serif, Google Fonts)
+
+RESPONSIVE BREAKPOINTS:
+  Desktop:    1200px+ (full multi-column layouts)
+  Tablet:     769-1199px (1-2 column layouts)
+  Mobile:     ≤768px (single column, optimized)
+
+================================================================================
+PODCAST DETAILS
+================================================================================
+
+Title:          Psychotherapy and Applied Psychology
+Host:           Dr. Daniel W Cox
+Institution:    University of British Columbia
+Email:          TheAppliedPsychologyPodcast@gmail.com
+
+HOSTING:
+  Buzzsprout Page: https://psychotherapyandappliedpsychology.buzzsprout.com
+  RSS Feed:        https://rss.buzzsprout.com/2324798.rss
+
+SOCIAL LINKS:
+  YouTube:    http://www.youtube.com/@PsychotherapyAppliedPsychology
+  Speakpipe:  https://www.speakpipe.com/PsychotherapyAppliedPsychology
+  LinkedIn:   https://www.linkedin.com/in/dan-cox-705595303/
+  Bluesky:    https://bsky.app/profile/danielwcox.bsky.social
+
+================================================================================
+BROWSER SUPPORT
+================================================================================
+
+✓ Chrome (Desktop & Mobile)
+✓ Firefox (Desktop & Mobile)
+✓ Safari (Desktop & Mobile)
+✓ Edge (Desktop & Mobile)
+✗ Internet Explorer (Not supported)
+
+Requires: JavaScript enabled, modern browser
+
+================================================================================
+HOW TO USE THE WEBSITE
+================================================================================
+
+HOME PAGE (index.html):
+  - Shows podcast title and artwork
+  - Latest 3 episodes with preview cards
+  - Brief about section
+  - Subscribe links for major platforms
+
+EPISODES PAGE (episodes.html):
+  - Full list of all episodes from RSS feed
+  - Search bar to filter by title/description
+  - Click any episode to expand and listen
+  - Audio player with controls
+  - "Load More" pagination
+  - Real-time search results
+
+ABOUT PAGE (about.html):
+  - Podcast mission and overview
+  - Host biography (Dr. Daniel W Cox)
+  - What listeners can expect
+  - Who the podcast is for
+  - Commitment to quality
+
+CONTACT PAGE (contact.html):
+  - Subscribe links to all platforms
+  - Voice message option (Speakpipe)
+  - Email contact
+  - Social media links
+  - Frequently asked questions
+
+================================================================================
+CUSTOMIZATION
+================================================================================
+
+CHANGE PODCAST INFO:
+  Edit shared.js, find PODCAST_CONFIG object:
+  - Update title, author, description
+  - Change social media links
+  - Modify email address
+  - Update Buzzsprout feed URL if needed
+
+CHANGE COLORS:
+  Edit style.css, update CSS variables in :root section:
+  --primary-dark: #1a3a52;
+  --primary: #2c5aa0;
+  --accent: #d4a574;
+  etc.
+
+CHANGE CONTENT:
+  Edit the HTML files directly:
+  - Update text in any section
+  - Change heading text
+  - Modify descriptions
+  - Update links
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Episodes Not Loading:
+  - Check internet connection
+  - Open browser console (F12) for errors
+  - Refresh the page
+  - CORS proxy might be rate-limited (wait and retry)
+
+Site Not Displaying Correctly:
+  - Hard refresh browser (Ctrl+Shift+R or Cmd+Shift+R)
+  - Clear browser cache
+  - Verify style.css is in same folder as HTML
+  - Check console for CSS errors
+
+Audio Player Not Working:
+  - Check podcast has audio files (from Buzzsprout)
+  - Verify browser supports MP3 audio
+  - Try a different episode
+  - Some networks may block audio (firewall/VPN)
+
+Local Server Not Working:
+  - Make sure all files are in same folder
+  - Verify Python is installed
+  - Try different port: python -m http.server 9000
+  - Check firewall isn't blocking localhost
+
+================================================================================
+AUTOMATIC DAILY REBUILD SETUP (prevents missing episode pages)
+================================================================================
+
+When a new episode is published on Buzzsprout, the Episodes page shows it
+immediately (it fetches live from the API). But the individual episode page
+(ep/[id]-title.html) is a static file that only gets generated when Netlify
+runs a build.
+
+Two safeguards are in place:
+  1. FALLBACK PAGE  — if a visitor clicks into a new episode before the next
+     build, episode-fallback.html loads and renders the episode dynamically
+     from the Buzzsprout API. No 404 is ever shown.
+  2. SCHEDULED REBUILD — netlify/functions/daily-rebuild.mjs fires every day
+     at 6 AM UTC and triggers a full Netlify build, so static pages are
+     generated within 24 hours of any new episode release.
+
+To activate the scheduled rebuild (one-time setup):
+  1. In Netlify: Site configuration → Build & deploy → Build hooks
+  2. Click "Add build hook"
+     Name: "Daily episode rebuild"   Branch: main (or your deploy branch)
+  3. Save and copy the generated webhook URL
+  4. In Netlify: Site configuration → Environment variables
+  5. Add a new variable:
+       Key:   NETLIFY_BUILD_HOOK_URL
+       Value: <the URL you just copied>
+  6. Trigger a manual deploy so the function is deployed with the new env var
+
+After this, Netlify will rebuild the site every morning automatically.
+You can also trigger a manual rebuild any time from the Netlify dashboard,
+or by pushing any change to your Git repo.
+
+================================================================================
+DEPLOYMENT CHECKLIST
+================================================================================
+
+Before going live:
+  ✓ Test all 4 pages load correctly
+  ✓ Verify episodes load from RSS feed
+  ✓ Test search functionality
+  ✓ Try audio player
+  ✓ Check responsive design on mobile
+  ✓ Verify all links work
+  ✓ Test navigation between pages
+  ✓ Check footer links
+  ✓ Verify social media links work
+  ✓ Test on multiple browsers
+  ✓ Set NETLIFY_BUILD_HOOK_URL environment variable (see section above)
+
+================================================================================
+TECHNICAL DETAILS
+================================================================================
+
+RSS Parsing:
+  - Uses Fetch API to retrieve RSS
+  - CORS proxy: https://api.allorigins.win/raw?url=...
+  - DOMParser for XML parsing
+  - Client-side (no server needed)
+
+Caching:
+  - Episodes cached for 1 hour
+  - Reduces API calls
+  - Manual refresh available (add forceRefresh=true)
+
+Audio Player:
+  - HTML5 native audio element
+  - Works in all modern browsers
+  - No external player library needed
+  - Full playback controls
+
+Performance:
+  - Total size: 112 KB (very lightweight)
+  - No build process needed
+  - No external dependencies (except Google Fonts)
+  - Loads in seconds
+
+================================================================================
+SUPPORT & UPDATES
+================================================================================
+
+For issues or questions:
+  Email:     TheAppliedPsychologyPodcast@gmail.com
+  LinkedIn:  https://www.linkedin.com/in/dan-cox-705595303/
+  Speakpipe: https://www.speakpipe.com/PsychotherapyAppliedPsychology
+
+To modify content:
+  1. Read the documentation (README.md)
+  2. Edit the HTML files as needed
+  3. Test locally before redeploying
+  4. Push updated files to your hosting
+
+================================================================================
+READY TO DEPLOY!
+
+Your podcast website is complete and ready to go live.
+No build process needed - just upload the files and you're done!
+
+Good luck with the podcast!
+================================================================================

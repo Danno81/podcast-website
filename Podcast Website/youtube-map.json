@@ -1,0 +1,416 @@
+{
+  "generated": "2026-03-31",
+  "note": "Auto-matched from YouTube podcast playlist. Re-run update-youtube-map.sh for new episodes.",
+  "map": {
+    "18914652": {
+      "videoId": "BL_gTti3RCA",
+      "confidence": 100,
+      "ytTitle": "What Happens in Psychedelic Therapy with Dr. Jason Luoma"
+    },
+    "18889043": {
+      "videoId": "oo5hYAh5IT8",
+      "confidence": 100,
+      "ytTitle": "Psychedelics, Psychotherapy, and What Actually Helps with Dr. Jason Luoma"
+    },
+    "18857898": {
+      "videoId": "BI-VJc4lLLE",
+      "confidence": 66,
+      "ytTitle": "Why Mental Health Tools Die \u2014 and How to Keep Them Alive"
+    },
+    "18804195": {
+      "videoId": "Qlk7VQodNLE",
+      "confidence": 100,
+      "ytTitle": "Building a Mental Health Tool People Actually Use: The Making of HeadsUpGuys.org"
+    },
+    "18290337": {
+      "videoId": "fQpk4Pf2goo",
+      "confidence": 100,
+      "ytTitle": "Emotional Arousal & Meaning Making with Dr. Antonio Pascual-Leone"
+    },
+    "18281188": {
+      "videoId": "ld7Y1zM7qJ0",
+      "confidence": 100,
+      "ytTitle": "Unraveling Emotional Change with Dr. Antonio Pascual-Leone"
+    },
+    "18151675": {
+      "videoId": "W4Ot4GPPjJU",
+      "confidence": 100,
+      "ytTitle": "We Can't Predict Suicide, So What Should We Do? With Dr. Matthew Large"
+    },
+    "18112686": {
+      "videoId": "PuzDG1VT9WU",
+      "confidence": 100,
+      "ytTitle": "Facilitating Autonomous vs Controlled Motivation: Our Kids to our Clients with Dr. Richard Koestner"
+    },
+    "18073800": {
+      "videoId": "4Vi54H5B8wI",
+      "confidence": 100,
+      "ytTitle": "Building Autonomy, Motivation, Identity, & Self Determination with Dr. Richard Koestner"
+    },
+    "18025643": {
+      "videoId": "ImUrjQjstS0",
+      "confidence": 100,
+      "ytTitle": "The Evolution of Psychotherapy: From the DSM to the Unified Protocol with Dr. David Barlow"
+    },
+    "17989894": {
+      "videoId": "Zh-Tu1DXC9I",
+      "confidence": 88,
+      "ytTitle": "Cognitive-Behavioral Therapy (CBT) and the Evolution of Psychotherapy with Dr. David Barlow"
+    },
+    "17942816": {
+      "videoId": "qrynERWBF3g",
+      "confidence": 100,
+      "ytTitle": "How Gloria Tests and Coaches Dr. Carl Rogers with Dr. David Kealy"
+    },
+    "17926829": {
+      "videoId": "5bNOkCluWMA",
+      "confidence": 100,
+      "ytTitle": "How Patients Coach and Test their Psychotherapists with Dr. David Kealy"
+    },
+    "17863022": {
+      "videoId": "Y2ZGW07GUxE",
+      "confidence": 100,
+      "ytTitle": "The Secret Science & Practice of Weight-Loss Maintenance with Dr. James Hill"
+    },
+    "17842686": {
+      "videoId": "oHa7EI_6Jz4",
+      "confidence": 100,
+      "ytTitle": "GLP-1s like Ozempic: Revolutionizing the Fight Against Obesity with Dr. James Hill"
+    },
+    "17790923": {
+      "videoId": "j_pHtGCVZHg",
+      "confidence": 100,
+      "ytTitle": "AI for Psychotherapists: Challenges and Opportunities with Dr. Tony Rousmaniere & Dr. Alexandre Vaz"
+    },
+    "17753568": {
+      "videoId": "qg1SkHdJtXM",
+      "confidence": 90,
+      "ytTitle": "Artificial Intelligence and Mental Health: A New Frontier with Dr. Tony Rousmaniere & Dr. Alex Vaz"
+    },
+    "17714254": {
+      "videoId": "ki9f2n0hGxU",
+      "confidence": 58,
+      "ytTitle": "Multicultural Orientation in Psychotherapy: Dr. Jesse Owen Explains"
+    },
+    "17672379": {
+      "videoId": "zjzh2AyGKt4",
+      "confidence": 100,
+      "ytTitle": "Personalizing Psychotherapy and Patient Empowerment with Dr. Michael Constantino"
+    },
+    "17627705": {
+      "videoId": "wgvt_RinBMg",
+      "confidence": 100,
+      "ytTitle": "Optimizing Outcomes Through Patient-Therapist Matching with Dr. Michael Constantino"
+    },
+    "17596852": {
+      "videoId": "9xqdj2ca4Wk",
+      "confidence": 100,
+      "ytTitle": "Breaking the Silence: Male Victimization in Domestic Violence with Dr. Alexandra Lysova"
+    },
+    "17560319": {
+      "videoId": "yH37qng-DTk",
+      "confidence": 100,
+      "ytTitle": "Rethinking Men's Experiences of Intimate Partner Violence with Dr. Alexandra Lysova"
+    },
+    "17527751": {
+      "videoId": "njSbX-9tH6Q",
+      "confidence": 100,
+      "ytTitle": "Applying HiTOP (a DSM alternative) to Clinical Practice with Dr. Robert Krueger"
+    },
+    "17484719": {
+      "videoId": "Sb_hYCIlVbc",
+      "confidence": 100,
+      "ytTitle": "Understanding the HiTOP Model (a DSM Alternative) with Dr. Robert Krueger"
+    },
+    "17445249": {
+      "videoId": "G5kdmXjRkP8",
+      "confidence": 100,
+      "ytTitle": "Dark Tetrad Explained: Callousness, Gender Differences, and Real-World Behavior | Dr. Del Paulhus"
+    },
+    "17404081": {
+      "videoId": "ux1eHvRzFb8",
+      "confidence": 100,
+      "ytTitle": "Narcissism, Psychopathy, & Sadism: The Dark Side of Personality with Dr. Del Paulhus"
+    },
+    "17370553": {
+      "videoId": "fr3dQAZQeCw",
+      "confidence": 100,
+      "ytTitle": "Building Therapist Expertise with Dr. Tony Rousmaniere"
+    },
+    "17342034": {
+      "videoId": "D9LUN_VHx8Q",
+      "confidence": 90,
+      "ytTitle": "How Deliberate Practice Transforms Therapist Training & Client Outcome with Dr. Tony Rousmaniere"
+    },
+    "17287766": {
+      "videoId": "3ZCr11-2_7E",
+      "confidence": 62,
+      "ytTitle": "Can Cognitive Remediation Help Psychosis? Dr. Mahesh Menon Explains"
+    },
+    "17268458": {
+      "videoId": "zCwf5iEc5iA",
+      "confidence": 100,
+      "ytTitle": "A Forthright Conversation about Psychosis with Dr. Mahesh Menon"
+    },
+    "17220711": {
+      "videoId": "9get1Bvvlrk",
+      "confidence": 100,
+      "ytTitle": "Supervisor vs Therapist: Knowing the Difference with Dr. Rod Goodyear"
+    },
+    "17186368": {
+      "videoId": "G47UQcM0EuU",
+      "confidence": 100,
+      "ytTitle": "Insights into Clinical Supervision with Dr. Rodney Goodyear"
+    },
+    "17135833": {
+      "videoId": "hOdQC6F7CyE",
+      "confidence": 100,
+      "ytTitle": "Sex Differences in Interests with Dr. Terence Tracey"
+    },
+    "17083153": {
+      "videoId": "nnyNTD23RDY",
+      "confidence": 100,
+      "ytTitle": "The Predictive Power of Interests with Dr. Terence Tracey"
+    },
+    "17048048": {
+      "videoId": "KKWD7Ex6sok",
+      "confidence": 100,
+      "ytTitle": "Talking with Men about Mental Health with Dr. Simon Rice"
+    },
+    "17007262": {
+      "videoId": "0NoFWEsj_no",
+      "confidence": 100,
+      "ytTitle": "Masculinity and Male-Type Depression with Dr. Simon Rice"
+    },
+    "16907398": {
+      "videoId": "Ex4KpJjzdN0",
+      "confidence": 100,
+      "ytTitle": "Turning Research into Action: Suicide Prevention Insights with Dr. Jill Harkavy-Friedman"
+    },
+    "16886746": {
+      "videoId": "OyoEhIs5JD4",
+      "confidence": 100,
+      "ytTitle": "The Complexity of Suicide: Beyond the Myths with Dr. Jill Harkavy-Friedman"
+    },
+    "16851881": {
+      "videoId": "sqOlq4B0m6c",
+      "confidence": 100,
+      "ytTitle": "Self-Compassion in Eating Disorder Recovery with Dr. Josie Geller"
+    },
+    "16797037": {
+      "videoId": "xuO5951FZlQ",
+      "confidence": 100,
+      "ytTitle": "Understanding Eating Disorders: Motivation, readiness, & support with Dr. Josie Geller"
+    },
+    "16756735": {
+      "videoId": "1X8H_dThft0",
+      "confidence": 100,
+      "ytTitle": "Rethinking Suicide Prevention Strategies with Dr. Craig Bryan"
+    },
+    "16720229": {
+      "videoId": "2KYWh6EqiR8",
+      "confidence": 100,
+      "ytTitle": "Crisis Response, Means Restriction, and the Future of Suicide Prevention with Dr. Craig Brian"
+    },
+    "16679463": {
+      "videoId": "GqaU3TB6iFk",
+      "confidence": 53,
+      "ytTitle": "Breaking Barriers in Trans Mental Health: Minority Stress, Stigma & Healing with Dr. Stephanie Budge"
+    },
+    "16634272": {
+      "videoId": "LSG9xai6f7M",
+      "confidence": 66,
+      "ytTitle": "How You Can Better Work with Trans Clients with Dr. Stephanie Budge"
+    },
+    "16584090": {
+      "videoId": "7DP6kSl5FzQ",
+      "confidence": 100,
+      "ytTitle": "Understanding Responsiveness in Psychotherapy with Dr. William (Bill) Stiles"
+    },
+    "16536268": {
+      "videoId": "FUgcU8WRm2o",
+      "confidence": 100,
+      "ytTitle": "Transforming Problems in Psychotherapy with Dr. William (Bill) Stiles"
+    },
+    "16499017": {
+      "videoId": "rcZwWepKIAo",
+      "confidence": 100,
+      "ytTitle": "Facilitating Therapeutic Alliance Repairs in Psychotherapy with Dr. Catherine Eubanks"
+    },
+    "16460817": {
+      "videoId": "xZm1PAhcMaA",
+      "confidence": 100,
+      "ytTitle": "Therapeutic Alliance Ruptures in Psychotherapy with Dr. Catherine Eubanks"
+    },
+    "16430082": {
+      "videoId": "EuIyUP6x4GM",
+      "confidence": 100,
+      "ytTitle": "Military & Veteran Mental Health with Dr. Carl Castro"
+    },
+    "16381852": {
+      "videoId": "1DE-ZZ19hCQ",
+      "confidence": 100,
+      "ytTitle": "Military Culture and Veteran Transition with Dr. Carl Castro"
+    },
+    "16257097": {
+      "videoId": "4puM_oJLfJA",
+      "confidence": 100,
+      "ytTitle": "Unlocking Group Therapy Dynamics: Group Psychotherapy with Dr. Dennis Kivlighan"
+    },
+    "16243879": {
+      "videoId": "-FSZknRvh9o",
+      "confidence": 100,
+      "ytTitle": "The Healing Power in Group Psychotherapy with Dr. Dennis Kivlighan"
+    },
+    "16204711": {
+      "videoId": "Fj7pniRmZfQ",
+      "confidence": 100,
+      "ytTitle": "Personality Disorder Treatment: Patient-focused approaches with Dr. Ueli Kramer"
+    },
+    "16159731": {
+      "videoId": "7kHwpofvfaE",
+      "confidence": 72,
+      "ytTitle": "Personality Disorder Diagnosis, Treatment, & Psychotherapy Implications with Dr. Ueli Kramer"
+    },
+    "16131019": {
+      "videoId": "Rj0MRhO8a28",
+      "confidence": 100,
+      "ytTitle": "Helping People Move Though Suicidal Crisis: The distress-processing model with Johanna Mickelson"
+    },
+    "16082581": {
+      "videoId": "BucjkKvjIC0",
+      "confidence": 100,
+      "ytTitle": "From Suicidal Crisis to Calm: How people move through suicidal crisis with Johanna Mickelson"
+    },
+    "16028834": {
+      "videoId": "NgxJBEJDMcg",
+      "confidence": 75,
+      "ytTitle": "Tips for Improving your Counseling or Clinical Psychology Grad School Application"
+    },
+    "15993111": {
+      "videoId": "efI8F_-73WE",
+      "confidence": 88,
+      "ytTitle": "Choosing a Graduate Program in Counseling or Clinical Psychology: What You Need to Know"
+    },
+    "15911739": {
+      "videoId": "4IFop0GotgQ",
+      "confidence": 100,
+      "ytTitle": "The Psychology of Perfectionism: The struggle to be good enough with Dr. Paul Hewitt Part 2"
+    },
+    "15911724": {
+      "videoId": "4IFop0GotgQ",
+      "confidence": 100,
+      "ytTitle": "The Psychology of Perfectionism: The struggle to be good enough with Dr. Paul Hewitt Part 2"
+    },
+    "15871605": {
+      "videoId": "qKLOtboIaMk",
+      "confidence": 100,
+      "ytTitle": "Structural analysis of social behaviours (SASB) with Dr. Ken Critchfield Part 2"
+    },
+    "15828764": {
+      "videoId": "GW1D0GiwOy8",
+      "confidence": 100,
+      "ytTitle": "Structural analysis of social behaviours (SASB) with Dr. Ken Critchfield Part 1"
+    },
+    "15764668": {
+      "videoId": "cQLQkuvdPLo",
+      "confidence": 81,
+      "ytTitle": "What is emotion processing anyway? Emotion processing in psychotherapy w/ Dr. Pascual-Leone Part 2"
+    },
+    "15762050": {
+      "videoId": "cQLQkuvdPLo",
+      "confidence": 81,
+      "ytTitle": "What is emotion processing anyway? Emotion processing in psychotherapy w/ Dr. Pascual-Leone Part 2"
+    },
+    "15711413": {
+      "videoId": "3sYdKyhoIOI",
+      "confidence": 72,
+      "ytTitle": "Mindfulness: A mental health revolution or just a trend with Dr. Simon Goldberg: Part 2"
+    },
+    "15672316": {
+      "videoId": "3sYdKyhoIOI",
+      "confidence": 72,
+      "ytTitle": "Mindfulness: A mental health revolution or just a trend with Dr. Simon Goldberg: Part 2"
+    },
+    "15406569": {
+      "videoId": "Yrc7vvaTFTQ",
+      "confidence": 56,
+      "ytTitle": "Revolutionizing Personality Disorder Diagnosis with Dr. Robert Krueger Part 2"
+    },
+    "15405938": {
+      "videoId": "Yrc7vvaTFTQ",
+      "confidence": 56,
+      "ytTitle": "Revolutionizing Personality Disorder Diagnosis with Dr. Robert Krueger Part 2"
+    },
+    "15336546": {
+      "videoId": "BvfXDGdLgVc",
+      "confidence": 72,
+      "ytTitle": "Personalized Psychotherapy: Tailoring Therapy to the Client with Dr. James Boswell Part 2"
+    },
+    "15336053": {
+      "videoId": "BvfXDGdLgVc",
+      "confidence": 63,
+      "ytTitle": "Personalized Psychotherapy: Tailoring Therapy to the Client with Dr. James Boswell Part 2"
+    },
+    "15253095": {
+      "videoId": "wWbmGBXnotE",
+      "confidence": 60,
+      "ytTitle": "Men & Masculinity: Fatherhood, emotions, gender roles with Dr. Ron Levant Part 2"
+    },
+    "15253079": {
+      "videoId": "wWbmGBXnotE",
+      "confidence": 63,
+      "ytTitle": "Men & Masculinity: Fatherhood, emotions, gender roles with Dr. Ron Levant Part 2"
+    },
+    "15226634": {
+      "videoId": "oojLEXgGVVo",
+      "confidence": 90,
+      "ytTitle": "Cultural Context in Women's Career Development and Success with Dr. Nadya Fouad Part 2"
+    },
+    "15186074": {
+      "videoId": "oojLEXgGVVo",
+      "confidence": 90,
+      "ytTitle": "Cultural Context in Women's Career Development and Success with Dr. Nadya Fouad Part 2"
+    },
+    "15125030": {
+      "videoId": "3YylchFfYws",
+      "confidence": 100,
+      "ytTitle": "War and Civilian Mental Health with Dr. Ken Miller | Psychotherapy & Applied Psychology"
+    },
+    "15089251": {
+      "videoId": "VNKR6FpQgHM",
+      "confidence": 100,
+      "ytTitle": "Why Suicide Risk Assessment is Ineffective and What to do Instead with Dr. Matthew Large"
+    },
+    "15046680": {
+      "videoId": "WIgpuGNrzkw",
+      "confidence": 83,
+      "ytTitle": "Improving treatment with feedback-informed care with Dr. Scott Miller"
+    },
+    "14972743": {
+      "videoId": "M5MGA44bPKw",
+      "confidence": 86,
+      "ytTitle": "How does social media and your smart phone impact your mental health? Talking with Dr. Jon Elhai"
+    },
+    "14921002": {
+      "videoId": "ki9f2n0hGxU",
+      "confidence": 63,
+      "ytTitle": "Multicultural Orientation in Psychotherapy: Dr. Jesse Owen Explains"
+    },
+    "14816936": {
+      "videoId": "yM9A7bjMOeU",
+      "confidence": 70,
+      "ytTitle": "Is teletherapy effective? With Katie Aafjes-van Doorn | Psychotherapy & Applied Psychology Podcast"
+    },
+    "14809600": {
+      "videoId": "L-GPDNQVvNE",
+      "confidence": 72,
+      "ytTitle": "Do therapists get better over time? With Dr. Terence Tracey | Psychotherapy & Applied Psychology"
+    },
+    "14627634": {
+      "videoId": "aP-vAv6sIZQ",
+      "confidence": 100,
+      "ytTitle": "Welcome to the Psychotherapy & Applied Psychology Podcast"
+    }
+  }
+}

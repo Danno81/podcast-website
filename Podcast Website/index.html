@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T91TB00ERC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-T91TB00ERC');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Evidence-based conversations on psychotherapy, trauma, suicide prevention, and clinical training. Hosted by Dr. Dan Cox, professor at the University of British Columbia.">
+  <meta name="theme-color" content="#1a3a52">
+
+  <title>Psychotherapy and Applied Psychology - Podcast</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="alternate" type="application/rss+xml" title="Psychotherapy and Applied Psychology" href="https://rss.buzzsprout.com/2324798.rss">
+
+  <!-- SEO: Canonical -->
+  <link rel="canonical" href="https://psychotherapyandappliedpsychology.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://psychotherapyandappliedpsychology.com/">
+  <meta property="og:site_name" content="Psychotherapy and Applied Psychology">
+  <meta property="og:title" content="Psychotherapy and Applied Psychology | Where Therapy Research Meets Practice">
+  <meta property="og:description" content="Evidence-based conversations on psychotherapy, trauma, suicide prevention, and clinical training. Hosted by Dr. Dan Cox, professor at the University of British Columbia.">
+  <meta property="og:image" content="https://psychotherapyandappliedpsychology.com/logo.png">
+  <meta property="og:image:width" content="500">
+  <meta property="og:image:height" content="500">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Psychotherapy and Applied Psychology | Where Therapy Research Meets Practice">
+  <meta name="twitter:description" content="Evidence-based conversations on psychotherapy, trauma, suicide prevention, and clinical training. Hosted by Dr. Dan Cox, professor at the University of British Columbia.">
+  <meta name="twitter:image" content="https://psychotherapyandappliedpsychology.com/logo.png">
+
+  <!-- Schema.org: PodcastSeries -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastSeries",
+    "name": "Psychotherapy and Applied Psychology",
+    "description": "Evidence-based conversations with leading clinicians and scientists, exploring what actually works in psychotherapy — and why. Hosted by Dr. Dan Cox, professor at the University of British Columbia.",
+    "url": "https://psychotherapyandappliedpsychology.com/",
+    "image": "https://psychotherapyandappliedpsychology.com/logo.png",
+    "webFeed": "https://rss.buzzsprout.com/2324798.rss",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel W. Cox",
+      "honorificPrefix": "Dr.",
+      "jobTitle": "Professor",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "University of British Columbia"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/dan-cox-705595303/",
+        "https://bsky.app/profile/danielwcox.bsky.social"
+      ]
+    },
+    "sameAs": [
+      "https://podcasts.apple.com/us/podcast/psychotherapy-and-applied-psychology/id1734318570",
+      "https://open.spotify.com/show/4rG5TrfM0cu3Z4iOMRBCp6",
+      "http://www.youtube.com/@PsychotherapyAppliedPsychology",
+      "https://psychotherapyandappliedpsychology.buzzsprout.com"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="logo.webp" alt="Podcast Logo">
+        <span>Psychotherapy & Applied Psychology</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger-icon">☰</span>
+      </button>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="episodes.html">Episodes</a>
+        <a href="guests.html">Guests</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="faq.html">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Recent Episodes Section -->
+  <section style="background: linear-gradient(135deg, #111111 0%, #1a1a1a 50%, var(--accent) 100%); color: white; padding-top: 0.5rem;">
+    <div class="container">
+      <div class="section-title no-decorator" style="margin-bottom: 0; color: white;">
+        <h2 style="color: white; margin-bottom: 4px; padding-bottom: 0;">Recent Episodes</h2>
+        <div style="width: 60px; height: 3px; background: var(--gold); margin: 0 auto;"></div>
+      </div>
+      <div id="latest-episodes-container" class="latest-episodes">
+        <div class="loading">
+          <div class="spinner"></div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: var(--spacing-xl);">
+        <a href="episodes.html" class="btn btn-primary">View All Episodes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Psychotherapy and Applied Psychology</h1>
+        <p class="hero-tagline">Where Therapy Research Meets Practice</p>
+        <p class="hero-description">
+          Hosted by Dr. Daniel W. Cox, a professor at the University of British Columbia, this podcast brings clinicians and scientists together to explore what actually works in psychotherapy — and why. From suicide prevention and deliberate practice to psychedelics, personality disorders, and AI, each conversation goes deeper than the headline.
+        </p>
+        <div class="btn-group">
+          <a href="episodes.html" class="btn btn-primary">Listen Now</a>
+          <a href="#subscribe" class="btn btn-secondary" style="background-color: transparent; color: var(--primary-dark); border-color: var(--primary-dark);">Subscribe</a>
+        </div>
+      </div>
+      <div class="hero-artwork">
+        <img src="logo.webp" alt="Podcast Artwork">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Preview Section -->
+  <section id="subscribe" style="background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); color: white;">
+    <div class="container">
+      <div class="about-section">
+        <div class="about-image" style="display: flex; flex-direction: column; justify-content: center;">
+          <h2 style="color: white; margin-bottom: var(--spacing-lg); text-align: center;">Listen On</h2>
+          <div style="background: white; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); overflow: hidden; width: 64%; margin: 0 auto;">
+            <div style="padding: var(--spacing-md) var(--spacing-xl);">
+              <!-- Apple Podcasts -->
+              <a href="https://podcasts.apple.com/us/podcast/psychotherapy-and-applied-psychology/id1734318570" target="_blank" style="display: flex; align-items: center; gap: var(--spacing-md); padding: var(--spacing-md) 0; text-decoration: none; color: var(--text-primary); border-bottom: 1px solid var(--border);">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="36" height="36" rx="8" fill="#892DE1"/>
+                  <path d="M18 7C12.477 7 8 11.477 8 17c0 3.821 2.05 7.16 5.1 9.004-.07-.632-.1-1.59.02-2.275l1.43-6.07s-.365-.73-.365-1.81c0-1.696.984-2.963 2.208-2.963 1.042 0 1.547.782 1.547 1.72 0 1.048-.668 2.62-.013 4.073.596 1.216 2.013 2.07 3.38 2.07 2.245 0 3.981-2.366 3.981-5.78 0-3.022-2.172-5.137-5.272-5.137-3.59 0-5.698 2.692-5.698 5.48 0 1.085.417 2.248.937 2.882a.375.375 0 0 1 .087.36l-.35 1.428c-.056.228-.186.277-.428.167-1.596-.743-2.594-3.076-2.594-4.95 0-4.028 2.927-7.73 8.444-7.73 4.43 0 7.874 3.158 7.874 7.379 0 4.4-2.773 7.94-6.622 7.94-1.294 0-2.51-.673-2.927-1.467l-.796 2.97c-.288 1.108-1.066 2.497-1.588 3.343A11 11 0 0 0 18 29c6.075 0 11-4.925 11-11S24.075 7 18 7z" fill="white"/>
+                </svg>
+                <span style="font-size: 1.05rem; font-weight: 500;">Apple Podcasts</span>
+              </a>
+
+              <!-- Spotify -->
+              <a href="https://open.spotify.com/show/4rG5TrfM0cu3Z4iOMRBCp6" target="_blank" style="display: flex; align-items: center; gap: var(--spacing-md); padding: var(--spacing-md) 0; text-decoration: none; color: var(--text-primary); border-bottom: 1px solid var(--border);">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="36" height="36" rx="18" fill="#1DB954"/>
+                  <path d="M24.5 21.3c-.25 0-.4-.08-.6-.2-1.8-1.07-4.07-1.63-6.47-1.63-1.34 0-2.7.17-3.93.43-.23.05-.52.13-.73.13-.57 0-.97-.43-.97-1 0-.6.37-.97.83-1.07 1.5-.35 3.07-.55 4.83-.55 2.73 0 5.3.63 7.37 1.87.37.2.57.47.57.87 0 .57-.43 1.15-.9 1.15zm1.47-3.47c-.3 0-.5-.1-.73-.23-2.07-1.23-5.13-2-8.27-2-1.6 0-3 .2-4.17.53-.27.07-.43.13-.67.13-.67 0-1.2-.53-1.2-1.2 0-.67.37-1.1.97-1.27 1.4-.4 3-.63 5.1-.63 3.43 0 6.77.87 9.23 2.37.47.27.7.63.7 1.17 0 .67-.53 1.13-1.16 1.13zm1.7-4.03c-.3 0-.47-.07-.73-.2-2.3-1.37-5.87-2.1-9.23-2.1-1.77 0-3.53.23-5.13.67-.2.07-.43.13-.67.13-.8 0-1.43-.63-1.43-1.43 0-.8.47-1.3 1.1-1.47 1.83-.53 3.87-.8 6.13-.8 3.7 0 7.57.77 10.37 2.37.53.3.83.73.83 1.37 0 .8-.63 1.46-1.24 1.46z" fill="white"/>
+                </svg>
+                <span style="font-size: 1.05rem; font-weight: 500;">Spotify</span>
+              </a>
+
+              <!-- Pocket Casts -->
+              <a href="https://pca.st/itunes/1734318570" target="_blank" style="display: flex; align-items: center; gap: var(--spacing-md); padding: var(--spacing-md) 0; text-decoration: none; color: var(--text-primary); border-bottom: 1px solid var(--border);">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="36" height="36" rx="8" fill="#F43E37"/>
+                  <path d="M18 8C12.477 8 8 12.477 8 18s4.477 10 10 10 10-4.477 10-10S23.523 8 18 8zm0 4a6 6 0 0 1 6 6 6 6 0 0 1-6 6 6 6 0 0 1-6-6 6 6 0 0 1 6-6zm0 2.5a3.5 3.5 0 0 0-3.5 3.5 3.5 3.5 0 0 0 3.5 3.5 3.5 3.5 0 0 0 3.5-3.5 3.5 3.5 0 0 0-3.5-3.5zm-7.5 3.5a7.5 7.5 0 0 1 7.5-7.5 7.5 7.5 0 0 1 7.5 7.5h-2a5.5 5.5 0 0 0-5.5-5.5 5.5 5.5 0 0 0-5.5 5.5h-2zm2 0a5.5 5.5 0 0 1 5.5-5.5 5.5 5.5 0 0 1 5.5 5.5h-2a3.5 3.5 0 0 0-3.5-3.5 3.5 3.5 0 0 0-3.5 3.5h-2z" fill="white"/>
+                </svg>
+                <span style="font-size: 1.05rem; font-weight: 500;">Pocket Casts</span>
+              </a>
+
+              <!-- YouTube -->
+              <a href="http://www.youtube.com/@PsychotherapyAppliedPsychology" target="_blank" style="display: flex; align-items: center; gap: var(--spacing-md); padding: var(--spacing-md) 0; text-decoration: none; color: var(--text-primary); border-bottom: 1px solid var(--border);">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="36" height="36" rx="8" fill="#FF0000"/>
+                  <path d="M27.54 13.42a2.78 2.78 0 0 0-1.95-1.96C23.87 11 18 11 18 11s-5.87 0-7.59.46a2.78 2.78 0 0 0-1.95 1.96C8 15.14 8 18 8 18s0 2.86.46 4.58a2.78 2.78 0 0 0 1.95 1.96C12.13 25 18 25 18 25s5.87 0 7.59-.46a2.78 2.78 0 0 0 1.95-1.96C28 20.86 28 18 28 18s0-2.86-.46-4.58zM15.91 21.27V14.73L21.55 18l-5.64 3.27z" fill="white"/>
+                </svg>
+                <span style="font-size: 1.05rem; font-weight: 500;">YouTube</span>
+              </a>
+
+              <!-- See All -->
+              <a href="follow.html" style="display: flex; align-items: center; padding: var(--spacing-md) 0; text-decoration: none; color: var(--text-primary); font-size: 1.05rem; font-weight: 700;">
+                See All
+              </a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2 style="color: white;">About the Podcast</h2>
+          <p style="color: rgba(255,255,255,0.88);">
+            Psychotherapy and Applied Psychology brings together cutting-edge research with practical applications. Each episode features in-depth conversations with leading experts across psychology, neuroscience, cognitive science, and behavioral research.
+          </p>
+          <p style="color: rgba(255,255,255,0.88);">
+            Whether you're a mental health professional, student, researcher, or someone interested in understanding human behavior, this podcast provides valuable insights and evidence-based perspectives on the topics that matter most.
+          </p>
+          <p style="margin-bottom: var(--spacing-lg); color: rgba(255,255,255,0.88);">
+            Join Dan as we explore the intersections of theory and practice in applied psychology.
+          </p>
+          <a href="about.html" class="btn btn-primary">Learn More About Dan</a>
+        </div>
+      </div>
+
+      <!-- Email Signup -->
+      <div style="border-top: 1px solid rgba(255,255,255,0.12); margin-top: var(--spacing-xl); padding-top: var(--spacing-xl); text-align: center;">
+        <h2 style="color: white; margin-bottom: 8px;">Get New Episodes in Your Inbox</h2>
+        <p style="color: rgba(255,255,255,0.75); margin-bottom: var(--spacing-lg); max-width: 480px; margin-left: auto; margin-right: auto;">
+          Subscribe to get notified whenever a new episode drops.
+        </p>
+        <script async data-uid="0604bc063c" src="https://psychotherapy-applied-psychology.kit.com/0604bc063c/index.js"></script>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer></footer>
+
+  <!-- Scripts -->
+  <script src="shared.js"></script>
+  <script>
+    async function loadLatestEpisodes() {
+      const container = document.getElementById('latest-episodes-container');
+      const allEpisodes = await getLatestEpisodes(16);
+
+      if (allEpisodes.length === 0) {
+        container.innerHTML = `<div class="empty-state"><p>No episodes found yet. Check back soon!</p></div>`;
+        return;
+      }
+
+      // Show most recent, skip one, show the one before, skip one, etc.
+      const episodes = allEpisodes.filter((_, i) => i % 2 === 0);
+
+      // Build ticker: wrap + track, duplicate cards for seamless loop
+      container.className = 'ep-ticker-wrap';
+      const track = document.createElement('div');
+      track.className = 'ep-ticker-track';
+
+      // Add cards twice so the loop is seamless
+      [...episodes, ...episodes].forEach(episode => {
+        track.appendChild(createEpisodePreviewCard(episode));
+      });
+
+      container.appendChild(track);
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', loadLatestEpisodes);
+    } else {
+      loadLatestEpisodes();
+    }
+  </script>
+</body>
+</html>

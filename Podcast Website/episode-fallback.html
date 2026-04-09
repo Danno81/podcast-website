@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T91TB00ERC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-T91TB00ERC');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" id="page-description" content="Psychotherapy and Applied Psychology - Episode">
+  <meta name="theme-color" content="#1a3a52">
+
+  <link rel="canonical" id="canonical-url" href="https://psychotherapyandappliedpsychology.com/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Psychotherapy and Applied Psychology">
+  <meta property="og:title" id="og-title" content="Episode - Psychotherapy and Applied Psychology">
+  <meta property="og:description" id="og-description" content="">
+  <meta property="og:image" id="og-image" content="https://psychotherapyandappliedpsychology.com/logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" id="twitter-title" content="Episode - Psychotherapy and Applied Psychology">
+  <meta name="twitter:description" id="twitter-description" content="">
+  <meta name="twitter:image" id="twitter-image" content="https://psychotherapyandappliedpsychology.com/logo.png">
+
+  <title id="page-title">Loading Episode… | Psychotherapy and Applied Psychology</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Use root-relative paths because this page is served at /ep/* URLs via Netlify redirect -->
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" href="/logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="/logo.png">
+  <link rel="alternate" type="application/rss+xml" title="Psychotherapy and Applied Psychology" href="https://rss.buzzsprout.com/2324798.rss">
+
+  <style>
+    /* Episode content tabs (duplicated from generate.js output) */
+    .ep-tabs-nav { display:flex; border-bottom:2px solid #e5e7eb; margin-bottom:1.5rem; gap:0; }
+    .ep-tab-btn { background:none; border:none; border-bottom:3px solid transparent; margin-bottom:-2px; padding:0.7rem 1.2rem; cursor:pointer; font-size:0.95rem; font-weight:500; color:#6b7280; font-family:inherit; transition:color 0.15s; }
+    .ep-tab-btn:hover { color:#111827; }
+    .ep-tab-btn.ep-tab-active { color:#1a3a52; border-bottom-color:#1a3a52; }
+    .ep-tab-panel { display:none; }
+    .ep-tab-panel.ep-tab-active { display:block; }
+    .ep-transcript-wrap { max-height:520px; overflow-y:auto; border:1px solid #e5e7eb; border-radius:8px; padding:1.25rem 1.5rem; background:#fafafa; }
+    .ep-transcript-text { font-size:0.93rem; line-height:1.9; color:#374151; white-space:pre-wrap; margin:0; }
+    /* Loading / error states */
+    #fallback-loading { min-height:60vh; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:1rem; }
+    #fallback-error   { min-height:60vh; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:1rem; text-align:center; padding:2rem; }
+    #fallback-content { display:none; }
+    .spinner { width:36px; height:36px; border:3px solid #e5e7eb; border-top-color:#1a3a52; border-radius:50%; animation:spin .8s linear infinite; }
+    @keyframes spin { to { transform:rotate(360deg); } }
+    .fallback-notice { font-size:0.82rem; color:#6b7280; background:#f9fafb; border:1px solid #e5e7eb; border-radius:6px; padding:0.5rem 0.85rem; margin-bottom:0.5rem; display:inline-block; }
+  </style>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <a href="/index.html" class="logo">
+        <img src="/logo.webp" alt="Podcast Logo">
+        <span>Psychotherapy &amp; Applied Psychology</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger-icon">☰</span>
+      </button>
+      <nav>
+        <a href="/index.html">Home</a>
+        <a href="/episodes.html">Episodes</a>
+        <a href="/guests.html">Guests</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/faq.html">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Loading state -->
+  <div id="fallback-loading">
+    <div class="spinner"></div>
+    <p style="color:var(--text-secondary);">Loading episode…</p>
+  </div>
+
+  <!-- Error state (shown if episode not found) -->
+  <div id="fallback-error" style="display:none;">
+    <div style="font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--accent);margin-bottom:0.5rem;">Episode Not Found</div>
+    <h1 style="margin-bottom:1rem;">We couldn't load this episode.</h1>
+    <p style="color:var(--text-secondary);max-width:480px;margin:0 auto 2rem;">
+      This episode may not exist, or there was a problem loading it. Try browsing all episodes below.
+    </p>
+    <div class="btn-group" style="justify-content:center;">
+      <a href="/index.html" class="btn btn-primary">Go to Home</a>
+      <a href="/episodes.html" class="btn btn-secondary" style="background-color:transparent;color:var(--primary-dark);border-color:var(--primary-dark);">Browse Episodes</a>
+    </div>
+  </div>
+
+  <!-- Episode content (populated by JS) -->
+  <div id="fallback-content">
+
+    <!-- Episode Hero -->
+    <section class="ep-hero">
+      <div class="container">
+        <nav class="ep-breadcrumb" aria-label="breadcrumb">
+          <a href="/index.html">Home</a>
+          <span class="breadcrumb-sep">›</span>
+          <a href="/episodes.html">Episodes</a>
+          <span class="breadcrumb-sep">›</span>
+          <span id="fb-breadcrumb-title">Episode</span>
+        </nav>
+
+        <div class="ep-hero-layout">
+          <div class="ep-hero-artwork-wrap">
+            <img id="fb-artwork" src="/logo.png" alt="Episode artwork" class="ep-hero-artwork">
+          </div>
+          <div class="ep-hero-info">
+            <div id="fb-ep-label" class="ep-hero-label" style="display:none;"></div>
+            <h1 id="fb-title" class="ep-hero-title"></h1>
+            <div class="ep-hero-meta">
+              <span id="fb-date"></span>
+              <span id="fb-meta-dot" class="ep-meta-dot" style="display:none;">·</span>
+              <span id="fb-duration"></span>
+            </div>
+            <div id="fb-platform-buttons" class="ep-platform-buttons">
+              <a href="https://podcasts.apple.com/us/podcast/psychotherapy-and-applied-psychology/id1734318570" target="_blank" rel="noopener" class="ep-platform-btn ep-platform-apple">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                Apple Podcasts
+              </a>
+              <a href="https://open.spotify.com/show/4rG5TrfM0cu3Z4iOMRBCp6" target="_blank" rel="noopener" class="ep-platform-btn ep-platform-spotify">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+                Spotify
+              </a>
+              <a href="http://www.youtube.com/@PsychotherapyAppliedPsychology" target="_blank" rel="noopener" class="ep-platform-btn ep-platform-youtube" id="fb-yt-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+                YouTube Channel
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="ep-main container">
+
+      <!-- Primary Column -->
+      <div class="ep-primary">
+
+        <!-- YouTube Video (shown only when a matching video exists) -->
+        <div class="ep-section" id="fb-video-section" style="display:none;">
+          <div id="fb-youtube-container" class="ep-youtube-container"></div>
+        </div>
+
+        <!-- Audio Player -->
+        <div class="ep-section" id="fb-audio-section">
+          <div class="ep-audio-player">
+            <div id="fb-buzzsprout-container"></div>
+          </div>
+        </div>
+
+        <!-- Show Notes -->
+        <div class="ep-section" id="fb-content-section">
+          <div class="ep-section-header">
+            <h2 class="ep-section-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+              About This Episode
+            </h2>
+          </div>
+          <div id="fb-shownotes" class="ep-shownotes"></div>
+        </div>
+
+      </div><!-- /ep-primary -->
+
+      <!-- Sidebar -->
+      <aside class="ep-sidebar">
+
+        <div class="ep-sidebar-card">
+          <h3 class="ep-sidebar-heading">Share This Episode</h3>
+          <div class="ep-share-buttons">
+            <button class="ep-share-btn" id="fb-copy-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              Copy Link
+            </button>
+            <a id="fb-share-x" href="#" target="_blank" rel="noopener" class="ep-share-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              Share on X
+            </a>
+            <a id="fb-share-bsky" href="#" target="_blank" rel="noopener" class="ep-share-btn">
+              <svg width="16" height="16" viewBox="0 0 568 501" fill="currentColor"><path d="M123.121 33.664C188.241 82.553 258.281 181.68 284 234.873c25.719-53.192 95.759-152.32 160.879-201.209C491.866-1.611 568-28.906 568 57.947c0 17.346-9.945 145.713-15.778 166.555-20.275 72.453-94.155 90.933-159.875 79.748C507.222 323.8 536.444 388.56 473.922 453.32c-119.011 122.22-170.594-30.636-183.623-69.82-2.65-7.765-3.874-11.376-3.899-8.31-.025-3.066-1.249.545-3.899 8.31-13.029 39.184-64.612 192.04-183.623 69.82C36.556 388.56 65.778 323.8 180.653 304.25c-65.72 11.185-139.6-7.295-159.875-79.748C14.945 203.66 5 75.293 5 57.947 5-28.906 81.134-1.611 123.121 33.664z"/></svg>
+              Bluesky
+            </a>
+            <a id="fb-share-li" href="#" target="_blank" rel="noopener" class="ep-share-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+          <div id="fb-copy-confirm" style="display:none;font-size:0.85rem;color:var(--success);margin-top:0.5rem;text-align:center;">✓ Link copied!</div>
+        </div>
+
+        <div class="ep-sidebar-card">
+          <h3 class="ep-sidebar-heading">Listen On</h3>
+          <div class="ep-sidebar-platforms">
+            <a href="https://podcasts.apple.com/us/podcast/psychotherapy-and-applied-psychology/id1734318570" target="_blank" rel="noopener" class="ep-sidebar-platform-link ep-plat-apple">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              Apple Podcasts
+            </a>
+            <a href="https://open.spotify.com/show/4rG5TrfM0cu3Z4iOMRBCp6" target="_blank" rel="noopener" class="ep-sidebar-platform-link ep-plat-spotify">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+              Spotify
+            </a>
+            <a href="http://www.youtube.com/@PsychotherapyAppliedPsychology" target="_blank" rel="noopener" class="ep-sidebar-platform-link ep-plat-youtube" id="fb-sidebar-yt">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+              YouTube
+            </a>
+            <a href="https://psychotherapyandappliedpsychology.buzzsprout.com" target="_blank" rel="noopener" class="ep-sidebar-platform-link ep-plat-buzzsprout">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+              Buzzsprout
+            </a>
+          </div>
+        </div>
+
+        <div class="ep-sidebar-card">
+          <a href="/episodes.html" class="ep-sidebar-link">← All Episodes</a>
+        </div>
+
+      </aside>
+
+    </div><!-- /ep-main -->
+  </div><!-- /fallback-content -->
+
+  <footer></footer>
+
+  <script src="/shared.js"></script>
+  <script src="/youtube-map.js"></script>
+  <script>
+    (function () {
+      'use strict';
+
+      const API_TOKEN = '5c913cfdf411f020c10e9bd354f42836';
+      const PODCAST_ID = '2324798';
+      const BASE_URL = 'https://psychotherapyandappliedpsychology.com';
+
+      /** Format seconds → m:ss or h:mm:ss */
+      function fmtDuration(s) {
+        if (!s || s <= 0) return '';
+        const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), sec = s % 60;
+        return h > 0
+          ? `${h}:${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}`
+          : `${m}:${String(sec).padStart(2,'0')}`;
+      }
+
+      /** Format ISO date string → "Month D, YYYY" */
+      function fmtDate(str) {
+        const d = new Date(str);
+        if (isNaN(d)) return '';
+        return d.toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
+      }
+
+      /** Extract the numeric episode ID from the current path, e.g. /ep/18914652-title.html → 18914652 */
+      function getEpisodeIdFromPath() {
+        const m = window.location.pathname.match(/\/ep\/(\d+)/);
+        return m ? m[1] : null;
+      }
+
+      function showError() {
+        document.getElementById('fallback-loading').style.display = 'none';
+        document.getElementById('fallback-error').style.display = 'flex';
+      }
+
+      function showContent() {
+        document.getElementById('fallback-loading').style.display = 'none';
+        document.getElementById('fallback-content').style.display = 'block';
+      }
+
+      // ── YouTube helpers ────────────────────────────────────────────────
+
+      // YouTube RSS proxied through our own domain via a Netlify redirect rule.
+      // This avoids CORS issues and third-party proxy blocking entirely.
+      var YT_RSS_PROXY = '/youtube-rss';
+      var STOP_WORDS = new Set([
+        'with','from','the','and','for','that','this','have','are','was',
+        'podcast','applied','psychology','psychotherapy','mental','health',
+        'tool','tools','about','into','how','what','why','when','who','can',
+        'your','their','our','its','not','but','more','some','been','they',
+        'will','has','his','her','him','she','you','did','get','got',
+        'also','even','just','than','then','them','these','those','there',
+        'part','episode','episodes'
+      ]);
+
+      /** Normalise a title for comparison: lowercase, ASCII only, extra spaces removed */
+      function normTitle(s) {
+        return (s || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+          .toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+      }
+
+      /** Extract meaningful keywords (>2 chars, not stop words) */
+      function keywords(s) {
+        return normTitle(s).split(' ').filter(function (w) {
+          return w.length > 2 && !STOP_WORDS.has(w);
+        });
+      }
+
+      /** Score how well two titles match (0–100) */
+      function scoreTitles(bzTitle, ytTitle) {
+        var bzNorm = normTitle(bzTitle), ytNorm = normTitle(ytTitle);
+        // Exact or substring match
+        if (bzNorm.length > 10 && (bzNorm.indexOf(ytNorm) !== -1 || ytNorm.indexOf(bzNorm) !== -1)) return 100;
+        var bw = keywords(bzTitle);
+        var yw = new Set(keywords(ytTitle));
+        if (!bw.length) return 0;
+        var hits = bw.filter(function (w) { return yw.has(w); }).length;
+        if (!hits) return 0;
+        var ratio = hits / bw.length;
+        // For short titles (1–2 keywords), accept if ALL keywords match
+        // For longer titles (3+), require at least 70% overlap
+        var minHits = bw.length <= 2 ? bw.length : 3;
+        var minRatio = bw.length <= 2 ? 1.0 : 0.70;
+        if (hits < minHits || ratio < minRatio) return 0;
+        return Math.round(ratio * 100);
+      }
+
+      /** Check the static youtube-map.js (already loaded via <script>) */
+      function findVideoInStaticMap(epId) {
+        var map = window.YOUTUBE_MAP || {};
+        var entry = map[epId];
+        return (entry && entry.videoId) ? entry.videoId : null;
+      }
+
+      /** Fetch YouTube channel RSS (proxied via Netlify), find best title match */
+      async function searchYouTubeLive(episodeTitle) {
+        try {
+          var res = await fetch(YT_RSS_PROXY);
+          if (!res.ok) return null;
+          var xml = await res.text();
+          if (xml.indexOf('<entry>') === -1) return null;
+
+          // Parse <entry> blocks for videoId + title
+          var entries = [];
+          var entryRe = /<entry>([\s\S]*?)<\/entry>/g, m;
+          while ((m = entryRe.exec(xml)) !== null) {
+            var vidMatch   = m[1].match(/<yt:videoId>([^<]+)<\/yt:videoId>/);
+            var titleMatch = m[1].match(/<title>([^<]+)<\/title>/);
+            if (vidMatch && titleMatch) {
+              entries.push({ videoId: vidMatch[1].trim(), title: titleMatch[1].trim() });
+            }
+          }
+
+          // Find best scoring match
+          var bestScore = 0, bestId = null;
+          for (var i = 0; i < entries.length; i++) {
+            var s = scoreTitles(episodeTitle, entries[i].title);
+            if (s > bestScore) { bestScore = s; bestId = entries[i].videoId; }
+          }
+          return (bestScore >= 50) ? bestId : null;
+        } catch (e) {
+          return null;
+        }
+      }
+
+      /** Render the YouTube video thumbnail + click-to-play embed */
+      function renderYouTubeVideo(vid, title) {
+        var videoSection = document.getElementById('fb-video-section');
+        var ytContainer  = document.getElementById('fb-youtube-container');
+
+        videoSection.style.display = 'block';
+
+        ytContainer.innerHTML =
+          '<div class="ep-youtube-thumb" id="yt-thumb-' + vid + '" style="cursor:pointer;" title="Play video">' +
+            '<img src="https://img.youtube.com/vi/' + vid + '/maxresdefault.jpg" alt="' + title + '" class="ep-youtube-thumb-img" onerror="this.src=\'https://img.youtube.com/vi/' + vid + '/hqdefault.jpg\'">' +
+            '<button class="ep-youtube-play-btn" aria-label="Play video">' +
+              '<svg viewBox="0 0 68 48" width="68" height="48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#ff0000"/><path d="M45 24 27 14v20" fill="#fff"/></svg>' +
+            '</button>' +
+            '<a href="https://www.youtube.com/watch?v=' + vid + '" target="_blank" class="ep-youtube-watch-label" onclick="event.stopPropagation();">Watch on YouTube ↗</a>' +
+          '</div>';
+
+        document.getElementById('yt-thumb-' + vid).addEventListener('click', function (e) {
+          if (e.target.closest('a')) return;
+          ytContainer.innerHTML =
+            '<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:var(--radius-lg);background:#000;">' +
+              '<iframe src="https://www.youtube-nocookie.com/embed/' + vid + '?autoplay=1&rel=0" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:var(--radius-lg);"></iframe>' +
+            '</div>';
+        });
+
+        // Update hero YouTube button to link to specific video
+        var ytBtn = document.getElementById('fb-yt-btn');
+        ytBtn.href = 'https://www.youtube.com/watch?v=' + vid;
+        ytBtn.innerHTML =
+          '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg> ' +
+          'Watch on YouTube';
+
+        // Update sidebar YouTube link
+        var sidebarYt = document.getElementById('fb-sidebar-yt');
+        if (sidebarYt) sidebarYt.href = 'https://www.youtube.com/watch?v=' + vid;
+      }
+
+      // ── Main loader ─────────────────────────────────────────────────────
+
+      async function loadEpisode() {
+        const epId = getEpisodeIdFromPath();
+        if (!epId) { showError(); return; }
+
+        let ep;
+        try {
+          const res = await fetch(
+            `https://www.buzzsprout.com/api/${PODCAST_ID}/episodes/${epId}.json?api_token=${API_TOKEN}`
+          );
+          if (!res.ok) { showError(); return; }
+          ep = await res.json();
+          if (!ep || !ep.id) { showError(); return; }
+        } catch (e) { showError(); return; }
+
+        // ── Populate meta ──────────────────────────────────────────────────
+        const title   = ep.title || 'Episode';
+        const dateStr = fmtDate(ep.published_at);
+        const dur     = fmtDuration(ep.duration);
+        const artwork = ep.artwork_url || `${BASE_URL}/logo.png`;
+        const pageUrl = window.location.href;
+
+        document.getElementById('page-title').textContent        = `${title} | Psychotherapy and Applied Psychology`;
+        document.getElementById('og-title').content              = `${title} | Psychotherapy and Applied Psychology`;
+        document.getElementById('twitter-title').content         = `${title} | Psychotherapy and Applied Psychology`;
+        document.getElementById('og-image').content              = artwork;
+        document.getElementById('twitter-image').content         = artwork;
+        document.getElementById('canonical-url').href            = pageUrl;
+
+        // ── Populate hero ──────────────────────────────────────────────────
+        document.getElementById('fb-breadcrumb-title').textContent = title;
+        document.getElementById('fb-title').textContent            = title;
+        document.getElementById('fb-artwork').src                  = artwork;
+        document.getElementById('fb-artwork').alt                  = title;
+
+        if (ep.episode_number) {
+          const lbl = document.getElementById('fb-ep-label');
+          lbl.textContent   = `Episode ${ep.episode_number}`;
+          lbl.style.display = 'block';
+        }
+        if (dateStr) {
+          document.getElementById('fb-date').textContent = dateStr;
+          if (dur) {
+            document.getElementById('fb-meta-dot').style.display = 'inline';
+            document.getElementById('fb-duration').textContent   = dur;
+          }
+        }
+
+        // ── Share buttons ──────────────────────────────────────────────────
+        document.getElementById('fb-copy-btn').addEventListener('click', function () {
+          navigator.clipboard.writeText(pageUrl).then(function () {
+            const c = document.getElementById('fb-copy-confirm');
+            c.style.display = 'block';
+            setTimeout(function () { c.style.display = 'none'; }, 2000);
+          });
+        });
+        document.getElementById('fb-share-x').href    = `https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(pageUrl)}`;
+        document.getElementById('fb-share-bsky').href = `https://bsky.app/intent/compose?text=${encodeURIComponent(title + ' ' + pageUrl)}`;
+        document.getElementById('fb-share-li').href   = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(pageUrl)}`;
+
+        // ── YouTube video ──────────────────────────────────────────────────
+        var videoId = findVideoInStaticMap(String(ep.id));
+        if (videoId) {
+          renderYouTubeVideo(videoId, title);
+        } else {
+          // Static map doesn't have this episode — search YouTube RSS live
+          searchYouTubeLive(title).then(function (foundId) {
+            if (foundId) renderYouTubeVideo(foundId, title);
+          });
+        }
+
+        // ── Show notes ─────────────────────────────────────────────────────
+        document.getElementById('fb-shownotes').innerHTML = ep.description || '';
+
+        // ── Buzzsprout audio player ────────────────────────────────────────
+        var playerDiv = document.getElementById('fb-buzzsprout-container');
+        playerDiv.id = 'buzzsprout-player-' + ep.id;
+        var playerScript = document.createElement('script');
+        playerScript.src  = 'https://www.buzzsprout.com/' + PODCAST_ID + '/' + ep.id + '.js?container_id=buzzsprout-player-' + ep.id + '&player=small';
+        playerScript.type = 'text/javascript';
+        playerScript.charset = 'utf-8';
+        document.body.appendChild(playerScript);
+
+        showContent();
+      }
+
+      loadEpisode();
+    })();
+  </script>
+</body>
+</html>

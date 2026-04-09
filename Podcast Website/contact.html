@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T91TB00ERC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-T91TB00ERC');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Dr. Dan Cox — suggest a guest, ask a question, or leave a voice message for the Psychotherapy and Applied Psychology podcast.">
+  <meta name="theme-color" content="#1a3a52">
+
+  <title>Contact & Subscribe - Psychotherapy and Applied Psychology</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="alternate" type="application/rss+xml" title="Psychotherapy and Applied Psychology" href="https://rss.buzzsprout.com/2324798.rss">
+
+  <!-- SEO: Canonical -->
+  <link rel="canonical" href="https://psychotherapyandappliedpsychology.com/contact.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://psychotherapyandappliedpsychology.com/contact.html">
+  <meta property="og:site_name" content="Psychotherapy and Applied Psychology">
+  <meta property="og:title" content="Contact | Psychotherapy and Applied Psychology">
+  <meta property="og:description" content="Get in touch with Dr. Dan Cox — suggest a guest, ask a question, or leave a voice message for the Psychotherapy and Applied Psychology podcast.">
+  <meta property="og:image" content="https://psychotherapyandappliedpsychology.com/logo.png">
+  <meta property="og:image:width" content="500">
+  <meta property="og:image:height" content="500">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Contact | Psychotherapy and Applied Psychology">
+  <meta name="twitter:description" content="Get in touch with Dr. Dan Cox — suggest a guest, ask a question, or leave a voice message for the Psychotherapy and Applied Psychology podcast.">
+  <meta name="twitter:image" content="https://psychotherapyandappliedpsychology.com/logo.png">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="logo.webp" alt="Podcast Logo">
+        <span>Psychotherapy & Applied Psychology</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger-icon">☰</span>
+      </button>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="episodes.html">Episodes</a>
+        <a href="guests.html">Guests</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="faq.html">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section style="background: linear-gradient(135deg, #1a1a1a 0%, var(--accent) 100%); color: white; padding: var(--spacing-2xl) 0;">
+    <div class="container">
+      <h1 style="color: white; margin-bottom: var(--spacing-md);">Connect With Us</h1>
+      <p style="font-size: 1.1rem; color: rgba(255, 255, 255, 0.95); max-width: 600px;">
+        Subscribe to the podcast, send us a message, or reach out with questions and feedback
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section style="background: var(--background); border-bottom: 1px solid var(--border); padding: var(--spacing-2xl) 0;">
+    <div class="container-sm">
+      <div style="max-width: 640px; margin: 0 auto;">
+        <div style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: var(--spacing-sm);">Get in Touch</div>
+        <h2 style="margin-bottom: var(--spacing-sm);">Send a Message</h2>
+        <p style="color: var(--text-secondary); margin-bottom: var(--spacing-xl);">Have a question, guest suggestion, or just want to say hello? Fill in the form below and we'll get back to you.</p>
+
+        <form id="contact-form" action="https://formspree.io/f/xzdkeopk" method="POST">
+          <!-- Name + Email row -->
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-md); margin-bottom: var(--spacing-md);">
+            <div>
+              <label for="cf-name" style="display:block; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.4rem; color: var(--text-primary);">Name <span style="color:var(--accent);">*</span></label>
+              <input type="text" id="cf-name" name="name" required placeholder="Jane Smith"
+                style="width:100%; padding: 0.65rem 0.875rem; border: 1px solid var(--border); border-radius: var(--radius-md); font-family: var(--font-family-body); font-size: 0.95rem; color: var(--text-primary); background: var(--surface); transition: border-color 0.2s; box-sizing: border-box;"
+                onfocus="this.style.borderColor='var(--accent)'; this.style.outline='none';"
+                onblur="this.style.borderColor='var(--border)';">
+            </div>
+            <div>
+              <label for="cf-email" style="display:block; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.4rem; color: var(--text-primary);">Email <span style="color:var(--accent);">*</span></label>
+              <input type="email" id="cf-email" name="email" required placeholder="jane@example.com"
+                style="width:100%; padding: 0.65rem 0.875rem; border: 1px solid var(--border); border-radius: var(--radius-md); font-family: var(--font-family-body); font-size: 0.95rem; color: var(--text-primary); background: var(--surface); transition: border-color 0.2s; box-sizing: border-box;"
+                onfocus="this.style.borderColor='var(--accent)'; this.style.outline='none';"
+                onblur="this.style.borderColor='var(--border)';">
+            </div>
+          </div>
+
+          <!-- Subject -->
+          <div style="margin-bottom: var(--spacing-md);">
+            <label for="cf-subject" style="display:block; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.4rem; color: var(--text-primary);">Subject</label>
+            <select id="cf-subject" name="subject"
+              style="width:100%; padding: 0.65rem 0.875rem; border: 1px solid var(--border); border-radius: var(--radius-md); font-family: var(--font-family-body); font-size: 0.95rem; color: var(--text-primary); background: var(--surface); transition: border-color 0.2s; box-sizing: border-box; cursor: pointer;"
+              onfocus="this.style.borderColor='var(--accent)'; this.style.outline='none';"
+              onblur="this.style.borderColor='var(--border)';">
+              <option value="">Select a topic…</option>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Guest Suggestion">Guest Suggestion</option>
+              <option value="Episode Feedback">Episode Feedback</option>
+              <option value="Collaboration Opportunity">Collaboration Opportunity</option>
+              <option value="Research / Academic">Research / Academic</option>
+              <option value="Media Inquiry">Media Inquiry</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <!-- Message -->
+          <div style="margin-bottom: var(--spacing-lg);">
+            <label for="cf-message" style="display:block; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.4rem; color: var(--text-primary);">Message <span style="color:var(--accent);">*</span></label>
+            <textarea id="cf-message" name="message" required rows="6" placeholder="Your message…"
+              style="width:100%; padding: 0.65rem 0.875rem; border: 1px solid var(--border); border-radius: var(--radius-md); font-family: var(--font-family-body); font-size: 0.95rem; color: var(--text-primary); background: var(--surface); transition: border-color 0.2s; box-sizing: border-box; resize: vertical; line-height: 1.6;"
+              onfocus="this.style.borderColor='var(--accent)'; this.style.outline='none';"
+              onblur="this.style.borderColor='var(--border)';">
+            </textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="min-width: 160px;">Send Message</button>
+        </form>
+
+        <!-- Success message (shown after submission) -->
+        <div id="form-success" style="display:none; padding: var(--spacing-lg); background: #f0fdf4; border: 1px solid #86efac; border-radius: var(--radius-md); margin-top: var(--spacing-md);">
+          <p style="color: #166534; font-weight: 600; margin: 0;">✓ Message sent! We'll get back to you soon.</p>
+        </div>
+
+        <!-- Error message -->
+        <div id="form-error" style="display:none; padding: var(--spacing-lg); background: #fef2f2; border: 1px solid #fca5a5; border-radius: var(--radius-md); margin-top: var(--spacing-md);">
+          <p style="color: #991b1b; font-weight: 600; margin: 0;">Something went wrong. Please try emailing us directly at <a href="mailto:TheAppliedPsychologyPodcast@gmail.com" style="color:inherit;">TheAppliedPsychologyPodcast@gmail.com</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section style="background-color: var(--background); padding-bottom: var(--spacing-md);">
+    <div class="container-sm">
+      <h2 style="text-align: center; margin-bottom: var(--spacing-xl);">Get In Touch</h2>
+
+      <div style="display: grid; grid-template-columns: 1fr; gap: var(--spacing-xl); margin-bottom: var(--spacing-lg);">
+        <!-- Text the Show -->
+        <div class="card">
+          <h3 style="color: var(--primary); margin-bottom: var(--spacing-lg);">💬 Text the Show or Leave a Voice Message</h3>
+          <p style="margin-bottom: var(--spacing-lg);">
+            Have a question, reaction, or something to share? On your <strong>phone</strong>, you can send a text or leave a voice message. On a <strong>computer</strong>, you can leave a voice message. Either way, your message might even be featured in an upcoming episode!
+          </p>
+          <a href="https://www.buzzsprout.com/2324798/fan_mail/new" target="_blank" class="btn btn-primary" style="width: 100%; text-align: center;">Text the Show or Leave a Voice Message</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media Section -->
+  <section style="padding-top: var(--spacing-md);">
+    <div class="container-sm">
+      <h2 style="text-align: center; margin-bottom: var(--spacing-xl);">Follow & Connect</h2>
+      <p style="text-align: center; color: var(--text-secondary); margin-bottom: var(--spacing-xl); font-size: 1.05rem;">
+        Stay updated with the latest episodes, behind-the-scenes content, and announcements
+      </p>
+
+      <div class="platforms-grid">
+        <div class="platform-card">
+          <div class="platform-icon">💼</div>
+          <h3>LinkedIn</h3>
+          <p>Connect with Dan on LinkedIn</p>
+          <a href="https://www.linkedin.com/in/dan-cox-705595303/" target="_blank">Visit LinkedIn</a>
+        </div>
+
+        <div class="platform-card">
+          <div class="platform-icon">🦋</div>
+          <h3>Bluesky</h3>
+          <p>Follow for updates and podcast news</p>
+          <a href="https://bsky.app/profile/danielwcox.bsky.social" target="_blank">Follow on Bluesky</a>
+        </div>
+
+        <div class="platform-card">
+          <div class="platform-icon">📹</div>
+          <h3>YouTube</h3>
+          <p>Subscribe to our YouTube channel</p>
+          <a href="http://www.youtube.com/@PsychotherapyAppliedPsychology" target="_blank">Subscribe on YouTube</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer></footer>
+
+  <!-- Scripts -->
+  <script src="shared.js"></script>
+  <script>
+    const form = document.getElementById('contact-form');
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const btn = form.querySelector('button[type="submit"]');
+      btn.textContent = 'Sending…';
+      btn.disabled = true;
+
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+          form.style.display = 'none';
+          document.getElementById('form-success').style.display = 'block';
+        } else {
+          throw new Error('non-ok response');
+        }
+      } catch (_) {
+        document.getElementById('form-error').style.display = 'block';
+        btn.textContent = 'Send Message';
+        btn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

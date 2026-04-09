@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T91TB00ERC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-T91TB00ERC');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse all episodes — CBT, DBT, ACT, suicide prevention, trauma, deliberate practice, psychedelics, eating disorders, and more. Hosted by Dr. Dan Cox, UBC.">
+  <meta name="theme-color" content="#1a3a52">
+
+  <title>Episodes - Psychotherapy and Applied Psychology</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="alternate" type="application/rss+xml" title="Psychotherapy and Applied Psychology" href="https://rss.buzzsprout.com/2324798.rss">
+
+  <!-- SEO: Canonical -->
+  <link rel="canonical" href="https://psychotherapyandappliedpsychology.com/episodes.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://psychotherapyandappliedpsychology.com/episodes.html">
+  <meta property="og:site_name" content="Psychotherapy and Applied Psychology">
+  <meta property="og:title" content="All Episodes | Psychotherapy and Applied Psychology">
+  <meta property="og:description" content="Browse all episodes — CBT, DBT, ACT, suicide prevention, trauma, deliberate practice, psychedelics, eating disorders, and more. Hosted by Dr. Dan Cox, UBC.">
+  <meta property="og:image" content="https://psychotherapyandappliedpsychology.com/logo.png">
+  <meta property="og:image:width" content="500">
+  <meta property="og:image:height" content="500">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="All Episodes | Psychotherapy and Applied Psychology">
+  <meta name="twitter:description" content="Browse all episodes — CBT, DBT, ACT, suicide prevention, trauma, deliberate practice, psychedelics, eating disorders, and more. Hosted by Dr. Dan Cox, UBC.">
+  <meta name="twitter:image" content="https://psychotherapyandappliedpsychology.com/logo.png">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="logo.webp" alt="Podcast Logo">
+        <span>Psychotherapy & Applied Psychology</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger-icon">☰</span>
+      </button>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="episodes.html">Episodes</a>
+        <a href="guests.html">Guests</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="faq.html">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section style="background: var(--background); border-bottom: 1px solid var(--border); border-top: 4px solid var(--accent); padding: var(--spacing-xl) 0;">
+    <div class="container">
+      <div style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: var(--spacing-sm);">Archive</div>
+      <h1 style="margin-bottom: var(--spacing-md);">All Episodes</h1>
+      <!-- Description + Search on same row -->
+      <div style="display: flex; align-items: center; gap: var(--spacing-xl); flex-wrap: wrap;">
+        <p style="font-size: 1.1rem; color: var(--text-secondary); flex: 1 1 250px; margin-bottom: 0;">
+          Browse every conversation — from evidence-based therapies and diagnostic controversies to masculinity, military mental health, and the future of AI in the consulting room.
+        </p>
+        <!-- Search Bar -->
+        <div class="search-container" style="flex: 1 1 280px; max-width: 400px; margin-bottom: 0;">
+          <div class="search-box">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Search episodes by title or topic..."
+              aria-label="Search episodes"
+            >
+          </div>
+          <p id="search-results-count" style="color: var(--text-secondary); margin-top: var(--spacing-md); font-size: 0.95rem; display: none;">
+            Found <span id="results-count">0</span> episode(s)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section>
+    <div class="container">
+
+      <!-- Episodes Grid -->
+      <div id="episodes-container" class="latest-episodes">
+        <div class="loading">
+          <div class="spinner"></div>
+        </div>
+      </div>
+
+      <!-- Empty State -->
+      <div id="empty-state" class="empty-state" style="display: none;">
+        <p>No episodes found matching your search.</p>
+        <p style="color: var(--text-light); font-size: 0.95rem;">Try adjusting your search terms.</p>
+      </div>
+
+      <!-- Load More Button -->
+      <div style="text-align: center; margin-top: var(--spacing-2xl);">
+        <button id="load-more-btn" class="btn btn-primary" style="display: none;">Load More Episodes</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer></footer>
+
+  <!-- Scripts -->
+  <script src="shared.js"></script>
+  <script>
+    let allEpisodes = [];
+    let filteredEpisodes = [];
+    let displayedCount = 0;
+    const itemsPerPage = 12;
+
+    /**
+     * Render episodes to the page
+     */
+    function renderEpisodes(episodes, clear = true) {
+      const container = document.getElementById('episodes-container');
+      const emptyState = document.getElementById('empty-state');
+      const searchResultsCount = document.getElementById('search-results-count');
+
+      if (episodes.length === 0) {
+        container.innerHTML = '';
+        emptyState.style.display = 'block';
+        searchResultsCount.style.display = 'none';
+        return;
+      }
+
+      emptyState.style.display = 'none';
+      searchResultsCount.style.display = 'block';
+      document.getElementById('results-count').textContent = episodes.length;
+
+      if (clear) {
+        container.innerHTML = '';
+      }
+
+      // Render episodes in batches
+      const endIndex = Math.min(displayedCount + itemsPerPage, episodes.length);
+      for (let i = displayedCount; i < endIndex; i++) {
+        const episodeCard = createEpisodePreviewCard(episodes[i]);
+        container.appendChild(episodeCard);
+      }
+
+      displayedCount = endIndex;
+
+      // Update load more button
+      const loadMoreBtn = document.getElementById('load-more-btn');
+      if (displayedCount < episodes.length) {
+        loadMoreBtn.style.display = 'inline-block';
+      } else {
+        loadMoreBtn.style.display = 'none';
+      }
+    }
+
+    /**
+     * Handle search input
+     */
+    function handleSearch(event) {
+      const query = event.target.value.trim();
+      displayedCount = 0;
+
+      if (query === '') {
+        filteredEpisodes = allEpisodes;
+      } else {
+        filteredEpisodes = allEpisodes.filter(episode => {
+          return episode.title.toLowerCase().includes(query.toLowerCase()) ||
+                 episode.description.toLowerCase().includes(query.toLowerCase());
+        });
+      }
+
+      renderEpisodes(filteredEpisodes, true);
+    }
+
+    /**
+     * Handle load more button
+     */
+    function handleLoadMore() {
+      renderEpisodes(filteredEpisodes, false);
+    }
+
+    /**
+     * Initialize episodes page
+     */
+    async function initEpisodesPage() {
+      const container = document.getElementById('episodes-container');
+
+      try {
+        allEpisodes = await fetchEpisodes();
+
+        if (allEpisodes.length === 0) {
+          container.innerHTML = `
+            <div class="empty-state">
+              <p>No episodes found. Please try again later.</p>
+            </div>
+          `;
+          return;
+        }
+
+        filteredEpisodes = allEpisodes;
+        displayedCount = 0;
+        renderEpisodes(filteredEpisodes, true);
+
+        // Set up search listener
+        const searchInput = document.getElementById('search-input');
+        searchInput.addEventListener('input', handleSearch);
+
+        // Set up load more listener
+        const loadMoreBtn = document.getElementById('load-more-btn');
+        loadMoreBtn.addEventListener('click', handleLoadMore);
+
+      } catch (error) {
+        console.error('Error loading episodes:', error);
+        container.innerHTML = `
+          <div class="empty-state">
+            <p>Error loading episodes. Please refresh the page.</p>
+          </div>
+        `;
+      }
+    }
+
+    // Load on DOM ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initEpisodesPage);
+    } else {
+      initEpisodesPage();
+    }
+  </script>
+</body>
+</html>

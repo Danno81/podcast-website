@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T91TB00ERC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-T91TB00ERC');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Follow Psychotherapy and Applied Psychology on Apple Podcasts, Spotify, YouTube, Amazon Music, Pocket Casts, Overcast, and more.">
+  <meta name="theme-color" content="#1a3a52">
+
+  <title>Follow the Podcast - Psychotherapy and Applied Psychology</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="alternate" type="application/rss+xml" title="Psychotherapy and Applied Psychology" href="https://rss.buzzsprout.com/2324798.rss">
+
+  <!-- SEO: Canonical -->
+  <link rel="canonical" href="https://psychotherapyandappliedpsychology.com/follow.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://psychotherapyandappliedpsychology.com/follow.html">
+  <meta property="og:site_name" content="Psychotherapy and Applied Psychology">
+  <meta property="og:title" content="Follow the Podcast | Psychotherapy and Applied Psychology">
+  <meta property="og:description" content="Follow Psychotherapy and Applied Psychology on Apple Podcasts, Spotify, YouTube, Amazon Music, Pocket Casts, Overcast, and more.">
+  <meta property="og:image" content="https://psychotherapyandappliedpsychology.com/logo.png">
+  <meta property="og:image:width" content="500">
+  <meta property="og:image:height" content="500">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Follow the Podcast | Psychotherapy and Applied Psychology">
+  <meta name="twitter:description" content="Follow Psychotherapy and Applied Psychology on Apple Podcasts, Spotify, YouTube, Amazon Music, Pocket Casts, Overcast, and more.">
+  <meta name="twitter:image" content="https://psychotherapyandappliedpsychology.com/logo.png">
+
+  <style>
+    .follow-hero {
+      background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+      color: white;
+      padding: var(--spacing-2xl) 0 var(--spacing-xl);
+      text-align: center;
+    }
+    .follow-artwork {
+      width: 140px;
+      height: 140px;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      margin-bottom: var(--spacing-md);
+    }
+    .follow-hero h1 {
+      color: white;
+      font-size: 1.9rem;
+      margin-bottom: var(--spacing-xs);
+    }
+    .follow-hero p {
+      color: rgba(255,255,255,0.75);
+      font-size: 1rem;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    /* Platform grid */
+    .platforms-list {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .platform-row {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-md);
+      padding: var(--spacing-md) var(--spacing-lg);
+      background: white;
+      border-bottom: 1px solid var(--border);
+      text-decoration: none;
+      color: var(--text-primary);
+      transition: background 0.15s;
+    }
+    .platform-row:first-child {
+      border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    }
+    .platform-row:last-child {
+      border-bottom: none;
+      border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    }
+    .platform-row:hover {
+      background: var(--background);
+    }
+    .platform-row-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .platform-row-name {
+      font-weight: 600;
+      font-size: 1rem;
+      flex: 1;
+    }
+    .platform-row-arrow {
+      color: var(--text-light);
+      font-size: 1.1rem;
+    }
+
+    /* RSS section */
+    .rss-section {
+      max-width: 600px;
+      margin: var(--spacing-lg) auto 0;
+      background: white;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border);
+      padding: var(--spacing-md) var(--spacing-lg);
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-md);
+    }
+    .rss-icon {
+      width: 40px;
+      height: 40px;
+      background: #f26522;
+      border-radius: 10px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .rss-info {
+      flex: 1;
+      min-width: 0;
+    }
+    .rss-info strong {
+      display: block;
+      font-size: 0.95rem;
+      margin-bottom: 0.2rem;
+    }
+    .rss-url {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .rss-copy-btn {
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: var(--radius-md);
+      padding: 0.5rem 1rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+    .rss-copy-btn:hover {
+      background: var(--primary-light);
+    }
+    .rss-copy-btn.copied {
+      background: var(--success);
+    }
+
+    .section-label {
+      text-align: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-light);
+      margin-bottom: var(--spacing-sm);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="logo.webp" alt="Podcast Logo">
+        <span>Psychotherapy & Applied Psychology</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger-icon">☰</span>
+      </button>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="episodes.html">Episodes</a>
+        <a href="guests.html">Guests</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="faq.html">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="follow-hero">
+    <div class="container">
+      <img src="logo.webp" alt="Podcast Artwork" class="follow-artwork">
+      <h1>Follow the Podcast</h1>
+      <p>Choose your favourite app to follow Psychotherapy and Applied Psychology and never miss an episode.</p>
+    </div>
+  </section>
+
+  <!-- Platform List -->
+  <section style="padding: var(--spacing-2xl) 0;">
+    <div class="container">
+
+      <p class="section-label">Listen &amp; Follow On</p>
+
+      <div style="max-width:600px; margin:0 auto; box-shadow: var(--shadow-md); border-radius: var(--radius-lg); border: 1px solid var(--border); overflow:hidden;">
+        <div class="platforms-list">
+
+          <!-- Apple Podcasts -->
+          <a class="platform-row" href="https://podcasts.apple.com/us/podcast/psychotherapy-and-applied-psychology/id1734318570" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#892DE1;">
+              <svg width="24" height="24" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 7C12.477 7 8 11.477 8 17c0 3.821 2.05 7.16 5.1 9.004-.07-.632-.1-1.59.02-2.275l1.43-6.07s-.365-.73-.365-1.81c0-1.696.984-2.963 2.208-2.963 1.042 0 1.547.782 1.547 1.72 0 1.048-.668 2.62-.013 4.073.596 1.216 2.013 2.07 3.38 2.07 2.245 0 3.981-2.366 3.981-5.78 0-3.022-2.172-5.137-5.272-5.137-3.59 0-5.698 2.692-5.698 5.48 0 1.085.417 2.248.937 2.882a.375.375 0 0 1 .087.36l-.35 1.428c-.056.228-.186.277-.428.167-1.596-.743-2.594-3.076-2.594-4.95 0-4.028 2.927-7.73 8.444-7.73 4.43 0 7.874 3.158 7.874 7.379 0 4.4-2.773 7.94-6.622 7.94-1.294 0-2.51-.673-2.927-1.467l-.796 2.97c-.288 1.108-1.066 2.497-1.588 3.343A11 11 0 0 0 18 29c6.075 0 11-4.925 11-11S24.075 7 18 7z" fill="white"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">Apple Podcasts</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- Spotify -->
+          <a class="platform-row" href="https://open.spotify.com/show/4rG5TrfM0cu3Z4iOMRBCp6" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#1DB954;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">Spotify</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- YouTube -->
+          <a class="platform-row" href="http://www.youtube.com/@PsychotherapyAppliedPsychology" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#FF0000;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">YouTube</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- Amazon Music -->
+          <a class="platform-row" href="https://music.amazon.com/podcasts/97995c11-c66f-4cf6-9f50-7f23ed565d1d" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#00A8E0;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.525.13.12.174.09.336-.12.48-.256.19-.6.41-1.006.654-1.532.94-3.145 1.6-4.83 1.978a20.268 20.268 0 0 1-4.315.458c-4.073 0-7.748-1.06-11.017-3.17-.29-.19-.39-.39-.25-.61l-.26.8zm3.868-5.135c-.116-.37.074-.51.57-.42 3.347.627 6.74.94 10.18.94 2.547 0 5.01-.213 7.382-.633.41-.077.67-.013.76.185.086.198.014.385-.225.566-.274.196-.636.34-1.09.432-2.344.477-4.722.714-7.14.714-3.455 0-6.78-.335-9.98-1.004l-.457-.78zm-.57-1.37c-.19-.46.035-.687.674-.676 3.255.057 6.53.086 9.823.086 2.87 0 5.75-.043 8.63-.13.49-.015.77.152.84.5.07.348-.1.578-.51.69-.98.274-1.99.412-3.03.412H12.15c-3.01 0-5.95-.156-8.81-.468l-.097-.414zm12.65-5.94c.33-.28.68-.29 1.05-.042.37.248.56.6.56 1.06v4.54c0 .46-.22.82-.66 1.08l-6.91 4.07c-.44.26-.89.26-1.35 0l-6.9-4.07c-.44-.26-.66-.62-.66-1.08V7.133c0-.46.19-.812.57-1.06.38-.248.73-.238 1.06.028l6.93 3.81 6.31-3.767z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">Amazon Music</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- iHeartRadio -->
+          <a class="platform-row" href="https://www.iheart.com/podcast/269-the-applied-psychology-pod-156229733/" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#C6002B;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">iHeartRadio</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- Pocket Casts -->
+          <a class="platform-row" href="https://pca.st/2uilwd0c" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#F43E37;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">Pocket Casts</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- Overcast -->
+          <a class="platform-row" href="https://overcast.fm/itunes1734318570" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#FC7E0F;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 6c3.314 0 6 2.686 6 6s-2.686 6-6 6-6-2.686-6-6 2.686-6 6-6zm0 2c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm-.4 1.6h.8v2.4l1.6.96-.4.693-2-1.2V9.6z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">Overcast</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- Podcast Addict -->
+          <a class="platform-row" href="https://podcastaddict.com/podcast/the-applied-psychology-podcast/4992440" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#E84B3A;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">Podcast Addict</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- Player FM -->
+          <a class="platform-row" href="https://player.fm/series/series-3555942" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#C0392B;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M12 0C5.376 0 0 5.376 0 12s5.376 12 12 12 12-5.376 12-12S18.624 0 12 0zm0 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8zm-1.5-4.5l5-3.5-5-3.5v7z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">Player FM</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- Podchaser -->
+          <a class="platform-row" href="https://www.podchaser.com/podcasts/the-applied-psychology-podcast-5642688" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#F55F0E;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">Podchaser</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- Castro -->
+          <a class="platform-row" href="https://castro.fm/itunes/1734318570" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#00C2B2;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">Castro</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- Castbox -->
+          <a class="platform-row" href="https://castbox.fm/vic/1734318570?ref=buzzsprout" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#F55858;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-3-5h6v-2H9v2zm0-4h6V9H9v2z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">Castbox</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- Goodpods -->
+          <a class="platform-row" href="https://www.goodpods.com/podcasts-aid/1734318570" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#40AE49;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">Goodpods</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- Listen Notes -->
+          <a class="platform-row" href="https://www.listennotes.com/c/82afbed9d59d4dbfabf8f89e96574baa/" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#00B4D8;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">Listen Notes</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- Podcast Index -->
+          <a class="platform-row" href="https://podcastindex.org/podcast/6818777" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#2668a8;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93V18c0-.55-.45-1-1-1s-1 .45-1 1v1.93C7.06 19.48 4.52 16.94 4.07 14H6c.55 0 1-.45 1-1s-.45-1-1-1H4.07C4.52 9.06 7.06 6.52 10 6.07V8c0 .55.45 1 1 1s1-.45 1-1V6.07C15.94 6.52 18.48 9.06 18.93 12H17c-.55 0-1 .45-1 1s.45 1 1 1h1.93c-.45 2.94-2.99 5.48-5.93 5.93z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">Podcast Index</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+          <!-- TrueFans -->
+          <a class="platform-row" href="https://truefans.fm/dc29827e-8e50-5498-9c8a-8aaa949a3535" target="_blank" rel="noopener">
+            <div class="platform-row-icon" style="background:#7C3AED;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+              </svg>
+            </div>
+            <span class="platform-row-name">TrueFans</span>
+            <span class="platform-row-arrow">›</span>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- RSS Feed -->
+      <div class="rss-section" style="box-shadow: var(--shadow-sm); border: 1px solid var(--border);">
+        <div class="rss-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+            <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/>
+          </svg>
+        </div>
+        <div class="rss-info">
+          <strong>RSS Feed</strong>
+          <div class="rss-url" id="rss-url-display">https://feeds.buzzsprout.com/2324798.rss</div>
+        </div>
+        <button class="rss-copy-btn" id="rss-copy-btn" onclick="copyRSS()">Copy</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer></footer>
+
+  <script>
+    function copyRSS() {
+      const url = 'https://feeds.buzzsprout.com/2324798.rss';
+      navigator.clipboard.writeText(url).then(() => {
+        const btn = document.getElementById('rss-copy-btn');
+        btn.textContent = 'Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.textContent = 'Copy';
+          btn.classList.remove('copied');
+        }, 2000);
+      });
+    }
+  </script>
+
+</body>
+</html>
