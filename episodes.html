@@ -149,7 +149,9 @@
       }
 
       emptyState.style.display = 'none';
-      searchResultsCount.style.display = 'block';
+      const searchInput = document.getElementById('search-input');
+      const hasSearch = searchInput && searchInput.value.trim() !== '';
+      searchResultsCount.style.display = hasSearch ? 'block' : 'none';
       document.getElementById('results-count').textContent = episodes.length;
 
       if (clear) {

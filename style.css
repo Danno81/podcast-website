@@ -12,7 +12,7 @@
   --accent-hover: #b85218;       /* Darker orange for hover states */
   --gold: #f0a000;               /* Golden amber (lightbulb) */
   --gold-light: #fbb830;         /* Lighter gold */
-  --background: #faf8f6;         /* Warm off-white */
+  --background: #f2ebe0;         /* Warm parchment */
   --surface: #ffffff;            /* White */
   --text-primary: #1a1a1a;       /* Dark text */
   --text-secondary: #555555;     /* Medium gray text */
@@ -691,10 +691,11 @@ audio {
 }
 
 .episode-preview {
-  background-color: var(--surface);
+  background-color: #ffffff;
   border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10), 0 1px 3px rgba(0, 0, 0, 0.06);
+  border: 1px solid #d6cfc4;
   transition: var(--transition);
   display: flex;
   flex-direction: column;
@@ -718,7 +719,7 @@ audio {
 }
 
 .episode-preview:hover {
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-lg);
   transform: translateY(-4px);
 }
 
