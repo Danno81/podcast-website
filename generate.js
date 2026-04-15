@@ -663,6 +663,116 @@ ${audioSection}
 </html>`;
 }
 
+// ─── Static Episode Card (for homepage & episodes page injection) ────────────
+
+function buildStaticPreviewCard(ep, slug) {
+  const title    = escapeHtml(ep.title);
+  const desc     = stripHtml(ep.description || '');
+  const truncDesc = desc.length > 150 ? desc.substring(0, 150) + '...' : desc;
+  const artwork  = escapeHtml(ep.artwork_url || PODCAST_ARTWORK);
+  const dateStr  = formatDate(ep.published_at);
+  const dur      = formatDuration(ep.duration);
+  const epLabel  = ep.episode_number ? `Ep. ${ep.episode_number}` : '';
+  const epUrl    = `/ep/${slug}.html`;
+
+  return `<div class="episode-preview">
+      <a href="${epUrl}" class="episode-preview-artwork-link" style="display:block; text-decoration:none;">
+        <div class="episode-preview-artwork">
+          <img src="${artwork}" alt="${title}" loading="lazy">
+        </div>
+      </a>
+      <div class="episode-preview-body">
+        ${epLabel ? `<div class="episode-preview-number">${epLabel}</div>` : ''}
+        <h3><a href="${epUrl}" style="color:inherit; text-decoration:none;">${title}</a></h3>
+        <div class="episode-preview-date">${escapeHtml(dateStr)}${dur ? ' &middot; ' + escapeHtml(dur) : ''}</div>
+        <p class="episode-preview-description">${escapeHtml(truncDesc)}</p>
+        <a href="${epUrl}" class="episode-preview-link">View Episode &rarr;</a>
+      </div>
+    </div>`;
+}
+
+/**
+ * Replace content between <!-- MARKER_START --> and <!-- MARKER_END --> in a string.
+ */
+function replaceBetweenMarkers(html, startMarker, endMarker, content) {
+  const si = html.indexOf(startMarker);
+  const ei = html.indexOf(endMarker);
+  if (si === -1 || ei === -1) return null;
+  return html.substring(0, si + startMarker.length) + '\n' + content + '\n        ' + html.substring(ei);
+}
+
+/**
+ * Inject static episode HTML into index.html and episodes.html so that
+ * non-JS crawlers (Bing, social previews, AI crawlers, Google's initial
+ * HTML pass) see real episode content instead of empty spinner containers.
+ *
+ * The client-side JS in shared.js will replace this static content with
+ * interactive versions (ticker, search, pagination) on page load.
+ */
+function injectStaticEpisodes(episodes) {
+  const INDEX_PATH    = path.join(__dirname, 'index.html');
+  const EPISODES_PATH = path.join(__dirname, 'episodes.html');
+  const START         = '<!-- STATIC_EPISODES_START -->';
+  const END           = '<!-- STATIC_EPISODES_END -->';
+  const JSONLD_START  = '<!-- JSONLD_EPISODES_START -->';
+  const JSONLD_END    = '<!-- JSONLD_EPISODES_END -->';
+
+  // Build slug lookup
+  const slugFor = {};
+  episodes.forEach(ep => { slugFor[ep.id] = getEpisodeSlug(ep); });
+
+  // ── Homepage: 8 alternating episodes (matches JS ticker selection) ──────
+  if (fs.existsSync(INDEX_PATH)) {
+    let html = fs.readFileSync(INDEX_PATH, 'utf8');
+    const homepageEps = episodes.slice(0, 16).filter((_, i) => i % 2 === 0);
+    const cards = homepageEps.map(ep => buildStaticPreviewCard(ep, slugFor[ep.id])).join('\n        ');
+    const result = replaceBetweenMarkers(html, START, END, '        ' + cards);
+    if (result) {
+      fs.writeFileSync(INDEX_PATH, result, 'utf8');
+      console.log(`✓  Injected ${homepageEps.length} static episode cards into index.html`);
+    } else {
+      console.log('⚠  index.html missing STATIC_EPISODES markers — skipping');
+    }
+  }
+
+  // ── Episodes page: all episodes + ItemList JSON-LD ─────────────────────
+  if (fs.existsSync(EPISODES_PATH)) {
+    let html = fs.readFileSync(EPISODES_PATH, 'utf8');
+
+    // Inject static cards
+    const cards = episodes.map(ep => buildStaticPreviewCard(ep, slugFor[ep.id])).join('\n        ');
+    let result = replaceBetweenMarkers(html, START, END, '        ' + cards);
+    if (result) {
+      html = result;
+      console.log(`✓  Injected ${episodes.length} static episode cards into episodes.html`);
+    } else {
+      console.log('⚠  episodes.html missing STATIC_EPISODES markers — skipping cards');
+    }
+
+    // Inject ItemList JSON-LD
+    const itemListSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      'name': 'All Episodes — Psychotherapy and Applied Psychology',
+      'numberOfItems': episodes.length,
+      'itemListElement': episodes.map((ep, i) => ({
+        '@type': 'ListItem',
+        'position': i + 1,
+        'url': `${BASE_URL}/ep/${slugFor[ep.id]}.html`,
+        'name': ep.title
+      }))
+    };
+    const jsonLdBlock = `  <script type="application/ld+json">\n${JSON.stringify(itemListSchema, null, 2)}\n  </script>`;
+    const jsonResult = replaceBetweenMarkers(html, JSONLD_START, JSONLD_END, jsonLdBlock);
+    if (jsonResult) {
+      html = jsonResult;
+      console.log(`✓  Injected ItemList JSON-LD (${episodes.length} episodes) into episodes.html`);
+    }
+
+    fs.writeFileSync(EPISODES_PATH, html, 'utf8');
+  }
+}
+
 // ─── Sitemap ─────────────────────────────────────────────────────────────────
 
 const STATIC_PAGES = [
@@ -781,6 +891,10 @@ async function main() {
   const sitemap = buildSitemap(episodes);
   fs.writeFileSync(SITEMAP_PATH, sitemap, 'utf8');
   console.log(`✓  sitemap.xml updated (${STATIC_PAGES.length} static + ${episodes.length} episode URLs)`);
+
+  // Inject static episode HTML into homepage + episodes page for crawlers
+  console.log('🕷  Injecting static episodes for crawler visibility…');
+  injectStaticEpisodes(episodes);
 
   console.log('────────────────────────────────────────────────────────────');
   console.log('✅  Done!');
