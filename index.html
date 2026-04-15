@@ -339,10 +339,8 @@
       const container = document.getElementById('latest-episodes-container');
       const allEpisodes = await getLatestEpisodes(16);
 
-      if (allEpisodes.length === 0) {
-        container.innerHTML = `<div class="empty-state"><p>No episodes found yet. Check back soon!</p></div>`;
-        return;
-      }
+      // API returned nothing — leave the static episode cards intact for crawlers
+      if (allEpisodes.length === 0) return;
 
       // Show most recent, skip one, show the one before, skip one, etc.
       const episodes = allEpisodes.filter((_, i) => i % 2 === 0);

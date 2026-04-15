@@ -613,9 +613,7 @@
               aria-label="Search episodes"
             >
           </div>
-          <p id="search-results-count" style="color: var(--text-secondary); margin-top: var(--spacing-md); font-size: 0.95rem; display: none;">
-            Found <span id="results-count">0</span> episode(s)
-          </p>
+          <p id="search-results-count" style="color: var(--text-secondary); margin-top: var(--spacing-md); font-size: 0.95rem; display: none;"></p>
         </div>
       </div>
     </div>
@@ -1821,11 +1819,8 @@
         <!-- STATIC_EPISODES_END -->
       </div>
 
-      <!-- Empty State -->
-      <div id="empty-state" class="empty-state" style="display: none;">
-        <p>No episodes found matching your search.</p>
-        <p style="color: var(--text-light); font-size: 0.95rem;">Try adjusting your search terms.</p>
-      </div>
+      <!-- Empty State (content injected by JS to keep raw HTML clean for crawlers) -->
+      <div id="empty-state" class="empty-state" style="display: none;"></div>
 
       <!-- Load More Button -->
       <div style="text-align: center; margin-top: var(--spacing-2xl);">
@@ -1855,6 +1850,7 @@
 
       if (episodes.length === 0) {
         container.innerHTML = '';
+        emptyState.innerHTML = '<p>No episodes found matching your search.</p><p style="color: var(--text-light); font-size: 0.95rem;">Try adjusting your search terms.</p>';
         emptyState.style.display = 'block';
         searchResultsCount.style.display = 'none';
         return;
@@ -1864,7 +1860,10 @@
       const searchInput = document.getElementById('search-input');
       const hasSearch = searchInput && searchInput.value.trim() !== '';
       searchResultsCount.style.display = hasSearch ? 'block' : 'none';
-      document.getElementById('results-count').textContent = episodes.length;
+      if (hasSearch) {
+        const n = episodes.length;
+        searchResultsCount.textContent = 'Found ' + n + ' episode' + (n !== 1 ? 's' : '') + ' matching your search';
+      }
 
       if (clear) {
         container.innerHTML = '';
@@ -1923,14 +1922,8 @@
       try {
         allEpisodes = await fetchEpisodes();
 
-        if (allEpisodes.length === 0) {
-          container.innerHTML = `
-            <div class="empty-state">
-              <p>No episodes found. Please try again later.</p>
-            </div>
-          `;
-          return;
-        }
+        // API returned nothing — leave static episode HTML intact for crawlers
+        if (allEpisodes.length === 0) return;
 
         filteredEpisodes = allEpisodes;
         displayedCount = 0;
@@ -1945,12 +1938,8 @@
         loadMoreBtn.addEventListener('click', handleLoadMore);
 
       } catch (error) {
+        // Leave static episode HTML intact; log the error for debugging
         console.error('Error loading episodes:', error);
-        container.innerHTML = `
-          <div class="empty-state">
-            <p>Error loading episodes. Please refresh the page.</p>
-          </div>
-        `;
       }
     }
 
