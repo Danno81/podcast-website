@@ -1839,9 +1839,14 @@
     let filteredEpisodes = [];
     let displayedCount = 0;
     const itemsPerPage = 12;
+    // Preserve the statically-rendered episode HTML so we can restore it when
+    // search is cleared. This keeps every episode in the DOM for SEO/crawlers
+    // and avoids a flash-of-content when JS hydrates.
+    let originalStaticHTML = '';
 
     /**
-     * Render episodes to the page
+     * Render episodes to the page (used for search results and load-more only).
+     * The initial page load keeps the server-rendered static HTML untouched.
      */
     function renderEpisodes(episodes, clear = true) {
       const container = document.getElementById('episodes-container');
@@ -1888,57 +1893,90 @@
     }
 
     /**
+     * Restore the original static episode cards (used when search is cleared).
+     */
+    function restoreStaticEpisodes() {
+      const container = document.getElementById('episodes-container');
+      const emptyState = document.getElementById('empty-state');
+      const searchResultsCount = document.getElementById('search-results-count');
+      const loadMoreBtn = document.getElementById('load-more-btn');
+
+      container.innerHTML = originalStaticHTML;
+      emptyState.style.display = 'none';
+      searchResultsCount.style.display = 'none';
+      // All episodes are in the static HTML, so Load More isn't needed.
+      loadMoreBtn.style.display = 'none';
+      displayedCount = 0;
+    }
+
+    /**
      * Handle search input
      */
     function handleSearch(event) {
       const query = event.target.value.trim();
-      displayedCount = 0;
 
       if (query === '') {
-        filteredEpisodes = allEpisodes;
-      } else {
-        filteredEpisodes = allEpisodes.filter(episode => {
-          return episode.title.toLowerCase().includes(query.toLowerCase()) ||
-                 episode.description.toLowerCase().includes(query.toLowerCase());
-        });
+        restoreStaticEpisodes();
+        return;
       }
+
+      displayedCount = 0;
+      filteredEpisodes = allEpisodes.filter(episode => {
+        return episode.title.toLowerCase().includes(query.toLowerCase()) ||
+               episode.description.toLowerCase().includes(query.toLowerCase());
+      });
 
       renderEpisodes(filteredEpisodes, true);
     }
 
     /**
-     * Handle load more button
+     * Handle load more button (only used for long search results)
      */
     function handleLoadMore() {
       renderEpisodes(filteredEpisodes, false);
     }
 
     /**
-     * Initialize episodes page
+     * Initialize episodes page.
+     *
+     * The episodes grid is rendered statically at build time (see generate.js →
+     * injectStaticEpisodes) so that every episode is present in the raw HTML
+     * for search engines on first paint. JavaScript here only takes over once
+     * the user searches — at which point it filters against the Buzzsprout API
+     * data and rebuilds the grid with matching episodes.
      */
     async function initEpisodesPage() {
       const container = document.getElementById('episodes-container');
+      const loadMoreBtn = document.getElementById('load-more-btn');
+
+      // Snapshot the server-rendered HTML before any JS mutates it.
+      originalStaticHTML = container.innerHTML;
+
+      // All episodes are already visible — keep Load More hidden by default.
+      if (loadMoreBtn) loadMoreBtn.style.display = 'none';
+
+      // Wire up the Load More button (used for search results only).
+      if (loadMoreBtn) {
+        loadMoreBtn.addEventListener('click', handleLoadMore);
+      }
 
       try {
+        // Fetch fresh episode data from the API in the background so search works.
         allEpisodes = await fetchEpisodes();
 
-        // API returned nothing — leave static episode HTML intact for crawlers
+        // API returned nothing — leave static episode HTML intact.
         if (allEpisodes.length === 0) return;
 
         filteredEpisodes = allEpisodes;
-        displayedCount = 0;
-        renderEpisodes(filteredEpisodes, true);
 
-        // Set up search listener
+        // Enable search now that we have data to filter.
         const searchInput = document.getElementById('search-input');
-        searchInput.addEventListener('input', handleSearch);
-
-        // Set up load more listener
-        const loadMoreBtn = document.getElementById('load-more-btn');
-        loadMoreBtn.addEventListener('click', handleLoadMore);
+        if (searchInput) {
+          searchInput.addEventListener('input', handleSearch);
+        }
 
       } catch (error) {
-        // Leave static episode HTML intact; log the error for debugging
+        // Leave static episode HTML intact; log the error for debugging.
         console.error('Error loading episodes:', error);
       }
     }

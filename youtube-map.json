@@ -2,6 +2,11 @@
   "generated": "2026-03-31",
   "note": "Auto-matched from YouTube podcast playlist. Re-run update-youtube-map.sh for new episodes.",
   "map": {
+    "19034714": {
+      "videoId": "LfUuBA_0f2I",
+      "confidence": 100,
+      "ytTitle": "Set by user"
+    },
     "14627634": {
       "videoId": "aP-vAv6sIZQ",
       "confidence": 100,
