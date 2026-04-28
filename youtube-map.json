@@ -2,11 +2,6 @@
   "generated": "2026-03-31",
   "note": "Auto-matched from YouTube podcast playlist. Re-run update-youtube-map.sh for new episodes.",
   "map": {
-    "19034714": {
-      "videoId": "LfUuBA_0f2I",
-      "confidence": 100,
-      "ytTitle": "Set by user"
-    },
     "14627634": {
       "videoId": "aP-vAv6sIZQ",
       "confidence": 100,
@@ -426,6 +421,16 @@
       "videoId": "hNN7_A3Thj0",
       "confidence": 100,
       "ytTitle": "What You Need to Know Before Believing Therapy Hype"
+    },
+    "19034714": {
+      "videoId": "LfUuBA_0f2I",
+      "confidence": 100,
+      "ytTitle": "Set by user"
+    },
+    "19075548": {
+      "videoId": "j8NJgvgUElo",
+      "confidence": 80,
+      "ytTitle": "When Research Gets Closer to Practice with Dr. Soo Jeong Youn"
     }
   }
 }
