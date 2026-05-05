@@ -102,30 +102,59 @@ function getEpisodeSlug(ep) {
   return m ? m[1] : String(ep.id);
 }
 
-/** Pull every guest name + website out of guests.html so we can mark up
- *  episode pages with a Person schema. Returns { "last first": url|null } */
+/** Pull every guest name, photo, website, and page slug out of guests.html.
+ *  Returns { byName: { "first last": guest }, byLastName: { "last": guest } } */
 function loadGuestsLookup() {
-  const lookup = {};
+  const byName     = {};
+  const byLastName = {};
   try {
     const html = fs.readFileSync(path.join(__dirname, 'guests.html'), 'utf8');
-    const re = /\{\s*name:\s*"([^"]+)"[\s\S]*?website:\s*(?:"([^"]*?)"|null)/g;
+    const entryRe = /\{[^{}]*name:\s*"([^"]+)"[^{}]*\}/g;
     let m;
-    while ((m = re.exec(html)) !== null) {
+    while ((m = entryRe.exec(html)) !== null) {
+      const entry   = m[0];
       const rawName = m[1];
-      const website = m[2] || null;
-      // Strip honorifics for a normalised lookup key
-      const key = rawName.replace(/^(Dr\.\s*|Mr\.\s*|Ms\.\s*|Prof\.\s*)/i, '').trim().toLowerCase();
-      lookup[key] = { fullName: rawName, website };
+      const photoM   = entry.match(/photo:\s*"([^"]*)"/);
+      const websiteM = entry.match(/website:\s*(?:"([^"]*?)"|null)/);
+      const pageM    = entry.match(/page:\s*"([^"]+)"/);
+      const guest = {
+        fullName: rawName,
+        photo:    photoM   ? photoM[1]             : null,
+        website:  websiteM ? (websiteM[1] || null) : null,
+        pageSlug: pageM    ? pageM[1]               : null,
+      };
+      // Full-name key (no honorifics, lowercase): "soo jeong youn"
+      const fullKey = rawName
+        .replace(/^(Dr\.\s*|Mr\.\s*|Ms\.\s*|Prof\.\s*)/i, '')
+        .replace(/\s*\([^)]+\)\s*/g, ' ')   // strip (Bill), (Del), etc.
+        .replace(/\b[A-Z]\.\s*/g, '')        // strip middle initials like "F."
+        .replace(/\s+/g, ' ').trim().toLowerCase();
+      byName[fullKey] = guest;
+      // Last-name key (just the final word): "youn"
+      const lastName = fullKey.split(' ').pop();
+      if (!byLastName[lastName]) byLastName[lastName] = guest; // first match wins
     }
   } catch (_) { /* guests.html missing — skip */ }
-  return lookup;
+  return { byName, byLastName };
 }
 
-/** Extract the guest's name from an episode title.
- *  Matches "…with Dr. First Last" or "…with First Last" at end of title. */
+/** Extract the guest's name from an episode title, handling common patterns:
+ *  - trailing "Part 1 / Part 2"
+ *  - extra text after a comma: "Dr. Klonsky, UBC Professor…"
+ *  - parenthetical nicknames: "Dr. William (Bill) Stiles"
+ */
 function extractGuestName(title) {
-  const m = title.match(/\bwith\s+((?:Dr\.\s+|Mr\.\s+|Ms\.\s+|Prof\.\s+)?[A-Z][a-zA-Z''-]+(?:\s+[A-Z][a-zA-Z''-]+)+)\s*$/i);
-  return m ? m[1].trim() : null;
+  let t = title
+    .replace(/\s*\|.*$/, '')                         // strip "| Podcast Name"
+    .replace(/\s+Part\s+\d+(\s+of\s+\d+)?\s*$/i, '') // strip trailing "Part 1"
+    .trim();
+  // Match "with [honorific] Name" stopping at comma, &, "and", or end-of-string
+  const m = t.match(
+    /\bwith\s+((?:Dr\.\s+|Mr\.\s+|Ms\.\s+|Prof\.\s+)?[A-Z][a-zA-Z''.\-]+(?:\s+(?:\([^)]+\)\s+)?[A-Z][a-zA-Z''.\-]+)*)(?:\s*,|\s+&|\s+and\s+|$)/i
+  );
+  if (!m) return null;
+  // Normalise: strip parentheticals like "(Bill)" and collapse whitespace
+  return m[1].replace(/\s*\([^)]+\)\s*/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
 // ─── Buzzsprout Tab Fetching (chapters + transcript) ─────────────────────────
@@ -342,18 +371,36 @@ function buildEpisodePage(ep, youtubeVideoId, tabs, guestsLookup, slug) {
   };
 
   // ── Person schema (guest) ────────────────────────────────────────────────
-  let personSchema = null;
+  let personSchema  = null;
+  let guestFullName = null;
+  let guestPhoto    = null;
+  let guestPageSlug = null;
   if (guestsLookup) {
     const guestRaw = extractGuestName(ep.title);
     if (guestRaw) {
-      const key = guestRaw.replace(/^(Dr\.\s*|Mr\.\s*|Ms\.\s*|Prof\.\s*)/i, '').trim().toLowerCase();
-      const guest = guestsLookup[key];
+      // Normalise extracted name the same way loadGuestsLookup normalises keys
+      const normalize = s => s
+        .replace(/^(Dr\.\s*|Mr\.\s*|Ms\.\s*|Prof\.\s*)/i, '')
+        .replace(/\s*\([^)]+\)\s*/g, ' ')
+        .replace(/\b[A-Z]\.\s*/g, '')
+        .replace(/\s+/g, ' ').trim().toLowerCase();
+
+      const fullKey  = normalize(guestRaw);
+      const lastName = fullKey.split(' ').pop();
+
+      // Try full-name match first, then fall back to last-name match
+      const guest = guestsLookup.byName[fullKey] || guestsLookup.byLastName[lastName] || null;
+
       if (guest) {
-        personSchema = { '@context': 'https://schema.org', '@type': 'Person', 'name': guest.fullName };
+        guestFullName = guest.fullName;
+        guestPhoto    = guest.photo    || null;
+        guestPageSlug = guest.pageSlug || null;
+        personSchema  = { '@context': 'https://schema.org', '@type': 'Person', 'name': guest.fullName };
         if (guest.website) personSchema['url'] = guest.website;
       } else {
         // Guest not found in lookup — use the extracted name anyway
-        personSchema = { '@context': 'https://schema.org', '@type': 'Person', 'name': guestRaw };
+        guestFullName = guestRaw;
+        personSchema  = { '@context': 'https://schema.org', '@type': 'Person', 'name': guestRaw };
       }
     }
   }
@@ -615,12 +662,25 @@ ${audioSection}
         </div>
       </div>
 
+      ${guestPhoto && guestPageSlug ? `<div class="ep-sidebar-card">
+        <h3 class="ep-sidebar-heading">About the Guest</h3>
+        <a href="../guests/${guestPageSlug}.html" class="ep-guest-card-link">
+          <div class="ep-host-card">
+            <img src="${guestPhoto}" alt="${guestFullName}" class="ep-host-avatar">
+            <div>
+              <div class="ep-host-name">${guestFullName}</div>
+              <div class="ep-host-title">View guest profile →</div>
+            </div>
+          </div>
+        </a>
+      </div>` : ''}
+
       <div class="ep-sidebar-card">
         <h3 class="ep-sidebar-heading">About the Host</h3>
         <div class="ep-host-card">
-          <img src="../logo.webp" alt="Dan" class="ep-host-avatar">
+          <img src="../images/Dan_Picture.JPG" alt="Dan Cox" class="ep-host-avatar">
           <div>
-            <div class="ep-host-name">Dan</div>
+            <div class="ep-host-name">Dan Cox</div>
             <div class="ep-host-title">Professor, University of British Columbia</div>
           </div>
         </div>
