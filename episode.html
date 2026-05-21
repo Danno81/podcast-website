@@ -317,11 +317,28 @@
         return;
       }
 
-      renderEpisodePage(episode, episodes);
+      // Derive the episode's slug (same logic as shared.js / generate.js)
+      const epSlug = episode.audioUrl
+        ? episode.audioUrl.replace('https://www.buzzsprout.com/2324798/episodes/', '').replace('.mp3', '')
+        : String(episode.id);
+
+      // Redirect to the canonical static page — this is the SEO-correct URL and
+      // contains pre-rendered transcript + chapters that crawlers can index.
+      window.location.replace(`/ep/${epSlug}.html`);
+      return;
     }
 
     // ---- Render ----------------------------------------------
+    // Note: renderEpisodePage is kept as a fallback for cases where the static
+    // page hasn't been generated yet (e.g. a brand-new episode mid-publish).
     function renderEpisodePage(episode, allEpisodes) {
+      // ---- Canonical URL (fallback — normally we redirect above) ----------
+      const epSlug = episode.audioUrl
+        ? episode.audioUrl.replace('https://www.buzzsprout.com/2324798/episodes/', '').replace('.mp3', '')
+        : String(episode.id);
+      const canonicalUrl = `https://psychotherapyandappliedpsychology.com/ep/${epSlug}.html`;
+      document.getElementById('canonical-url').setAttribute('href', canonicalUrl);
+
       // Meta
       const shortTitle = episode.title.length > 60
         ? episode.title.substring(0, 57) + '…'
