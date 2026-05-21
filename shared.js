@@ -236,9 +236,9 @@ function createEpisodePreviewCard(episode) {
     : episode.description;
 
   const epSlug = episode.audioUrl
-    ? episode.audioUrl.replace('https://www.buzzsprout.com/2324798/episodes/', '').replace('.mp3', '')
+    ? episode.audioUrl.replace('https://www.buzzsprout.com/2324798/episodes/', '').replace('.mp3', '').replace(/^\d+-/, '')
     : String(episode.id);
-  const episodeUrl = `/ep/${epSlug}.html`;
+  const episodeUrl = `/ep/${epSlug}/`;
 
   card.innerHTML = `
     <a href="${episodeUrl}" class="episode-preview-artwork-link" style="display:block; text-decoration:none;">
@@ -293,7 +293,7 @@ function createEpisodeCard(episode) {
     <div class="episode-expanded-content">
       <div class="episode-description-full">${episode.descriptionHtml}</div>
       <div class="episode-actions" style="display:flex; gap:0.75rem; flex-wrap:wrap;">
-        <a href="/ep/${episode.audioUrl ? episode.audioUrl.replace('https://www.buzzsprout.com/2324798/episodes/','').replace('.mp3','') : episode.id}.html" class="btn btn-primary btn-sm">Full Episode Page</a>
+        <a href="/ep/${episode.audioUrl ? episode.audioUrl.replace('https://www.buzzsprout.com/2324798/episodes/','').replace('.mp3','').replace(/^\d+-/,'') : episode.id}/" class="btn btn-primary btn-sm">Full Episode Page</a>
         <a href="${episode.link}" target="_blank" class="btn btn-secondary btn-sm">View on Buzzsprout</a>
       </div>
     </div>

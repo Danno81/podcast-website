@@ -14,6 +14,9 @@
   <meta name="description" id="page-description" content="Psychotherapy and Applied Psychology - A podcast hosted by Dr. Daniel W Cox">
   <meta name="theme-color" content="#1a3a52">
 
+  <!-- SEO: Do not index this redirect shell — the canonical static pages are in /ep/ -->
+  <meta name="robots" content="noindex, follow">
+
   <!-- SEO: Canonical (updated dynamically by JS) -->
   <link rel="canonical" id="canonical-url" href="https://psychotherapyandappliedpsychology.com/episode.html">
 
@@ -317,14 +320,13 @@
         return;
       }
 
-      // Derive the episode's slug (same logic as shared.js / generate.js)
+      // Derive the clean slug (strip numeric prefix — matches generate.js / shared.js)
       const epSlug = episode.audioUrl
-        ? episode.audioUrl.replace('https://www.buzzsprout.com/2324798/episodes/', '').replace('.mp3', '')
+        ? episode.audioUrl.replace('https://www.buzzsprout.com/2324798/episodes/', '').replace('.mp3', '').replace(/^\d+-/, '')
         : String(episode.id);
 
-      // Redirect to the canonical static page — this is the SEO-correct URL and
-      // contains pre-rendered transcript + chapters that crawlers can index.
-      window.location.replace(`/ep/${epSlug}.html`);
+      // Redirect to the canonical static page — pre-rendered, crawlable, clean URL.
+      window.location.replace(`/ep/${epSlug}/`);
       return;
     }
 
@@ -334,9 +336,9 @@
     function renderEpisodePage(episode, allEpisodes) {
       // ---- Canonical URL (fallback — normally we redirect above) ----------
       const epSlug = episode.audioUrl
-        ? episode.audioUrl.replace('https://www.buzzsprout.com/2324798/episodes/', '').replace('.mp3', '')
+        ? episode.audioUrl.replace('https://www.buzzsprout.com/2324798/episodes/', '').replace('.mp3', '').replace(/^\d+-/, '')
         : String(episode.id);
-      const canonicalUrl = `https://psychotherapyandappliedpsychology.com/ep/${epSlug}.html`;
+      const canonicalUrl = `https://psychotherapyandappliedpsychology.com/ep/${epSlug}/`;
       document.getElementById('canonical-url').setAttribute('href', canonicalUrl);
 
       // Meta

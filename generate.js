@@ -91,15 +91,22 @@ function isoDuration(seconds) {
 
 // ─── Slug & Guest Helpers ─────────────────────────────────────────────────────
 
-/** Derive a keyword-rich slug from the episode's audio_url.
- *  e.g. audio_url ending in "18914652-psychedelic-therapy-jason-luoma.mp3"
- *  → slug = "18914652-psychedelic-therapy-jason-luoma"
- *  Falls back to the numeric id if audio_url is absent.
+/** Derive the full slug from the episode's audio_url (includes numeric prefix).
+ *  e.g. "18914652-psychedelic-therapy-jason-luoma"
+ *  Used only to generate backward-compat redirect stubs for old URLs.
  */
 function getEpisodeSlug(ep) {
   if (!ep.audio_url) return String(ep.id);
   const m = ep.audio_url.match(/\/episodes\/([^.]+)\.mp3/);
   return m ? m[1] : String(ep.id);
+}
+
+/** Derive the clean, human-readable slug — strips the leading numeric ID.
+ *  e.g. "18914652-psychedelic-therapy-jason-luoma" → "psychedelic-therapy-jason-luoma"
+ *  This is the canonical slug used for all URLs and file output.
+ */
+function getCleanSlug(ep) {
+  return getEpisodeSlug(ep).replace(/^\d+-/, '');
 }
 
 /** Pull every guest name, photo, website, and page slug out of guests.html.
@@ -145,8 +152,9 @@ function loadGuestsLookup() {
  */
 function extractGuestName(title) {
   let t = title
-    .replace(/\s*\|.*$/, '')                         // strip "| Podcast Name"
-    .replace(/\s+Part\s+\d+(\s+of\s+\d+)?\s*$/i, '') // strip trailing "Part 1"
+    .replace(/\s*\|.*$/, '')                              // strip "| Podcast Name"
+    .replace(/\s+Part\s+\d+(\s+of\s+\d+)?\s*$/i, '')     // strip trailing "Part 1"
+    .replace(/\s*\((Encore|Rerun|Replay|Re-?release)\)\s*$/i, '') // strip "(Encore)" etc.
     .trim();
   // Match "with [honorific] Name" stopping at comma, &, "and", or end-of-string
   const m = t.match(
@@ -327,7 +335,7 @@ function buildContentTabs(ep, tabs) {
 
 function buildEpisodePage(ep, youtubeVideoId, tabs, guestsLookup, slug) {
   slug             = slug || String(ep.id);
-  const pageUrl    = `${BASE_URL}/ep/${slug}.html`;
+  const pageUrl    = `${BASE_URL}/ep/${slug}/`;
   const title      = escapeHtml(ep.title);
   const desc       = metaDesc(ep.description);
   const descEsc    = escapeHtml(desc);
@@ -496,7 +504,7 @@ function buildEpisodePage(ep, youtubeVideoId, tabs, guestsLookup, slug) {
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../../style.css">
   <style>
     /* Episode content tabs */
     .ep-tabs-nav { display:flex; border-bottom:2px solid #e5e7eb; margin-bottom:1.5rem; gap:0; }
@@ -517,8 +525,8 @@ function buildEpisodePage(ep, youtubeVideoId, tabs, guestsLookup, slug) {
   </style>
 
   <!-- Favicon -->
-  <link rel="icon" href="../logo.png" type="image/png">
-  <link rel="apple-touch-icon" href="../logo.png">
+  <link rel="icon" href="../../logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="../../logo.png">
   <link rel="alternate" type="application/rss+xml" title="${PODCAST_TITLE}" href="${RSS_FEED}">
 
   <!-- Schema.org: PodcastEpisode + BreadcrumbList + Person -->
@@ -529,20 +537,20 @@ function buildEpisodePage(ep, youtubeVideoId, tabs, guestsLookup, slug) {
   <!-- Header & Navigation -->
   <header>
     <div class="container">
-      <a href="../index.html" class="logo">
-        <img src="../logo.webp" alt="Podcast Logo">
+      <a href="../../" class="logo">
+        <img src="../../logo.webp" alt="Podcast Logo">
         <span>Psychotherapy &amp; Applied Psychology</span>
       </a>
       <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
         <span class="hamburger-icon">☰</span>
       </button>
       <nav>
-        <a href="../index.html">Home</a>
-        <a href="../episodes.html">Episodes</a>
-        <a href="../guests.html">Guests</a>
-        <a href="../about.html">About</a>
-        <a href="../contact.html">Contact</a>
-        <a href="../faq.html">FAQ</a>
+        <a href="../../">Home</a>
+        <a href="../../episodes.html">Episodes</a>
+        <a href="../../guests.html">Guests</a>
+        <a href="../../about.html">About</a>
+        <a href="../../contact.html">Contact</a>
+        <a href="../../faq.html">FAQ</a>
       </nav>
     </div>
   </header>
@@ -551,9 +559,9 @@ function buildEpisodePage(ep, youtubeVideoId, tabs, guestsLookup, slug) {
   <section class="ep-hero">
     <div class="container">
       <nav class="ep-breadcrumb" aria-label="breadcrumb">
-        <a href="../index.html">Home</a>
+        <a href="../../">Home</a>
         <span class="breadcrumb-sep">›</span>
-        <a href="../episodes.html">Episodes</a>
+        <a href="../../episodes.html">Episodes</a>
         <span class="breadcrumb-sep">›</span>
         <span>${title}</span>
       </nav>
@@ -664,7 +672,7 @@ ${audioSection}
 
       ${guestPhoto && guestPageSlug ? `<div class="ep-sidebar-card">
         <h3 class="ep-sidebar-heading">About the Guest</h3>
-        <a href="../guests/${guestPageSlug}.html" class="ep-guest-card-link">
+        <a href="../../guests/${guestPageSlug}.html" class="ep-guest-card-link">
           <div class="ep-host-card">
             <img src="${guestPhoto}" alt="${guestFullName}" class="ep-host-avatar">
             <div>
@@ -678,14 +686,14 @@ ${audioSection}
       <div class="ep-sidebar-card">
         <h3 class="ep-sidebar-heading">About the Host</h3>
         <div class="ep-host-card">
-          <img src="../images/Dan_Picture.JPG" alt="Dan Cox" class="ep-host-avatar">
+          <img src="../../images/Dan_Picture.JPG" alt="Dan Cox" class="ep-host-avatar">
           <div>
             <div class="ep-host-name">Dan Cox</div>
             <div class="ep-host-title">Professor, University of British Columbia</div>
           </div>
         </div>
         <p class="ep-host-bio">Dan researches the science of psychotherapy, bringing world-leading experts to discuss what actually works in mental health treatment.</p>
-        <a href="../about.html" class="ep-sidebar-link">Learn more →</a>
+        <a href="../../about.html" class="ep-sidebar-link">Learn more →</a>
       </div>
 
     </aside>
@@ -700,7 +708,7 @@ ${audioSection}
       </div>
       <div id="related-container" class="latest-episodes"></div>
       <div style="text-align:center; margin-top: var(--spacing-2xl);">
-        <a href="../episodes.html" class="btn btn-primary">View All Episodes</a>
+        <a href="../../episodes.html" class="btn btn-primary">View All Episodes</a>
       </div>
     </div>
   </section>
@@ -708,7 +716,7 @@ ${audioSection}
   <!-- Footer -->
   <footer></footer>
 
-  <script src="../shared.js"></script>
+  <script src="../../shared.js"></script>
   <script>
     // Load related episodes
     (async function() {
@@ -733,7 +741,7 @@ function buildStaticPreviewCard(ep, slug) {
   const dateStr  = formatDate(ep.published_at);
   const dur      = formatDuration(ep.duration);
   const epLabel  = ep.episode_number ? `Ep. ${ep.episode_number}` : '';
-  const epUrl    = `/ep/${slug}.html`;
+  const epUrl    = `/ep/${slug}/`;
 
   return `<div class="episode-preview">
       <a href="${epUrl}" class="episode-preview-artwork-link" style="display:block; text-decoration:none;">
@@ -777,9 +785,9 @@ function injectStaticEpisodes(episodes) {
   const JSONLD_START  = '<!-- JSONLD_EPISODES_START -->';
   const JSONLD_END    = '<!-- JSONLD_EPISODES_END -->';
 
-  // Build slug lookup
+  // Build slug lookup (clean slugs for URLs)
   const slugFor = {};
-  episodes.forEach(ep => { slugFor[ep.id] = getEpisodeSlug(ep); });
+  episodes.forEach(ep => { slugFor[ep.id] = getCleanSlug(ep); });
 
   // ── Homepage: 8 alternating episodes (matches JS ticker selection) ──────
   if (fs.existsSync(INDEX_PATH)) {
@@ -854,10 +862,10 @@ function buildSitemap(episodes) {
   </url>`).join('');
 
   const episodeEntries = episodes.map(ep => {
-    const slug = getEpisodeSlug(ep);
+    const slug = getCleanSlug(ep);
     return `
   <url>
-    <loc>${BASE_URL}/ep/${slug}.html</loc>
+    <loc>${BASE_URL}/ep/${slug}/</loc>
     <lastmod>${ep.published_at ? ep.published_at.split('T')[0] : new Date().toISOString().split('T')[0]}</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
@@ -924,18 +932,26 @@ async function main() {
       const ytEntry = youtubeMap[String(ep.id)];
       const youtubeVideoId = ytEntry ? ytEntry.videoId : null;
       const tabs = tabsCache[ep.id] || { chapters: [], transcript: '' };
-      const slug = getEpisodeSlug(ep);
+      const fullSlug  = getEpisodeSlug(ep);   // e.g. "19034714-how-to-make-therapy…"
+      const cleanSlug = getCleanSlug(ep);      // e.g. "how-to-make-therapy…"
 
-      // Write the main slug-based page
-      const html = buildEpisodePage(ep, youtubeVideoId, tabs, guestsLookup, slug);
-      fs.writeFileSync(path.join(OUT_DIR, `${slug}.html`), html, 'utf8');
+      // Write the canonical page as ep/{clean-slug}/index.html
+      // GitHub Pages serves this at /ep/{clean-slug}/ — no .html, no numeric prefix
+      const html = buildEpisodePage(ep, youtubeVideoId, tabs, guestsLookup, cleanSlug);
+      const epDir = path.join(OUT_DIR, cleanSlug);
+      fs.mkdirSync(epDir, { recursive: true });
+      fs.writeFileSync(path.join(epDir, 'index.html'), html, 'utf8');
 
-      // Write a lightweight redirect from the old numeric-ID URL → slug URL
-      if (slug !== String(ep.id)) {
-        const slugUrl = `/ep/${slug}.html`;
-        const redirectHtml = `<!DOCTYPE html><html><head><meta charset="UTF-8"><link rel="canonical" href="${BASE_URL}${slugUrl}"><meta http-equiv="refresh" content="0; url=${slugUrl}"><title>Redirecting…</title></head><body><a href="${slugUrl}">Click here if not redirected.</a></body></html>`;
-        fs.writeFileSync(path.join(OUT_DIR, `${ep.id}.html`), redirectHtml, 'utf8');
+      // Redirect stubs for old URL patterns → new clean URL
+      const newUrl      = `/ep/${cleanSlug}/`;
+      const redirectHtml = `<!DOCTYPE html><html><head><meta charset="UTF-8"><link rel="canonical" href="${BASE_URL}${newUrl}"><meta http-equiv="refresh" content="0; url=${newUrl}"><title>Redirecting…</title></head><body><a href="${newUrl}">Click here if not redirected.</a></body></html>`;
+
+      // /ep/19034714-how-to-make-therapy….html  (old numeric-slug URL)
+      if (fullSlug !== cleanSlug) {
+        fs.writeFileSync(path.join(OUT_DIR, `${fullSlug}.html`), redirectHtml, 'utf8');
       }
+      // /ep/19034714.html  (bare numeric ID URL)
+      fs.writeFileSync(path.join(OUT_DIR, `${ep.id}.html`), redirectHtml, 'utf8');
 
       generated++;
     } catch (err) {

@@ -664,6 +664,23 @@ Dr. Boswell has conducted large-scale psychotherapy process studies and contribu
     websiteLabel: 'albany.edu',
     buzzsproutContributor: null,
   },
+  {
+    slug: 'soojeongyoun',
+    name: 'Dr. Soo Jeong Youn',
+    matchLastName: 'Youn',
+    photo: 'https://www.buzzsprout.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTcyNjMyOTIwLCJwdXIiOiJibG9iX2lkIn19--d4c8a170d39dd382b6e738ba8d8261ac2cfb774d/Soo-Jeong-Youn.jpg',
+    affiliation: 'Equip',
+    role: 'Research Director & Clinical Psychologist',
+    shortTagline: 'Clinical psychologist bridging psychotherapy research and real-world practice through implementation science, routine outcome monitoring, and scalable, data-driven mental health care.',
+    bio: `Dr. Soo Jeong Youn is a clinical psychologist and Research Director for Equip, where she focuses on improving access to effective mental health care through implementation science, data-driven clinical practice, and dissemination of evidence-based treatments. Her research has emphasized psychotherapy process and outcome, therapist effects, routine outcome monitoring, practice-oriented research networks, precision mental health care, and scalable interventions.
+
+Across her work, Dr. Youn has sought to bridge the gap between psychotherapy research and real-world clinical practice, especially in community and underserved settings. She has been a leading voice for closing the research-to-practice gap by building partnerships between researchers and frontline clinicians, and by developing tools and systems that make outcome data useful at the point of care.
+
+Dr. Youn has received national and international recognition for her contributions to the field and is currently President of the North American Society for Psychotherapy Research (NASPR).`,
+    website: 'https://www.equip.health/',
+    websiteLabel: 'equip.health',
+    buzzsproutContributor: 'https://www.buzzsprout.com/2324798/contributors/137599-dr-soo-jeong-youn',
+  },
 ];
 
 // ---------------------------------------------------------------------------

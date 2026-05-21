@@ -1504,6 +1504,21 @@ audio {
   color: var(--primary);
 }
 
+.ep-guest-card-link {
+  text-decoration: none;
+  display: block;
+}
+.ep-guest-card-link:hover .ep-host-name {
+  color: var(--primary);
+}
+.ep-guest-card-link:hover .ep-host-avatar {
+  opacity: 0.85;
+}
+.ep-guest-card-link .ep-host-title {
+  color: var(--primary);
+  font-weight: 600;
+}
+
 /* Related episodes */
 .ep-related-section {
   background-color: var(--background);

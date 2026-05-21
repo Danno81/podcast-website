@@ -298,9 +298,9 @@ window.YOUTUBE_MAP = {
     "ytTitle": "The Psychology of Perfectionism: The struggle to be good enough with Dr. Paul Hewitt Part 2"
   },
   "15911724": {
-    "videoId": "4IFop0GotgQ",
+    "videoId": "fadovyBnkMI",
     "confidence": 100,
-    "ytTitle": "The Psychology of Perfectionism: The struggle to be good enough with Dr. Paul Hewitt Part 2"
+    "ytTitle": "The Psychology of Perfectionism: The struggle to be good enough with Dr. Paul Hewitt Part 1"
   },
   "15871605": {
     "videoId": "qKLOtboIaMk",
