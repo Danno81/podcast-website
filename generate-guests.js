@@ -681,6 +681,23 @@ Dr. Youn has received national and international recognition for her contributio
     websiteLabel: 'equip.health',
     buzzsproutContributor: 'https://www.buzzsprout.com/2324798/contributors/137599-dr-soo-jeong-youn',
   },
+  {
+    slug: 'stevannielsen',
+    name: 'Dr. Stevan Lars Nielsen',
+    matchLastName: 'Nielsen',
+    photo: 'https://www.buzzsprout.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTcyNjkzNzI4LCJwdXIiOiJibG9iX2lkIn19--ec5f005fae23671e3bd2d695879a0484d8a01c4c/citations.jpeg',
+    affiliation: 'Brigham Young University',
+    role: 'Clinical Professor & Psychologist',
+    shortTagline: 'Clinical psychologist studying psychotherapy process and outcome — therapist effects, routine outcome monitoring, and religiously integrated rational emotive behavior therapy.',
+    bio: `Dr. Stevan Lars Nielsen is a Clinical Professor and psychologist at Brigham Young University, jointly affiliated with Counseling Psychology and Special Education and Counseling and Psychological Services at BYU.
+
+His research has focused on psychotherapy process and outcome, especially therapist effects, routine outcome monitoring, clinical feedback systems, treatment failure, therapist development, and improving outcomes for clients at risk of deterioration. He has also contributed to work on religiously integrated psychotherapy, including rational emotive behavior therapy with religious clients.
+
+His professional distinctions include recognition as an Associate Fellow of the Albert Ellis Institute and a Diplomate in Rational Emotive Behavior Therapy.`,
+    website: 'https://education.byu.edu/directory/view/stevan-nielsen',
+    websiteLabel: 'education.byu.edu',
+    buzzsproutContributor: 'https://www.buzzsprout.com/2324798/contributors/137655-dr-stevan-l-nielsen',
+  },
 ];
 
 // ---------------------------------------------------------------------------
