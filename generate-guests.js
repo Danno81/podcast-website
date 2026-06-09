@@ -698,6 +698,23 @@ His professional distinctions include recognition as an Associate Fellow of the 
     websiteLabel: 'education.byu.edu',
     buzzsproutContributor: 'https://www.buzzsprout.com/2324798/contributors/137655-dr-stevan-l-nielsen',
   },
+  {
+    slug: 'danielbuchman',
+    name: 'Dr. Daniel Buchman',
+    matchLastName: 'Buchman',
+    photo: 'https://www.buzzsprout.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc1ODU5NDcwLCJwdXIiOiJibG9iX2lkIn19--420637641306c63a2aa6a32d574707b843d37ca8/Daniel%20Buchman.jpg',
+    affiliation: 'Centre for Addiction and Mental Health & University of Toronto',
+    role: 'Bioethicist & Associate Professor, Dalla Lana School of Public Health',
+    shortTagline: 'Bioethicist examining stigma, moral responsibility, and compassion at the intersection of mental health, substance use, and chronic pain.',
+    bio: `Dr. Daniel Buchman is a bioethicist and scientist at the Centre for Addiction and Mental Health (CAMH) and an associate professor in the Dalla Lana School of Public Health at the University of Toronto. He is also a member of the Joint Centre for Bioethics, an affiliate scientist at the Krembil Research Institute, and a member of CIHR's Advisory Committee on Ethics, where he directs the Everyday Ethics Lab at CAMH.
+
+His research examines ethical issues at the intersection of clinical practice and population health — especially in mental health, substance use, chronic pain, neurotechnologies, psychedelics, opioids, big data, and artificial intelligence. Across this work he focuses on stigma, social justice, identity, moral responsibility, and compassion, drawing on both conceptual and empirical bioethics methods.
+
+His honours include a 2020 AMS Healthcare Compassion and Artificial Intelligence Fellowship and a CIHR Frederick Banting and Charles Best Canada Graduate Scholarship Doctoral Research Award.`,
+    website: 'https://www.dlsph.utoronto.ca/faculty-profile/buchman-daniel/',
+    websiteLabel: 'dlsph.utoronto.ca',
+    buzzsproutContributor: 'https://www.buzzsprout.com/2324798/contributors/140610-dr-daniel-buchman',
+  },
 ];
 
 // ---------------------------------------------------------------------------
