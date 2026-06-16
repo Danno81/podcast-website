@@ -1,0 +1,516 @@
+[Music]
+Today's episode is a little different from our usual conversations.
+We're still talking about mental health treatment,
+but this conversation leans more into the underlying philosophies of what we do the most.
+So it feels a little less like,
+"Here's a clinical technique that you can use on Tuesday, and a little more like,
+how should we think about the hardest corners of care that is very much by design?"
+What do clinicians do when treatment is technically available,
+but it's not helping the person in front of us?
+My guest works in bioethics,
+and we spend the first half of this conversation building toward a topic that's uncomfortable,
+clinically important, and easy to misunderstand.
+Palliative, psychiatry.
+This is not a conversation about giving up on people.
+It's a conversation about suffering, quality of life,
+the limits of medicine, and how clinicians might think more carefully
+when the usual treatment framework is not working.
+Today's episode, we talk about how my guest got into bioethics,
+the role of clinical ethicists in hospitals,
+how palliative care principles might apply to serious and persistent mental illness,
+and why the word futility carries so much weight in mental health care.
+But first, if you're new here, I'm your host, Dr. Dan Cox,
+a professor of counseling psychology at the University of British Columbia.
+This is psychotherapy and applied psychology,
+where I talk with leading researchers about what matters in practice,
+what's behind the findings, and what they wish clinicians new sooner.
+And if you enjoy the show, please subscribe when your podcast player
+or on YouTube, like and subscribe.
+That small click makes a surprisingly big difference.
+This episode begins with the story of how my guest found his way into bioethics,
+including a powerful early experience that brought together memory,
+trauma, suffering, and the question of what medicine is for.
+So without further ado, here's my conversation with Dr. Daniel Buckman.
+[MUSIC]
+I've long been interested in ethical and social issues that arise in healthcare.
+I think when our around the dinner table growing up,
+I have a parent who's a healthcare professional.
+And so hearing things such as
+bowel movements or blood or things that are happening with the human body,
+or things that are just happening in the healthcare system generally,
+was something that was very much part of my environment growing up.
+And kind of just sort of had a language that we sort of talked about this every day.
+You know, my father who's a healthcare professional also very committed to issues around social justice,
+and other sort of values in healthcare.
+And so I think that was very much as part of our like,
+again, dinner time or everyday conversation as well.
+So it was very much absorbed into me and my family growing up.
+And then when I was in undergraduate, I was an undergraduate student.
+I was in a program called Social Studies of Medicine.
+And within social studies of medicine, we took a range of classes, medical history,
+medical anthropology, medical sociology, and bioethics.
+And the bioethics class absolutely blew me away.
+We were talking about issues that were coming up in research, in practice,
+these like really thorny dilemmas.
+I was like, this is a thing.
+Like you can actually think about these things and study these things.
+We learned about scandals like the Tuskegee syphilis study or the Willow Brook study
+or the Nazi medical experiments.
+And aside from being a completely sort of appalled of what human beings are capable of,
+in the name of science, in the name of medicine, I was sort of just fascinated that this was
+sort of an area of exploration.
+And sort of around that time, I was taking a class in neuroscience.
+I think it was more in like behavioral neuroscience.
+And the professor I had, Dr. Kreeb-Nader actually, he was doing some really interesting work on
+condition place preference. And also sort of this like this condition, this conditioning
+experiments where he'd put two rats in a cage.
+And or he put a rat in a cage and he would pair a light with an electric shock.
+And then, you know, the follow-up would be, and he would measure like the the startle response
+in the in the rat or on their paws.
+And then he would show, if I've got these experiments correct, a light.
+And now that's paired with the shock.
+And so the rat would still exhibit a startle response, but not be actually be shocked, right?
+So there's a classic design, experimental design, in condition.
+And what he was interested in is if there was a way to erase or even eliminate
+or dampen the emotional impact of these rats' fear memories.
+So he, I believe, gave these rats per per analogue, which is a beta blocker.
+And actually found when he then presented these rats who had been shocked with the light,
+before the light and then paired with the shock, just the light, who were given per per analogue,
+they showed a diminished fear response.
+And I was like, this is fascinating. This has so many sort of ethical, like,
+considerations like, you know, this was done in rats, which has its own sort of set of issues,
+but with animals, but human beings. And so as I was sort of bitten by this bioethics bug,
+as an undergraduate, I was very fortunate to get a summer research job
+through the joints and for bioethics at the University of Toronto. And part of that was being paired
+with a clinical ethicist, so an ethicist who works in a hospital. And follow them around and do some,
+do like a project for the summer and ethics as an undergraduate student. So I was,
+I was placed at Baycrest Center for Geriatric Care in Toronto. And this at the time, I don't know if
+it's still the case, but at the time they had the sort of largest concentration of Holocaust
+survivors anywhere in the world, I think, outside of New York maybe. And I was following Dr. Marcia
+Sokolowski, who was the bioethicist there at the time. And we were on one of the units and we walked
+past this room of some room of a of a patient, an older, an older person, an older woman who had
+advanced stages of dementia and was having flashbacks. And she was having flashbacks to her time in the
+concentration camps. Terrible, horrible traumatic flashbacks. I was startled. And I couldn't believe
+what was happening. And there was something sort of within me being like, well, what can we do for this
+person? And it was sort of at that moment where I started to link this, what was going on in my
+behavioral neuroscience class at university and the experience of this person having a traumatic
+flashback. What if we, you know, were able to apply, gave her this person for Pranolol and dampen
+her traumatic memories. So she doesn't suffer. You know, I had been learning about sort of the goals
+in the ends of medicine and, you know, the duty to relieve suffering, to promote welfare, to
+relieve suffering, has been core values in healthcare and in medicine. Well, wouldn't relieving suffering
+in this person be something that we ought to do? And that's an ethics question. However, I was also
+learning concurrently around, you know, issues around post-traumatic growth or things around narrative
+identity. There are people, you know, in the world throughout history who had gone through unimaginable
+atrocities and have provided testimony about it, have been able to bear, you know, bear witness,
+been able to tell the world about how these horrible things based on their experiences. If we did
+that, if we were able to erase or even emotionally dampen the impact of the traumatic memory,
+might we also be impacting the ability to provide testimony about these atrocities? So these are
+fundamental ethics questions. What I focused on in my summer, from my summer research position.
+And so I continued to maintain interest of this, you know, I had wanted, you know, it's like,
+how do I do this? How do I become like a clinical ethicist? This was so fascinating to me. And I
+ended up doing a Master's in Social Work. I was also very interested in mental health and
+substance use. And I was also then became sort of very interested in ethics and social work. And I
+sort of trained to be an addictions counselor worked in areas such as first episode psychosis. And, you
+know, I had been so fascinated again by ethics. I started sort of see ethics everywhere. Ethics not
+just in like the big issues, but the everyday issues. The micro moments of working with someone who's
+experiencing severe and persistent mental illness. And we're meeting them, for example, maybe in
+their shelter or meeting them wherever they're happening to live, which may not necessarily be a house
+or an apartment, right? Some people were street involved or experiencing homelessness or
+inconsistently housed. And it's like there were questions, you know, that came up there too about
+should we force someone to take medication? Or maybe not force them, but how do we strongly persuade
+someone to do that who doesn't want to take it? But maybe it's because of the symptoms they're
+experiencing. Right? What are the trade-offs of, you know, medication or not or other options? What are
+the roles of the social determinants of health? So this also started to sort of build into my sort of
+overall interest in the everyday issues that came up in in healthcare and practice, but also broad
+more broadly, sort of in a systemic way. From there, I ended up taking a job out at West, at UBC,
+doing research in a neuroethics research group and was able to explore some of these ideas further.
+I then decided to stay on and do a PhD in bioethics where I got to explore ethical issues related to
+trust and chronic pain and substance use, working with some incredible mentors who I was just like,
+how do I get to be you one day? Like not like actually like, you know, take your job from you,
+but you know, how do I, how can I create that job for myself someday? Because I knew that they're,
+you know, in Canada, you know, and it's which is still the case, there are not many academic
+positions in bioethics that are available at these tenure track positions. There's, you know,
+a lot of clinical ethics roles and major sort of teaching hospitals, but not really many that
+combine the two. And so that's sort of what I had, I had never really had like a five year plan or
+really knew exactly what I wanted to do, sort of, but I knew that this was something that I was
+really excited about. This was a field that I wanted to be able to contribute to both from a
+clinical perspective in terms of supporting healthcare teams, patients, families, others in making
+really, really challenging decisions, but also explore some of these really tough thorny questions
+from a scholarly perspective and be able to contribute that way. So you said that you were working with
+a ethicist or bioethicist in a hospital. And that, so are there do lots of hospitals have
+experts on ethics on staff. And then to the follow up to that is like outside of academic academic
+academic research, where do bioethics folks work? Like what do they do? In Canada, to be accredited
+from a accreditation Canada, you have to have access to ethics resources or an ethics framework.
+And usually that means for a hospital to be accredited. A hospital to be accredited in Canada.
+The US also has certain accreditation standards with regard to ethics services within healthcare.
+I mean, there's really interesting histories there too of how this all came about,
+which we can get into if you'd like, but at the, but there is, in Canada, you have there are
+accreditation requirements. So an ethics is part of that accreditation requirement. So what you
+have in Canada is most teaching hospitals, academic hospitals, will have at least one ethicist or maybe
+a part-time ethicist. Some hospitals, some of the bigger ones will have teams of ethicists who might
+serve a wide range of hospitals or institutions that the organization has. So these are people who
+are, you know, they don't make ethical decisions for you, but their purpose is to support ethical
+decision-making process and enhance ethics capacity within organization. And that may be at
+clinical, so clinical level. So for example, a big part of what clinical ethicists do are what's
+called ethics consultation or healthcare ethics consultation. Right. And so if there's an ethical
+issue that comes up in patient care, let's say, you know, competing values between the patient
+and their family and the healthcare team, or maybe the healthcare team has a different values-based
+perspective than the patient, which has a completely different perspective than the family, but these
+are values-based disagreements. Let's say around things around clinical benefit or even harm,
+or terms like quality of life. And they're out of him pass. An ethicist can come in and work with all
+of these people who are sort of relevant to making the decision and supporting a decision-making.
+An ethicist might also work in what's called organizational ethics. And so that is helping to
+contribute to hospital policy, either drafting it or reviewing it and developing it as well.
+Not all hospital policies, but many hospital policies that might have sort of a moral
+dimension to it. That's important to consider, such even around like privacy and security matters,
+or, you know, in mental health institutions, such as covert administration of medication. So
+that's an important one that an ethicist may be involved in because issues of autonomy,
+of deception, of agency, all those things may come up. The ethicist is often also involved in
+education. So this may be for education for the organization to help build ethics capacity and
+knowledge, or they might work directly with clinical teams or groups. So let's say there's a really
+challenging issue coming up around discharging people and living at risk. So for example, that might
+mean a situation where a patient wants to go home from the hospital after a procedure, but the healthcare
+team feels that their environment is not, you know, quote unquote, safe for them and are worried about
+them going home. But the patient wants to go home. So you might have a conflict there between, you know,
+patient's autonomy and healthcare providers sort of duty to not cause harm, right? And so an ethicist
+can help sort of negotiate that and maybe provide some education around issues around those things
+or consent capacity and so forth. And also many ethicists are involved in research, not maybe as
+of their primary duties, but that's also something that they definitely contribute to.
+Right. Right. So your area, they're one of your areas of research that we're going to,
+there are an expertise that we're going to talk about today is palliative psychiatry.
+So how did you get into palliative psychiatry and then as part of that, what is it?
+So I've long been interested in ethics and mental health and this was something that I had come across
+through introduction from my colleague Dr. Sarah Leavitt, who is a psychiatrist and works on
+what's called an AC team in Toronto and AC stands for a sort of community treatment. And so these
+are people who likely experience severe and persistent mental illness, but also have sort of a lot of
+intersecting structural vulnerabilities as well. So they may also be experiencing homelessness,
+some of them, not all. People may also be disadvantaged due to gender, other sort of other structural
+determinants. And they're often people whose symptoms are very, very severe. They may also have what's
+called a community treatment order. So that's a very specific piece of legislation from the province
+that I'm in, where someone is essentially considered involuntary with respect to treatment, but instead
+of keeping them in the hospital, they're discharged to the community, but with sort of the idea that if
+anything sort of happens within the confines of the CTO, they can be brought back into the hospital
+involuntarily. This is part of the broader deinstitutionalization movement. So that's been happening
+sort of in North America since the '60s and '70s. So anyhow, so I was introduced to this
+through my colleague, but was also, I was noticing as I was also at the time I was working as an
+ethicist in an academic psychiatric hospital. And I was sort of struck by the fact that there were
+a lot of people who were very, very, very unwell. And they were really earnest and good attempts by
+the healthcare teams on helping to treat them, helping to do what they could. Some people had been
+in and out of care and involuntary admissions, you know, had tried every possible treatment,
+and was not necessarily experiencing any clinical benefits from all of those interventions over
+20, 30 years. In some cases, it may have actually even been experiencing increasing harms from them.
+Also knowing some data that about 30% of people with diagnosed major depression have what's
+called treatment-resistant depression, or issues around what's so-called treatment-resistant schizophrenia.
+And seeing healthcare teams sort of being, you know, what we don't know what to do, we've been trying
+everything, this is really hard, patients sort of feeling very frustrated, families being really
+frustrated, being like, isn't there another way then sort of continue doing what we're doing, which
+is not helping with quality of life, suffering is not helping, and even sort of outcomes that, you
+know, we find that we, deep important, or that matter to us, we're not able to achieve, and we've
+been trying this for so, so long. And so I learned about this concept called palliative psychiatry, which
+is applying principles of palliative care that we might think of in physical medicine to
+serious and persistent mental illness. And so, you know, I was very intrigued by this as someone
+who was working within the healthcare system, but also as an ethicist, and it's not, can we apply
+these principles, which I don't know if we can, maybe we can, that's sort of a part of my research
+is trying to figure out, but also should we, and can, you know, should we transfer some of these
+principles to a psychiatric context? What might that look like? If so, what are some of the reasons
+why we might consider that? What are the reasons why we might not want to do that? Why that might not
+be a good idea? Is there, is that a neat transfer, or does it actually look like something else? And also,
+is this already happening in many places, like in the community, like people have been doing this
+for many years, and there's maybe things that we can learn from. Of course, while I was sort of
+getting into all of this, the major discussion that was happening, particularly in Canada, was around
+medical systems dying, in particularly medical school assistance in dying for people with mental
+illnesses, is so underlying medical condition. And so, that was very much in, in the background of
+all of this. And I want to say, like casting a shadow over it, but it was, it was part of the water
+we were swimming in. And some of the questions that I had, we're also coming up in that context,
+but I wasn't sort of, as I wanted to pursue this area, not necessarily thinking that this is part
+of that of medical assistance in dying, but actually, could this be a potentially another way?
+Could this be another sort of, another philosophy, like another philosophical approach, or philosophical
+approach to care, that's not quite treatment as usual, which is not providing any sort of benefit
+to people clinically or otherwise as they define it or made?
+So, just because I think that this is, because a lot of folks, just like I wasn't really,
+aren't going to be familiar with what palliative psychiatry is. Could you give sort of the easy to
+understand pithy definition of what palliative psychiatry, yeah, for listeners?
+For sure. So, it's, so I would say it's a working definition at this point. And part of my research
+is trying to figure out exactly what this might be. But essentially, it's applying sort of the holistic
+principles of palliative care to mental illness. It's looking at increasing quality of life.
+It looks at reducing suffering. It looks at sort of taking a very holistic
+understanding of the person's situation and working with them to help them live life in a way
+that they find most meaningful. It's life-affirming, so it's focused on how can people best live in this
+current situation that they find themselves in? And it works with symptoms as opposed to trying to
+eliminate them, although that could be part of a goal. It doesn't mean that
+curative approaches are off the table. So just like palliative care and physical health,
+people can have curative interventions alongside more comfort oriented or quality of life interventions.
+But the treatment philosophy has changed. So, what does this actually look like? That is to be
+determined. There are some groups that are starting to do this and starting to look at it and
+apply it. But it's still very early days and part of some of my work on more of the health services
+end is trying to figure this out. So what do you think the problem is that palliative psychiatry
+is trying to address that traditional, if that's the right word, that traditional psychiatry
+typically isn't focused on? So I think what palliative psychiatry does, at least for me and how I'm
+sort of conceiving of it or what I've been learning along the way from people with lived experience,
+from healthcare professionals, family members and others, really is that it raises a very uncomfortable
+question or idea about the limits of medicine. It raises issues around the potential limits of
+psychiatry. It doesn't mean that healthcare professionals are not trying their best or healthcare
+professionals aren't doing the best they can or doing whatever they can in order to meet the
+client's goals or improve their quality of life. But that there may actually be limits. And sometimes
+it can help raise questions about what are we doing and why are we doing it?
+Which I think is important in any area of healthcare, as really. But I've sort of found
+and what I've been learning is that sometimes those questions aren't always asked in mental health
+context. And there's very reasons why. There's various reasons that may be the case, right? Sort of
+the nature of various mental health issues, you know, issues around prognosis. These terms that
+have been coming off in the last number of years, which are like these very fuzzy terms, like
+erimedia ability, you know, we don't really, we don't have very good at prognosis. All of these ideas,
+it's like, so there may be sort of some, you know, some concern about some of that. But it really is,
+is what we're doing consistent with the client's goals of care? Is this going to help the
+person, the client or the patient's goals of care? Is this going to, is what we're doing, helping
+going to help the person live, you know, in a way that they find most meaningful? Is it going to
+help reduce their suffering? And is it going to help enhance their quality of life? And so I think
+that's what palliative side-ciatry, at least in this initial working definition, is trying to really get
+at. Yeah, I think that, you know, when we were talking a couple of weeks ago, so we're talking about
+this, it kind of hit me that it's just, it's a different framing, you know, like I have a,
+by training says a psychologist, but there's a lot of similarities there in certain ways.
+Just general mental health training is, right, what's the problem? How can we get rid of the problem?
+Right, like that's typically the focus and that, you know, oftentimes there are
+getting rid of the problem can include some uncomfortable, unpleasant processes, right? So like,
+whether it's side effects or medications or the difficulties of, you know, certain types of
+exposure or behavioral experiments or whatever those types of things are. But so, but the focus
+to orientation is on getting rid of the problem or reducing, shrinking the problem, which is just
+a different perspective than reducing suffering, right? And so like, if we take, if in certain cases,
+we focus on reducing suffering, that just naturally, what we're going to do is going to change clinically.
+Right. Yeah, so it is, I agree with you. It's that reorientation to the situation.
+It's trying to take a different treatment approach or philosophy to what's going on.
+Yeah, which is, I just think it sort of like clicked in that like, oh, this is an opening
+for like a new way of thinking about what we're, what our goal is with our clients and that you
+can see that in certain situations where one might determine and that we're about to get into this,
+that what they're suffering, that sort of, if there's some futility in trying to make this thing go
+away, that perhaps a different type of orientation would best help the client, would be the appropriate
+thing to do. So let's sort of get into that a little bit. So can you, can you sort of this term
+futility, you've done a lot of work on it and sort of this idea of what futility means in psychiatry?
+Could you just give us sort of the 30,000 foot of that to start with?
+Yeah, for sure. So I like to refer to futility as the F word because nobody really likes to say it
+and talk about it and it has a lot of baggage and a lot of meaning behind it. So futility,
+you know, at its core, what we understand from like physical health care is something that
+doesn't work, right? It doesn't work and there could be different reasons for why it doesn't work.
+So in there's a huge literature on futility in medicine, from physical medicine.
+And this largely started to come up in like the, you know, in the 60s and 70s as they were new
+advances in life-sustaining technologies for health care, where people were sort of being able to
+be kept alive or live longer with conditions that were previously sort of untreatable. And
+so these were these, so typically in the literature we think of futility in three different ways,
+although this is sort of at the basic level of what we might think about it, but there are other.
+So the first one is a quantitative futility. And the idea of quantitative futility is that, you know,
+something will not work, you know, in the last sort of 100 cases that a clinician may have seen or
+in the literature, it didn't work in, you know, in achieving its goals or objectives. In this case,
+that might be something that doesn't, it's not going to work. It's quantitatively futile.
+Another example might be something called physiological futility. So the easiest way I think to think
+about that is something that will have almost certainly no physiological effect if you, at treatment,
+if you give it. So, you know, if you give antibiotics for a viral infection, that is
+physiologically futile. Or if you give orange juice for to treat a heart attack, that's also going
+to be physiologically futile. It's not going to work from a physiological perspective. Then there's
+this idea of qualitative futility. And qualitative futility is more of a subjective interpretation
+from the person. So the person might think that, well, this treatment is not helping me contribute
+to a quality of life that I find reasonable or meaningful, or I'm, it's not allowing me to
+achieve certain goals. So it may be, it may not be quantitatively futile and it may not be physiologically
+futile. But from what my goals are, my goals of care are there's things maybe, it may be qualitatively
+futile. So, so an example of this may be in some like end of life contexts in hospitals where
+someone might be on life support or on respiration. And it's not going to cure their underlying
+condition. It's more or less going to keep them alive sort of for a very, very long time. So
+someone may say, well, actually that is, that is futile intervention in this case. But the person may
+say, well, actually, I want to have it because my family members coming in from out of town,
+I want to be able to say goodbye to them before I die. And so they may want to sort of continue
+with that particular intervention. So for them, that may not be something that's futile in that sense.
+So the question also that has come up and similarly with the questions that I've had around
+college psychiatry is, you know, can we and should we invoke futility in psychiatry? So if
+futility in psychiatry is something that is not talked about as much in the literature at all in
+comparison to medicine. And I'm not to say it's been sorted in physical medicine either. There's
+still tons of controversy around it, which is why I call it the F word, like when you bring it up
+and people sort of roll their eyes and go, like, you know, are they? But so the question I had is,
+you know, are people, you know, can you can't be and should we do this? And again, I was also noticing
+that maybe people were referring to futility in mental health, but not using the F word. They were
+saying things like treatment resistance or treatment refractory, which again, I'm going to just
+acknowledge that those are two also very contested terms. They're very much part of the broader sort
+of discourse around this, but there are very contested for various reasons, like exactly what it
+means or even the definition of those. You know, or people saying, oh, that person is a non-responder.
+Are we actually implying futility here? We're just not using that language because maybe there's
+too much sort of baggage associated with it. I don't know. But so I started to notice these things as
+well, where we've seen in the literature in mental health is in around futilities around anorexia nervosa,
+the most of it anyway. And I think that's largely because of the strong physiological component of
+the condition, where, you know, some treatments may be considered, you know, futile and whatever sense
+because of sort of the physiological sequelae that can come from the from the condition itself. So
+people have talked about it really in that context. For example, like continued tube feeding in someone
+with severe and enduring anorexia nervosa, right? You know, the person pulls it out or all the time,
+right? And there's risk associated with that. Or, you know, they're not even doing this for decades
+or for very many years. And it's not, you know, they're not able to gain any weight, right? So that's
+what we've seen in literature around anorexia nervosa. But I started to also wonder, you know,
+what does this, what might this look like in a mental health context are some treatments potentially
+futile for, for, and we're talking about situations of, you know, severe and persistent mental illness
+here. We're not, we're not like, I'm not talking about someone who may, you know, have a diagnosis of,
+you know, general anxiety disorder or depression, who's at sort of minor to moderate levels,
+of that. We're talking people who, you know, have severe mental illness and may, and may be considered
+sort of treatment refractory. However, that's sort of typically defined. You know, or, you know,
+the sort of this cold standard treatment, for example, for treatment resistance, schizophrenia,
+clasipine, right? So some people have what might be called clasipine resistance schizophrenia. And,
+and so that's really sort of what I was, I have been and my colleagues have been thinking about when
+it applies here to, to, to, to potential futility. And so, you know, because it's not spoken about a lot
+and people, you know, don't know what it means. It's sort of also, we're sort of trying to figure out,
+okay, does this exist and what might this look like? And if so, how should we approach it in a
+mental health context? You know, what benefit might it have and what drawbacks does it have?
+It was, so you and some colleagues, I don't know, it's in between like a dozen and 20 folks got together
+somewhere in the middle of Europe and you guys had like a two and a half day conference or two and
+a half day meeting. And you can correct me if I'm saying anything incorrect about this. And then
+it seems like there were several articles that sort of came out, but one of them that you sent me
+was an article by, I think the person who put the conference together or the meeting together,
+perhaps I should say, and there was really a trying to hit the highlights and the different perspectives
+that people, you know, had about these different aspects of futility. And in reading it, so one,
+I'll link it in the show notes, and I forget the author, you can, you can let folks know that. But the,
+in reading it, I had a couple of experiences, one of which was, wow, this person did a really good
+job of communicating some really complicated things in some relatively straightforward ways. So,
+I think it's very readable. Another was, and it was, it seems like this author is doing a good job
+of representing all of the voices. I don't know what your experience was being at the meeting, but that
+was what my experience was reading it. But then there was also a boy, I bet this was fun. Like, I bet
+there were some, there were some arguments that people felt pretty strongly on different camps
+about things. So I was just, as I was reading it, it's kind of a, you're kind of a fly on the wall,
+but not really. Because it's more just a generic reporting, and the author goes to lengths to, you
+can tell, to not disclose or not have any indication of who said what, right? So I was just curious,
+what your experience was being at that meeting, what that was like. Well, I, yeah, first, I first will
+say, like, yeah, kudos to Brent Kios and, and, and many of my colleagues who were tasked with
+putting together the, putting together the manuscript as a summary from that meeting because, yeah, it was
+with such diverse perspectives that was no easy task. So that was a very diplomatic way to say it,
+such diverse perspectives. That was good. It was very different. And understandably so, right?
+It's, this is a very controversial topic. People have a lot of strong moral intuitions about what
+futility is or isn't or whether or not it should or should not be applied in a mental health
+context. And so we, we expected that we had people, we had healthcare professionals, we had
+ethicists, we had philosophers, we had patient advocates, we had activists, and we really wanted that
+those diverse perspectives. So I was part of the planning group that that invited people to
+brought them together. And we really, we, we wanted people who we knew were sort of in favor of this
+concept. We also wanted people who were not in favor of this concept. And people who maybe
+were not sure yet. And I think that was also contribute to a really rich discussion. So what was
+my experience like? Well, it was incredible for various reasons. One is so we were very fortunate
+we applied for funding from the Roche Foundation in Geneva, Switzerland, which funds a lot of
+bioethics research. And we were sort of very fortunate to be able to be awarded funding to hold
+the meeting at their location at on Lake Geneva, which is just absolutely stunning. And I like
+cannot recommend it enough to anyone who has a chance to go is by the border of France. Like
+you just it's just the absolute privilege, you know, of a lifetime to be able to do that.
+And to get and get funding to go. So we were able to invite folks from all over the world.
+And it was really, you know, the discussions were difficult. They were really, really challenging,
+but that's so great. And it's just so rewarding. And we, you know, we didn't really come to a consensus,
+really, it's called a consensus statement, but it's very clear that we did not come to a consensus.
+And that's okay. But I think what was some of the benefit of that discussion is that we brought people
+together and to really start this conversation and ask these hard questions. So I'm a bioethicist.
+I don't dwell in easy areas or easy issues as I dwell in the gray. My job is to ask hard questions
+and to like explore them and also find ways to work with people who disagree and sort of try to figure
+out at this thorny or wicked problem together. And so that's what it really was our goal. And so it
+was incredibly rewarding on that respect. One thing we did discuss in the meeting, which
+it was a, it's a Delphi study that we have that we're doing right now that's under review at the
+moment. And so a Delphi study for those who may not be familiar is sort of a systematic approach.
+It's a research approach that attempts achieve consensus on a particular topic or issue.
+And so we did an international edelphi study to try to get some consensus on
+this concept of futility. And so we delphis involve multiple rounds and you ask a bunch of
+questions and people rate on like a one to five or one to set like a liquid scale.
+And there's, I'm not going to go into the details of the methodology, but there's ways that we
+after rating and you try to get a certain level agreement on each item and then you can modify
+the item based on the level of agreement. And then you include it in the next round. And people
+we also have open text boxes that people can write and elaborate on the responses. So all of that
+is sort of taken to consideration. And we, so what we've come up with is a bit of an algorithm,
+well not in like the AI algorithm sense, but more of like a decision tree algorithm to help support
+conversations around futility in mental health care. So and this is what's coming up from the findings
+of the Delphi and some of the discussions also that came from the meeting in Geneva. And really,
+you know, what I think futility, you know, means here at least my interpretation of it is that it's
+a signpost or an immoral intuition that something needs to change. Something's not working.
+And I think it provides a window or an door or whatever sort of analogy you want to use into
+of having a conversation about goals of care. And so goals of care is something that you know, again,
+borrowed from physical medicine, you know, typically discussed with people around end of life
+discussions, right? Like what are your goals, what are your values? Do this proposed treatment fit
+with that, right? We don't really do that well in mental health. I think goals of care discussion
+with people. And I'm not talking about people who are at the end of life because I think you can
+have goals of care discussion, no matter your stage of health or illness. It's like what matters to you?
+And as this particular intervention or treatment, meeting that goal, right, or your values. And so
+it's an opening for a conversation. So this is what this decision algorithm attempts to
+to highlight and open the space for shared decision making between the person who might be
+experiencing mental health symptoms and their health care professional, obviously bringing in family
+and others, you know, as they as they wish. And saying, look, you know, we've been on this, like for
+example, we've been on this treatment or set of treatments or combinations of treatments for
+X amount of time. Do you feel that it's helping your quality of life or meeting these outcomes that
+we've identified together that matter to you? And yes, maybe no, right? Or, hmm, you know, or we're,
+you've been asking to, like I've been providing this particular treatment. And, you know,
+I don't think it's helping. What do you think? Or here's the markers that it's not helping. So maybe,
+so what actually, so I use the word, it's not helping grandentially. So the lead author of that paper,
+my colleague, Brent Kayaus also had a really interesting paper that came out a couple of years ago
+where essentially he did a study of US psychiatrist on the issue of psychiatric futility. And
+there were two case vignettes. I believe someone with a diagnosis of borderline personality disorder
+and someone with a diagnosis of major depression. Anyway, he, the team asked a bunch of questions and
+one of the questions was, would you essentially provide any of these new treatments, like neuro stimulation,
+additional psychotherapy, other treatments? If you didn't think it would be helpful.
+And a not small percentage of psychiatrists reported that they would continue to provide these
+treatments or additional treatments that they did not think would be helpful. And that was,
+so they didn't use the term futility, probably very intentionally. But this was a sort of situation
+where it's like, oh, so why are people providing something that they don't think would be helpful?
+And I was like, is this, do they think it's going to be harmful? And what other area of health care
+would you say, well, I'm going to continue to provide a treatment that I don't think is going to help you
+because you want it. You know, is this sort of this perverse interpretation of autonomy or
+respect for autonomy? You know, what is it? Is it that we lack available tools for people
+or good evidence-based ones? I don't know, but that sort of struck me. And so I think this,
+so futility might be the signpost that can open an opportunity for conversation.
+Because if you, you know, what we looked at, like these sort of three definitions, or these three
+aspects of futility, like quantitative physiological, right? We don't have the same mechanism
+understanding of many psychiatric treatments, you know, that we do in physical medicine for why it
+may or may not work work. You know, I'm using work in here in quotations just because what does it
+mean for something to work? I think it's also a really important question of this conversation.
+You know, something may have a physiological response, but may not be symptomally beating, right?
+Or anyway, but so this is something that is sort of very still very underdeveloped in
+in psychiatry or in mental health care broadly. So anyhow, so the idea is that, yeah, so there's,
+so there this it may represent something for conversation, but it has a lot of baggage associated
+with it. So I don't know if that's the the best way to talk about it or think about it, but I think
+there's a there may be an opportunity there for to have these types of goals of care conversations.
+Well, one of the things there are a couple things that stood out in reading about psychiatric futility,
+but you know, one of them is sort of what you just said, which is the mechanisms of action in
+psychiatry aren't as clear as they are in some other areas of medicine. So to say, oh, that,
+you know, this drug won't work for like we do. There's just so much less clarity in terms of like
+why certain medications or treatments work that there it's difficult in many cases to say
+nothing's going to work because there's just so much more ambiguity there. You know, even in reading
+one of the papers that you sent me before this one of the things that they were talking about is like,
+okay, so a person even went into some sort of psychotherapy and that didn't work. And then immediately
+from my psychotherapy mind, it was, well, sure, but it could be that, you know, that could be for all
+sorts of reasons that doesn't mean that no psychotherapy would work for that patient, right? So it
+could be the psychotherapist. It could be this specific approach, you know, that when we're talking
+about somebody with, you know, schizophrenia or other psychoses, there's lots of different treatments,
+right? Psychotherapeutic treatments. And I had on the podcast, Mahesh Manan, they're doing all this
+really cool stuff with these like virtual reality stuff to represent voices and all these sorts of
+things, right? And so there's all these other like innovations that are happening. That to mention
+the patient is a human who's having a dynamic life experience. So the same thing, you know,
+something that didn't work today might be extremely effective 18 months from now, right? So there's
+like all this additional, these additional challenges in the psychiatric context that aren't always
+there in the more physical medical context that you guys are struggling with and trying to figure
+out within the context of utility. Yeah, and I think that's absolutely right. And that's part of the
+challenges that we're trying to sort of work through is like, well, what does it mean to say that
+we've exhausted all evidence-based treatments? You know, have we tried all of the psychotherapies,
+right? Should someone have even have to try all of everything, right? And is that even sort of
+possible? What's that? I guess that's a separate question. But yeah, what does it mean to sort of try
+everything? You know, there are new things coming down the pipeline. And so a question is, okay,
+so should we wait for some of these novel treatments to come out, which can take years?
+Maybe, maybe so. I'm not saying like either way. So that is part of that is a part of the question.
+And you know, we really hope that there are new treatments and effective treatments for people
+that come through so people can be helped. But you know, so I think part of this, the challenge of
+the futility discussion is sort of thinking of that trade-off. It's like, okay, so we can think of this
+in a sort of dynamic way, right? So this person being sort of best served right now. And it doesn't
+mean that it's like an irreversible thing where it's like we stop and then or whatever the decision
+is and then you can't go back or modify at all or it's like an all or nothing thing. It's fluid. It's
+dynamic. It's it's thinking of this, hey, like maybe this, you know, you've been doing X, Y, or Z for
+how many, you know, ABC years and, you know, this combination or set of combinations have clearly
+not achieved the outcomes that, you know, you've wanted or we've wanted together. You know, what's
+our, what are our alternatives and pathways here, right? Is this, do we, should we have these,
+anyway, should we stop, should we deep-rescribe, should we add something else, right? So I think it
+opens that conversation, sort of talking about what's what's working, but you're right. It's like
+someone may be on, you know, a medication that's not working right now and then it could potentially
+work 10 years from now. So it's so is that a, and I guess it's just a little gimmick question.
+It's like, is that a reason that we should continue to wait for someone where they're suffering right
+now is that should we say, well, let's wait another decade or another five to seven years or ever,
+or just see and continue doing what we're doing, but the person continues to suffer, the person
+continues to report that their quality of life is very, very poor. And so, you know, as a health
+care professional and again, as a question is like, should we ask someone to wait? Or should we,
+or maybe it's an opportunity to revisit the treatment philosophy and potentially return to it
+at another time and try again? So these are, again, the questions that we're, that we're thinking about.
+And I think this is such an important point to hit on, which is, and correct me where I'm wrong here,
+that, or if I misspeak, that, you know, I think that culturally we think, when we think of palliative,
+we think of end of life. That's a wrap on the first part of our conversation. As noted at the
+top of the show, we much appreciated if you spread the word to anyone else who you think might enjoy it.
+Until next time.
+[Music]
