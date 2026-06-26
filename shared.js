@@ -86,7 +86,7 @@ const PODCAST_CONFIG = {
 
 let cachedEpisodes = null;
 
-const LS_KEY = 'pap_episodes';
+const LS_KEY = 'pap_episodes_v2'; // bumped: old caches may include scheduled/future episodes
 const LS_MAX_AGE_MS = 60 * 60 * 1000; // 1 hour
 
 function loadFromStorage() {
@@ -110,7 +110,11 @@ async function fetchFromApi() {
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const data = await response.json();
   const episodes = data
-    .filter(ep => !ep.private && !ep.inactive_at)
+    // Exclude private, inactive, and scheduled/future-dated episodes.
+    // A scheduled episode (published_at in the future) stays hidden until its
+    // release date, then appears automatically — no manual step needed.
+    .filter(ep => !ep.private && !ep.inactive_at
+      && (!ep.published_at || new Date(ep.published_at).getTime() <= Date.now()))
     .map((ep) => ({
       id: ep.id,
       title: ep.title || '',
