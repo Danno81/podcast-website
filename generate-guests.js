@@ -778,6 +778,9 @@ function formatDuration(seconds) {
 function matchEpisodes(allEpisodes, guest) {
   return allEpisodes
     .filter(ep => ep.title && ep.title.toLowerCase().includes(guest.matchLastName.toLowerCase()))
+    // Exclude scheduled/future-dated episodes — a guest page should not list an
+    // episode that hasn't aired yet. It appears automatically once its date passes.
+    .filter(ep => !ep.published_at || new Date(ep.published_at).getTime() <= Date.now())
     .sort((a, b) => (b.episode_number || 0) - (a.episode_number || 0));
 }
 
