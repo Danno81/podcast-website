@@ -1,0 +1,249 @@
+[Music]
+I was recently listening to the excellent podcast series by Michael Lewis on online sports betting, where he paints a very interesting, very grim, and cynical picture of the future that we're walking into.
+I'll link to that series in the show notes.
+Anyway, he got me thinking that I wanted to bring someone on the show who could help us understand the psychology of gambling, by people gamble, by some gambling becomes harmful, and how modern gambling products are designed in ways that can make stopping much harder than it looks from the outside.
+And as it happens, one of the top researchers in the world on this topic just happens to be at my own university.
+My guest studies gambling decision-making and addiction, and what I appreciate about this conversation is that it does not reduce gambling problems to people simply misunderstanding the odds.
+In fact, one of the most interesting points in this episode is that many people who gamble understand the house edge perfectly.
+The harder question is what happens in the moment when a near miss feels almost like winning, when a game keeps pulling you forward, or when a product is built around speed, uncertainty, and hope.
+In this first part of our conversation, we talk about what problem gambling means, why public health models matter, how gambling, advertising, and sports sponsorship have changed the environment, and why social casino games and loot boxes, raise complicated questions for psychology, policy, and young people.
+But first, if you're new here, I'm your host, Dr.
+Dan Cox, a professor of counseling psychology at the University of British Columbia.
+This is Psychotherapy and Applied Psychology, where I talk with leading researchers about what matters in practice, what's behind the findings, and what they wish clinicians new sooner.
+And if you enjoy the show, please subscribe on your podcast player or on YouTube, like, and subscribe.
+That small click makes all the difference.
+This episode begins with the story of how my guest moved from studying risk-taking and impulse control into the psychology of gambling.
+So without further ado, here's my conversation with Dr.
+Luke Clark.
+Yeah, I think like, you know, a lot of undergrads that I teach at UBC, I got in the same way that I was interested in, you know, these themes in psychology that crop up a lot around risk-taking, around self-control, around, you know, emotional aspects of decision-making, and in fact, you know, two people can be in a similar sort of, fake confront the same choice and yet make very different decisions.
+And what does that reflect?
+So I started off actually did my PhD studying people with bipolar disorder, looking at mania, where we see a lot of risk-taking and sometimes financial risk-taking and, you know, impulse control difficulties, and then when I was a postdoc, I was working in quite, sort of mainstream cognitive neuroscience of impulse control and risk-taking.
+So I learned how to do some brain imaging with F.
+Mariah, and I was doing quite a lot of work with neuropsychological cases, so people with acquired brain injuries, looking at their risk-taking with some, you know, classic tasks, there's a task called the Iowa Gambling Task, which has gambling in its name, which I think anyone who's done a psychology degree will have been counted.
+That task doesn't really capture gambling too much, but so then I think the key change was a sort of legal change.
+So I was, this was all in the UK, and in the mid-2000s, the UK passed this huge review of its gambling laws, like the 2005 gambling act, has had a lot written about it, and it was, you know, in the general direction of liberalization, there was a lot more advertising following that act of gambling operators, there was a lot of expansion of online gambling, and in a way, those changes like foreshadow, a lot of the things that have happened in Canada and across North America, just in the last five to 10 years.
+So this was happening in the UK 20 years ago, and at the time, the kind of few experts who studied gambling in the UK did raise a lot of concerns that these things would be to increase rates of gambling problems, and I think the, in a way, the kind of government's response to that was to channels and research funding into gambling research, and so the first run that I got as, as the sort of lead investigator was looking at gambling near misses on a slot machine task using great imaging, and this really got me into the, you know, the very kind of specialist literature on gambling itself, sort of moving from sort of general risk-taking and impulse control to what is this actual, you know, literature on gambling and gambling addiction, and I found it fascinating, and I, you know, effectively, over the next 10 years, I sort of gradually specialised more and more where most of my research became around gambling, my stuff, grad students in my lab was studying that, and then in, um, by 2014, I moved from the UK to UBC, and the position that came up in psychology was directing this new Centre for Gambling Research, which was funded by the provincial government in British Columbia, along with the British Columbia Lottery Corporation, and this Centre really, you know, had a mandate to really be focused on understanding the nature of gambling and gambling harm, and yeah, we're now sort of 12 years into the Centre, and the vast majority of the research that I do is in this space now.
+So, and I know that this isn't where your research is specifically, but I'm curious in the UK, so now where would you say, so we're about what, 20 years since that change in legislation, and maybe a little more, have the, perhaps some of the concerns that were raised when it sort of initially came in, you know, came in, have some of the, do you have a sense that those concerns have been realized, that sort of those sort of like, I don't know if public health is the right way to say it, but sort of, you know, those, I don't know, I guess I'm sort of curious looking into a crystal ball in terms of what's going to happen in Canada and the US if, you know, the, anyway.
+I think a lot of the concerns were realised, the advertising just ramped up and up and up, and you know, there was some initial discussion, or this would just be a blip, there'll just be a little window where there's a lot of advertising, and then everything was stabilized.
+That didn't really happen, you know, five of it gambling operators, these gambling companies are in an intense competition for, you know, the high spending customers, and a lot of this is about promoting marketing their products and the advertising, you know, it expands, you know, a lot of different directions.
+I think a lot of the general public, you know, here in Canada, when you think about gambling advertising, they still mainly think about TV commercials.
+That's like a very visible face of this when you watch sports, in particular, but if you watch any kind of TV in the, in the evenings, you're going to see some gambling ads.
+And then, you know, the TV commercials are the kind of visible face of this, but there are a lot of other ways that companies markets, advertising on social media, is much more kind of targeted, but rely on the algorithm.
+So we've got sponsorships of, you know, particularly in sports by gambling companies, where teams, stadiums, players, teams are wearing, you know, have got logos on the team strips, there's a logo on the ice ring, corner, you know, around, around stadium.
+So that if you actually, you know, there's research doing this now, where you count during a sports match, like on TV, you know, how many times you actually encounter the gambling logos, it's not just in the commercial breaks by any means, actually like hundreds or thousands of times during a course for a match, where you're seeing them around stadiums on the, on the players.
+So that side of it, particularly the marketing, has now received a lot of research in the UK.
+And I, I do feel like the decisions that have been made in Canada and in the US over just the last five to ten years could have learned a lot from paying attention to other jurisdictions.
+And those lessons have not been, have not been paid attention to.
+Yeah, it's been, it has been fascinating, you know, I'm a podcast listener too, you know, I listen to lots of podcasts, not surprisingly.
+And it's been jarring to me over the last three years, the amount of sports podcasts that are just fully sponsored by a single betting company.
+Right.
+So they're paying, I mean, so that's a really large cost to produce this show weekly, a couple times a week, whatever it is.
+And just, it's just, you know, and if you go on YouTube, the number of YouTube sports related shows that are, so your point is well taken about, it's not just TV ads, it's a lot of, it's, it's every, any way that they can promote their product.
+I mean, it's, I mean, there's a lot of creativity there, which is pretty impressive.
+But yeah, it's, I mean, it's notable.
+Yes.
+Yeah.
+So we need to think very broadly about what marketing means.
+And yeah, for sports betting, you get, you know, tipsters who are often, you know, on contracts with, with the operators, I suppose, yeah, some of the tipsters could be podcasters.
+And then we've also thought about this as well around, you know, gambling streams on platforms like Twitch where a lot of people who stream themselves gambling seem to be like, this is all very kind of opaque, but seem to be contracted to these online casinos where you think are they, you know, are they even gambling with their own money?
+I'm not convinced this is their own money, but if you're, you know, teenager watching, you know, these kind of influences, do, do the teenagers necessarily realize that they're not even betting with their own money?
+Right.
+And I think that, that's such a good point because I've, I've even just recently come to realize, oh, I think this is actually spot, so not necessarily related to gambling, but with all of these various new, relatively new digital platforms, it can be really difficult to figure out what is sponsored and what isn't.
+You know, there are a lot of people who are above board and say straight up this is sponsored by, right?
+But then there's, there's a lot that is just like, I don't know.
+And then there's some where it's like, oh, that was sponsored.
+I had no idea that that was who was facilitating this.
+Yeah.
+And I think a lot of the social media posts that you see as well are, you know, just funny video snippets that have got nothing to do with with gambling and they get, they get shared a lot and they just have a little kind of logo in the bottom corner.
+And that's really about, you know, using kind of memes and funny videos to ultimately from our brand awareness.
+So yeah, this has been a very fast moving area.
+I've needed to kind of learn up a lot.
+And psychology, I think psychology and marketing are two, two fields that have a lot of connections, but there was an awful lot that I didn't know about marketing, you know, five years ago that have realized this is a thing.
+Right.
+So, so before we get into it, so, you know, we're going to be talking about gambling in general.
+And I think a lot of what we're going to be talking about is more going to be it was diluting to or implying like problem gambling.
+So just how do you, you know, just relatively briefly, what is problem gambling?
+You know, how do you say this is problem gambling?
+Yeah, I suppose I think there's a there's a medical lens on that, which is probably the dominant has been the dominant lens for 30 years or so.
+And then we might talk about a more modern sort of public health lens on that question as well.
+We might come back, come back to that.
+So, you know, gambling disorder is the diagnosis in the psychiatric manuals like the DSM.
+That diagnosis was first recognized around 1980.
+So this is quite a kind of young condition compared to a lot of other areas in say clinical psychology where there's research going back, you know, a century or more that's not really the case for gambling disorder.
+And then in 2013, when the last the current edition, the DSM fifth edition was released, gambling disorder sort of changed category in an interesting way.
+It moved into the substance use disorder's category.
+They actually had to kind of rename that category because there's no substance in gambling.
+So gambling disorder became the first recognized behavioral addiction.
+And the diagnostic criteria are very much in line with how substance use disorders are diagnosed.
+So, you know, craving and withdrawal symptoms when someone stops gambling and get tolerance, just betting with larger sums of money over time.
+These are these are sort of hallmarks of addiction syndrome.
+And then a lot of the negative consequences that we see around money.
+So, you know, feeling guilty about money borrowing, money lying about money, relationship difficulties, difficulties in the workplace or with study eggs.
+So these are the standard sort of criteria for gambling disorder.
+It's not a problem gambling.
+It is just widely used like I used in this at that term myself.
+It often includes, you know, the full diagnosis is sort of notoriously strict.
+And what I think we've realised from a lot of research around the world over the last 20 or 30 years is if you just look at how prevalent that diagnosis is, probably only talking, you know, half to one percent of the population.
+But there are a much larger group of people who have one or two symptoms.
+They don't meet the full diagnosis, but they have some evidence of gambling half.
+And then when I think about, you know, a public health approach to gambling, it sort of moves away from just putting all the focus on the diagnosis and I suppose treatment.
+So the public health model, you know, includes treatment.
+We need treatment services, but a lot more attention to prevention, harm reduction, people who are gambling, you know, somewhat kind of casually, but they're gambling like escalating.
+And the emphasis in the public health approach is more on signs of harm than symptoms.
+And there are a few aspects to that, you know, gambling harms.
+Other people connected to the gambling, like their family members can experience harms from gambling too.
+If a household has much less disposable income, because a lot of money has been lost to gambling, there's difficulty, you know, paying for weekly groceries.
+There's no budget for, you know, vacations or going out or for education and so on.
+So a lot of other people can bear the negative effects of financial harms from gambling.
+And, you know, when someone, this is, I suppose, a difference from other addictions to an extent that when somebody stops gambling, you know, their debts don't disappear either, you know, they carry these debts around often for, you know, for many years, you know, complex debt consolidation repayment plans to pay off the money that has been lost, lost to gambling.
+And this can make their lives very, very complicated and create a lot of strain for a long time after they stop gambling.
+So these things are increasingly recognised within that, that medical public health perspective.
+So, so is it reasonable to say so the more the medical lens is more looking on like the personal symptoms, if you will, where the public health lens is more the social consequences?
+Yeah, I think the public health lens certainly consider, it takes a much wider view on this.
+And I would agree with that that I think, you know, the medical model and a mainly locates gambling problems, you know, in terms of personal risk, risk factors like personality traits, genetics and that medical model has inspired a lot of the neuroscience research, which, you know, I, I contributed to myself, in which I think has been quite influential to the field, but that lens does miss some other parts of this, this sort of puzzle and the, you know, factors in the environment like just the accessibility of gambling as, you know, as we suddenly get gambling on smartphones and we don't have to drive to the casino anymore, that's a huge change.
+So the environment that has a lot of consequences and, you know, the product as well and how gambling products, particularly online games are designed, some products we can clearly see more harmful than others, and that's another piece that comes more from the public health perspective than the medical model.
+You know, talking to you about this and preparing for this, one of the things, I imagine you experienced this, maybe sort of just gotten used to it, but it's kind of a weird phenomena because it's a human-generated phenomena, right?
+Like we are creating this thing and that that, you know, you're studying that have these social consequences, you know, it's kind of different than if you're studying, if you're studying bipolar disorder, right?
+Like bipolar disorder happens and we have to, we're trying to figure out ways to understand it and better help people in systems and communities or whatever, right?
+Because it just, it happens and it will always happen.
+And it has always happened where with gambling, I mean, probably one could say gambling has always happened, it's always been a part of culture and that sort of thing.
+But a lot of it is like this, you know, for-profit companies are creating this thing.
+So like, I don't know, it's this weird, it's a weird thing to think about and study because it's a human-created thing.
+So in some ways, when we're talking about the harms and that sort of thing, there's a part of me that just goes, we just stop, like just stop doing this.
+Like we just, I don't know, do you have any of those sorts of sort of psychological reactions to this?
+Yeah, there's a lot in what you just said and, you know, like, the number of academic papers on gambling that start with a line like gambling has existed in human societies for thousands of years.
+And you can trace back and then, you know, remote communities without much kind of contact with Western colonial influences.
+You can find early signs of gambling in many human societies.
+And those games often serve quite sort of prosocial ends, like they're often used rather than gambling.
+Like just when you make gambling about money, you lose some of those benefits because there are a lot of ancient forms of gambling might be for, you know, household objects, weapons or axes or particular kind of pots that get kind of rotated around the community, so that different families sort of benefit from them for a time and then pass them on to another family.
+You know, there's a key shift, like the forms of gambling that get legally regulated as gambling in Canada and most countries are, you know, commercial forms.
+And the defining feature of all commercial forms, they're profitable because they have, you know, a house edge, they have a negative expected value.
+That's why they are profitable commercial exercises.
+And there's kind of only one place that profit can become from and that's from the person who gambles.
+So, you know, I think many psychologists to get into studying gambling are drawn in by this sort of paradox, which I think you were kind of getting at in your question as well, that is, you know, at the very center of this, why do people engage in this activity if they understand about the house edge and, you know, pretty much all the gamblers I speak to are pretty well informed about how gambling works.
+They understand that, Matt, it's not just as simple as, hey, we just need to explain to them about negative expectancy and where that house edge is coming from.
+They're well informed.
+So, this is where we get into so what's going on there?
+Are they getting other sources of value or utility from gambling, like the excitement say or some sense of sort of hope about how things are going to change.
+They don't just boil down to the finances or is this really about, you know, cognitive distortion?
+So, this is sort of, you know, kind of where I started when I started studying gambling.
+That, yeah, when they kind of sat at a home in the kitchen, they are very kind of mindful and articulate about house edge, but, you know, they're in the moment in the kind of heat of the game.
+That's not necessarily what they're thinking and at that moment they think that they can whip.
+And so, that's where these kind of different illusions or cognitive distortions, cognitive biases in decision making come in, which we've been very interested in for a number of years, like, you know, like the effects of an MS, for example.
+This is an outcome where just categorically, objectively, you lost, like if the slot machine lands seven, seven, not seven, you don't get anything for that, but you feel close to a win.
+And people who gamble don't process those outcomes the same way as kind of regular losses, they seem to have some kind of motivating effects.
+So, yeah, that's one example of many, but in terms of, yeah, are they processing the game kind of accurately?
+So, that was one of the things I wanted to, so you've studied a number of sort of specific phenomena that the way that I conceptualized it when I was sort of preparing for this, were things that facilitate that psychological pull to continue gambling is psychological pull a reasonable way to, okay, okay.
+So, you just talked about near misses.
+That was one of the things I wanted to talk about.
+So, why is it that quote-unquote almost, almost winning, right?
+So, seven, seven cherry or whatever, right?
+Seven, seven, seven, seven.
+Why does that increase the desire to keep playing?
+Yeah, and that's a, that's a simple question that we've spent a long time looking at.
+And there were different takes on it still, I think, today.
+You know, my first idea and what for a long time I just assumed must be true.
+You could call, relates to the illusion of control, which is a big effect.
+A lot of biases that we see in gambling can be boiled down to this illusion of control that the gambler feels.
+They have a higher agency over the game and a higher ability to shape what's going to happen than they really do.
+And so in, in a lot of sports settings, like you play soccer, right?
+And you take a shot at goal and your shot kind of bounces out off the crossbar.
+And that's a kind of near-miss in soccer, right?
+You were really close to getting a goal.
+You didn't get a goal.
+But it's useful information.
+It tells you that your skill level is high.
+It tells you that if you persist persevere, a goal might be on the way.
+I think people naturally apply that same logic to games of pure chance, like on the, on a lottery, like buying lottery tickets.
+If you get a near-miss, where all your numbers are won away from the jackpot numbers one week, that doesn't tell you anything at all about your chances of winning the following week.
+And it's the same with spins on a slot machine.
+I suppose there's another element with electronic games like slot machines, or particularly with digital online games.
+There's then this possibility, can the game designer sort of rig or create more near-miss than you might expect by chance?
+Like in something like a horse race, you are just going to get some near-miss, right?
+The horse that you've bet on can finish in second place in a narrow finish.
+And that's just the nature of a race.
+And that would be a near-miss.
+But in a slot machine, you, you know, the sort of, in a workings, the mechanics of the reels are very complex.
+The slot machine has to stop randomly.
+But, you know, if you've got a cherry on, what do we, let's stick with, we said a seven, right?
+If you've got a seven on the first reel, do you necessarily know, maybe there's a lot of sevens on the second reel, but there's not just one, there's a whole bunch there.
+So maybe you're kind of more likely to get two sevens.
+And so there are these kind of subtle ways that near-miss can be engineered into the game.
+And then with video games, which are sort of subject to say kind of regulation is gambling games, that can also be done very directly.
+You can just, you know, you could, in principle, in a video game have something that looks like a full miss.
+And then just in the last minute, you, you change the code to make it appear as a near-miss.
+And would that be a responsible thing for the game designer to do?
+Right.
+So you're saying in the context of legal gambling in most places that there are certain regulations like if it's a game of chance, it has to be chance.
+So it has to just be random.
+However, that different ways to do randomness, it has to be random.
+What comes up on the reel?
+But so there's a regulation there, but that can still be manipulated.
+But in video games, you could just literally write the code to say, you know, don't have the third one be a seven.
+I mean, usually isn't a slot machine in a video game, but it could be, you know, don't have it be a seven on the last one until they've done, until they've spun this at least 20 times, right?
+Which would be admissible in real life gambling, but in a video game, if it's to get a hat or whatever thing that it is in the video game, there's no control over that, right?
+It's not for a nut and by hat, I mean, a digital hat for your character or whatever, that sort of thing.
+Yeah, so we see this a lot in, I think there's two examples of that in video gaming where we see, like I've mentioned gambling streams earlier, which are connected to the video gaming system too.
+You know, but the two other examples of this are social, what are called social casino games and loot boxes.
+So a social casino game is, are free to play games.
+They basically look just like online gambling games, like a slot machine game or some kind of real fortune game, but you can't win any prizes and you're not placing bets, maybe you get a number of free credits per day.
+And when those credits run out, you do have to buy more credits with cash.
+So that's how they make their money, but you're not betting simple money and you can't win any money.
+Now those games look identical to gambling games, but they don't fall under gambling regulation because they're free to play and there's no wins.
+And so one of the concerns that academics have often raised about these games is, they're not bound by the same regulation.
+So they could in principle be messing with the reward schedules in a lot of different ways.
+They could rig it so that you always got like a big win the first time you came to the website.
+And that's more likely to bring people back or could they be using particular, near misses in a particular way.
+So those are concerns that are raised.
+You know, loot boxes, a lot of video game, a lot of gamers are familiar with loot boxes in modern games.
+These are basically prizes where you don't know what you're going to win inside this box or prey to a key or they can take many different forms.
+And within, you know, video games, you get these effects that are called pity timers, where if you buy this box a certain number of times, you become guaranteed to win it after like a 20th unsuccessful pull.
+Now that's the kind of thing that you really can't do in, gambling companies can't do that.
+It has to be truly random.
+But curiously, video gamers who play those games actually quite like that feature.
+They know they're going to get the thing they want eventually because the time will kick.
+And some of these loot boxes, you have to use real money to purchase them.
+Yeah, yeah, like that's been a shift over the, you know, the start it about a decade ago where we have randomized elements of existing video games since video games came about.
+But, you know, for you would often just kind of earn these prizes through finishing a level or doing missions or whatever.
+But with in-game payments, as in-game payments became possible, it became possible to pay for a number of loot boxes with cash.
+So then you've got a randomized prize, you're paying for that prize.
+And then some of the items that you can win in the game are certainly very rare, desirable items.
+And I think a lot of the legal debate around loot boxes has been, you know, okay, we've got, sorry, I like the jump pad, we generally think about gambling as having those three elements then, right?
+You've got the bet, paying some money to kind of enter the gamble, you've got the element of chance that determines the outcome, and then you've got some sort of prize.
+With loot boxes, yeah, you can buy the loot boxes with an in-game payment, they're determined by chance or largely by chance.
+And then the question really is like, what about these prizes there?
+Like I've won some really rare weapon or some rare player in a sports game or whatever.
+What can I do?
+Is there any way I can turn that rare item back into cash?
+And in some games, there are these marketplaces that allow players to do that.
+Again, it's legally complicated because the marketplaces are often third-party sites.
+But then you could say, you know, even in a game where that prize only exists within the game and you can't kind of extract that value at all.
+Now, this is a multiplayer game, you're playing with your friends, they can see that you're using this rare weapon, you're getting a lot of sort of social coup d'art, so you feel really attached to having collected the full set of these items or whatever.
+So there, it's not financial value of the prize, but it might still have a lot of sort of personal subjective value to the gamer.
+So I think there's a lot of interesting elements to this and ways in which, now issues that we've thought about a lot in the context of gambling for years also kind of change in interesting ways in the gaming landscape.
+And you've done some research on sort of the longitudinal effects of loot boxes in video games leading to later, how would I say it, gambling in real life?
+I don't know, I don't know what would be a, could you talk about that?
+Yeah, sure, yeah.
+Yeah.
+Yeah, like the first, I suppose, yeah, loot paid, the ability to buy loot boxes appeared in video games about a decade ago.
+There was a big Star Wars battlefront 2, was a game where the media coverage of the loot boxes in the early release of that game got a lot of public attention and it put it onto the kind of radar of, that's when I kind of learned about this feature certainly.
+And I think you put it on the radar of a lot of gambling researchers.
+And for the first few years, we saw a number of academic studies which are just, you know, we were doing this kind of work as well.
+An online survey where you survey a few hundred people who play video games and you ask them about how much they buy loot boxes, how much do they spend on loot boxes and you ask them about problem gambling.
+And a lot of studies, like very robust, reliable findings, this correlation that higher spending on loot boxes was associated with problem gambling signs on, you know, very well-validated screening tools.
+So we had this correlation, these two things seem to be linked, but we didn't really know, you know, the cause and effect.
+It's possible that the loot boxes are a sort of gateway into gambling, so we're priming the brain with some reward uncertainty and so on.
+But it's also possible that when people who gamble play video games, because everybody plays video games nowadays, right, that they get kind of drawn to the loot box features in the game and that's going on, so that would be in the kind of opposite direction.
+So we were one of the first groups to try and kind of follow, to chart this over time.
+We recruited a large group of video gamers, 18 to 25, so young adults, they had no previous encounters with gambling, but they, and we measured how engaged they were with loot boxes.
+And we then re-contacted them six months later and basically, you know, we did pretty much the same survey again, but included the gambling items.
+And what we could see is that the higher levels of involvement with the loot boxes at the baseline, at the first assessment, predicted which participants basically started real money gambling by our follow-up.
+And we couldn't link it, you know, we couldn't link it to gambling problems, I think we need to follow people for quite a bit longer to see an actual escalation into problems, but yeah, we called this paper the gamblers of the future.
+And it certainly supports that kind of gateway pathway.
+It doesn't rule out the other pathway, it was always possible that both of these things might be going on and there is some evidence for the other pathway as well.
+But yeah, it showed yet this sort of migration or gateway effect.
+Have there been, I don't know if you, you know, again, this isn't your area of work per se, but do you have a sense if there if any governments have tried to put some regulations on some of these video game practices for any number of reasons?
+That's a wrap on the first part of our conversation.
+As noted at the top of the show, be much appreciated if you spread the word to anyone else who you think might enjoy it.
+Until next time
+[Music]

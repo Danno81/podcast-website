@@ -715,6 +715,23 @@ His honours include a 2020 AMS Healthcare Compassion and Artificial Intelligence
     websiteLabel: 'dlsph.utoronto.ca',
     buzzsproutContributor: 'https://www.buzzsprout.com/2324798/contributors/140610-dr-daniel-buchman',
   },
+  {
+    slug: 'lukeclark',
+    name: 'Dr. Luke Clark',
+    matchLastName: 'Clark',
+    photo: 'https://www.buzzsprout.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTcyNjk0MTMxLCJwdXIiOiJibG9iX2lkIn19--0bd347053ee00ac348dccb4b48f3e0406dbd9e56/Luke.png',
+    affiliation: 'University of British Columbia',
+    role: 'Professor of Psychology & Director, Centre for Gambling Research at UBC',
+    shortTagline: 'Maps the cognitive and neurobiological machinery that makes gambling addictive — from the illusion of control to how modern products engineer harm.',
+    bio: `Dr. Luke Clark is a Professor in UBC's Department of Psychology and Director of the Centre for Gambling Research at UBC. His research examines the cognitive, behavioural, and neurobiological mechanisms involved in gambling and disordered gambling, including cognitive distortions such as the illusion of control and the gambler's fallacy, the risk factors for gambling problems, and how features of modern gambling products contribute to harm.
+
+His work uses behavioural data from online gambling to identify at-risk individuals, and extends to reward uncertainty and excessive engagement with digital behaviours such as video gaming. Across these threads, he connects laboratory studies of decision-making to the real-world design of gambling technologies and their public-health consequences.
+
+Clark received the UBC Killam Research Prize in 2020 and the Scientific Achievement Award from the National Center for Responsible Gambling in 2015 for his contributions to gambling disorder research.`,
+    website: 'https://cgr.psych.ubc.ca/',
+    websiteLabel: 'cgr.psych.ubc.ca',
+    buzzsproutContributor: 'https://www.buzzsprout.com/2324798/contributors/137656-dr-luke-clark',
+  },
 ];
 
 // ---------------------------------------------------------------------------
