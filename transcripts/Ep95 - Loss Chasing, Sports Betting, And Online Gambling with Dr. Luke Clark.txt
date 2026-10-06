@@ -1,0 +1,257 @@
+[Music]
+In part one of this conversation, we talked about gambling harm, near misses, and the strange space occupied by loot boxes and social casino games.
+Products that can look and feel a lot like gambling, even when they did not always fit neatly inside of gambling regulation.
+This second half starts with the obvious next question, "How, if it all, have governments tried to intervene?" From there, the conversation moves closer to the lived experience of gambling.
+We talk about why a near miss can feel so different in the moment than it does when you are calmly thinking about the odds.
+Why chasing losses is such an important clinical warning sign, and why online gambling can make old-fashioned harm reduction strategies like only bringing a set amount of cash, much harder to use.
+We also get into caching out, depression and gambling problems, slot machine design, in-play sports betting, and the ethical question of when entertainment becomes exploitation.
+But first, if you're new here, I'm your host, Dr.
+Dan Cox, a professor of counseling psychology at the University of British Columbia.
+This is psychotherapy and applied psychology where I talk with leading researchers about what matters in practice, what's behind the findings, and what they wish that clinicians knew sooner.
+And if you enjoy the show, please subscribe when your podcast player or on YouTube, like and subscribe.
+The small click makes a huge difference.
+This episode starts with my guest responding to a question about loot boxes, regulation, and the challenge of protecting young people in a rapidly changing gambling and gambling environment.
+So without further ado, here's part two of my conversation with Dr.
+Luke Clark.
+Yeah, the main concern is around young people, that loot boxes are particularly common within mobile games, like smartphone games, those games are often accessible to kids.
+And within desktop games there often accessible.
+A lot of us kind of recognize, I don't know if you play video games, but video games have age ratings.
+But those age ratings are really just guidance intended for parents.
+They're quite different from age restrictions that you really can't get into a casino and gamble until you're 19 plus in BC.
+And that age limit is legal and strictly enforced.
+The age ratings in video games are largely sort of parental recommendations and one sometimes wonders if teenagers are drawn to the more mature content.
+So yes, a lot of countries have looked at what to do about loot boxes.
+Do they meet the legal definition of gambling?
+And I suppose some countries like the UK, I think decided that they did not meet the legal definition of gambling because in the vast majority of games these prizes cannot be turned back into money.
+So this is like a money's worth definition of gambling.
+And some other countries that Belgium notably did decide that they fell under their gambling laws and effectively banned specific games that included the ability to turn them back into cash.
+And I think, you know, there is a general issue here as well that gambling regulators in most countries to suddenly make that gambling regulator responsible for the whole video game sector as well as the gambling sector is actually a very complicated undertaking.
+Like that's a big responsibility.
+The gambling is a big sector where the video game sector is huge.
+So there are also just capacity, just to fill issues with how that would be enforced as well.
+But so I would say it's still, you know, in a lot of countries a bit of a kind of moving target few years on.
+And it has clinical implications as well because it means that people who are experiencing problems around video gaming, one of the ways that that can get expressed is, is basically financial consequences from overspending on the in game payments.
+You can find many, you know, news stories of, you know, young gamers who have, you know, spend thousands of dollars on a parent's credit card about buying buy new boxes.
+And you know, that that changes the profile of gaming addiction where we start to see more financial consequences and debt.
+So getting back to this idea of near misses.
+So for that person in that moment, 7/7, Jerry Bell, whatever it happens to be, that am I right in saying that if you talk to that person, you know, the day before or the day after in their kitchen, that they would say that this at, you know, that, this is random and it doesn't actually like I'm not actually closer to getting 7/7 7 if it comes up 7/7, Jerry, like, but in that moment, they have this sort of emotional and perhaps, you know, perhaps their beliefs that go along with it, but because they're in that emotional mode that they experience it differently.
+I think that's true and that's what we, you know, in the very first study that we did on, on near misses, we could see that those events drive brain activity in the reward system.
+So you don't really get any reward at all, like it is flat loss basically, but they drive a little kind of burst of activity in that reward system.
+And, you know, a lot of modern gambling, you know, we often just think about this in psychology, you know, as a decision making researcher, you think about the mathematical structure of one gamble.
+Like your probability is this, your payoff is this or your negative consequence is this.
+But most gambling is a session, you know, a sequence of repeated bets.
+So if you're playing on slot machine, you know, there's a spin every five or six seconds, very fast, continuous game.
+Most people who play slot machines will, you know, their session will take, then to do a couple of hundred, maybe thousands of spins.
+So if you get these kind of near missed responses, yeah, how does that maintain, can you, that pattern of betting?
+So the, so you've done some work around chasing losses.
+And I, the more that we talk about this, the more I think that like some of the categorizations, you see that there's clear overlap between in the different ways we're talking about sort of that psychological pool to keep gambling.
+So, but talking about what you just started talking about in terms of that session, what the sort of distinction or you're thinking about the sort of the desire to chase a loss or keep going both like within a session and between a session.
+Could you talk about that a little bit?
+Yeah, loss chasing is, it's clinically very important.
+Like if you look at the standard screening tools for gambling problems, one of the key items is, yeah, this tendency to chase losses.
+And I think if you were to ask a lot of clinicians and counselors who work with people with gambling problems, no, if there's one sign of someone's gambling, getting out of hand, a lot of people would point starting to chase losses.
+This kind of gets increasingly kind of desperate, one session sort of meld into the previous session, it was still trying to kind of recover.
+Now the, you know, the early items talk about going back to the casino another day trying to kind of pay off yesterday's debts.
+But of course, gambling is far more accessible today, you know, and a lot of gambling is through a phone.
+So, you spend 10 minutes gambling now, lose money, you can go back later this afternoon, you can go back this evening, still chasing those debts.
+So, you know, it's an important sign.
+People can also chase within a session, which you say.
+And so, as you start losing, you know, do you start doubling down on your bets, you know, placing higher bets to try and recover, do you just continue for much longer?
+You only had kind of five minutes, but you, you know, realize you spent kind of an hour on the platform because you were, you were chasing your losses.
+So, I think there's a lot of agreement in the field that it is an important, behavioral indicator of potential, you know, potentially experiencing problems with their gambling.
+At a psychological level, it's still a little bit unclear what's happening, but that's one of the things we've been interested in.
+You know, do losses as emotional outcomes, bring out basically some sort of loss induced impulsivity.
+You know, you're losing and this just makes you very sort of hasty and impulsive, or maybe sort of kicks in some kind of habitual responding.
+And that would be a very kind of low level cognitive account.
+You know, the other perspectives on loss chasing from sort of decision theory is that people are trying to kind of get back to some sort of benchmark or reference point.
+So, you know, I just want to get back to zero and the further you get away from zero, like 50 people who are in kind of behavioral economics and prospect theory might think about it in these terms.
+Further you get away from zero, the more, more value that that gamble has to kind of get you back and break even.
+So yeah, that's the one way to think about trying to use those two accounts apart is there is there actually anything special about breaking even does the gambler kind of stop chasing when they break even.
+This kind of loss induced impulsivity wouldn't wouldn't have much to say about that break even moment, whereas the decision theory would say that's pretty key point in proceedings.
+So can I tell you my one gambling story that's at all of note.
+So I was, I don't know, late 20s, I was in Vegas, not a big gambler and I was playing, I was playing roulette just doing a black red thing.
+And, you know, I was up, I don't know, a hundred bucks, right?
+Like I started with a hundred bucks.
+I had 200 bucks after playing for a while.
+Great going well.
+A series of spins as is one to do losing losing losing losing losing losing, God, right?
+So, and so I went from 100 bucks to 200 bucks to zero.
+And never had a big affinity for gambling or strong, the emotional experience that I had.
+When I hit zero to gamble more, like physically in my body was one of the strongest physical experiences like like sort of physical emotional experiences I've ever had in my life.
+It was, it was the we like, and I'd never had anything like that at all.
+And fortunately, when I was younger and the first time I ever went to Atlantic City as a kid, or not a kid, but you know, a young adult, my dad always, my dad said, figure out how much you're willing to lose, get that in cash, put that in your pocket, and don't go past that.
+And I internalized that and I did.
+And so I did that the same, that same thing when I was in Vegas.
+That pull, man, I mean, it was, it was unreal.
+Like I felt like a different person who had never felt an experience like that before.
+And I was, I was, I was, you know, I wasn't drunk.
+I was, I was up sound enough mind that I didn't go and get more money or whatever.
+And I walked away.
+And I was just, it hit me like that's that that feeling was so strong that I was like, I had so much more empathy for the problem gambler in that moment because man, it was, it took a lot for me not to go get money and come back to that table.
+Yeah, and it's an emotional roller coaster and, you know, your fight or flight physiology is turned on, your stress response system is turned on, you know, your neurotransmitter level.
+Like there's a, there's a lot going on in that moment that can make a big difference to someone's decision making compared to, yeah, going back to when they're sat at home in their kitchen.
+And that, you know, that's, that's great advice that a lot of gamblers use is to, you know, take into the casino the cash that you're prepared to spend.
+Actually, leave your cards at home or leave your cards, I don't know, in your glove box or something don't even take them in just take in cash.
+And then, you know, another idea is anything you win goes into one pocket.
+And that way at the end and, and, you know, and then you know, you lost his come out of the other, the other pocket.
+Now, these are kind of old fashioned tricks that a lot of casino gamblers still still swear by and are, and are basically quite, you know, effective.
+The person is, you know, very kind of disciplined.
+And, you know, with, with online gambling and the ease of just making another deposit, the ability to, you know, use a credit card to make that kind of deposit.
+A lot of those simple, you know, cash-based strategies kind of go out the, go out the window.
+Right.
+So we need a different set of tools.
+And so, you know, regulated gambling platforms will generally have ways to set spending limits or time limits or daily limit, weekly limit or whatever.
+But, yeah, I do think yeah, a lot of quite effective old fashioned tricks around just go in with the money you can lose don't work as well in the modern technological digital forms of gambling.
+I think this sort of leads nicely into the understanding cashing out.
+So people, you know, in the old days, you step chips or whatever and you take it to the, you know, you have chips when you, you know, you take your $100, you get $100 worth of chips, you use chips the entire time you're in the casino, you can leave the casino, you give them the chips, you get your cash back if you have any.
+In the digital context, it's a kin, but sort of different at the same time, right.
+Because it's in a way it's all there is no cash, there are no physical chips.
+So you're using credit card debit card, something like that, which is digital to then.
+So you're putting money into whatever your online account is.
+And then you're betting in that, you know, with that money in your account.
+And, you know, a lot of times people will just even if they win, they're going to win or lose, they're going to keep the money in the betting account because why would I go through the effort on my phone to put it back in my bank when right like that.
+So what is your, where are we in terms of people's decision to cash out if it's, you know, if it's helpful, if it's unhelpful, who does it, who doesn't that, that sort of, that sort of stuff.
+I think it's like a, you know, a lot of gambling, you know, people are basically there for the experience of it.
+And so, yeah, I think it's very common both in land, bricks and mortar casinos and online that people reinvest their, their wins basically the wins just go into the kitty and that just increases how long they can spend there until they're down to a point of zero.
+And you could even say, yeah, like is that at some level, is that any different from, you know, paying for a cinema ticket for two hours of entertainment, that is the kind of price that you were willing to pay for, you know, a couple of hours of entertainment at the casino.
+And it is again important online.
+Like I think what were you getting out there people often talk about as the sort of friction or ease of making deposits versus making with florals on an unagambling platform.
+And this has been a certainly a discussion in the UK that the websites it's super easy, just one or two clicks to make another deposit and then you try and get your wins out.
+And you're going to have to wait for three days for that payment to clear and actually reach your account and you can cancel that withdrawal if you want to and just reinvest it and come back gamble.
+And so there's this sort of asymmetry where it's very easy to spend and less easy to withdraw.
+And arguably we should be making, you know, we should be increasing, make it a bit more friction to actually deposit.
+Are you really sure you want to do this?
+And it should be as easy to get your money out as it is to put your money in.
+So you've done some work on the association between depression and gambling problems and found an association there.
+Where are we?
+Where are you in terms of your thinking about why people with elevated depression symptoms are more likely to be engaging in problematic gambling?
+Well, in the studies that we've done in people with gambling problems or often know a lot of us that is at UBC are in community samples of people who gamble regularly.
+Some of whom, you know, some subset of whom will have problems with their gambling.
+And we routinely see a lot of other mental health problems that go alongside gambling problems, depression and anxiety are very common.
+Some substances, like particularly alcohol and previously nicotine dependence.
+I'm not sure if that's really changing, but yeah, substances, particularly alcohol.
+And there's a clinical research from people seeking treatment for gambling problems that say that that is really, you know, the rule and not the exception.
+20 years ago, a lot of research on gambling problems, people with gambling disorder would try to recruit samples of people who only had gambling disorder and didn't have any of these other coexisting problems.
+And it was very difficult, like we did some of those studies, it was very difficult to recruit.
+And then you end up with a sample that is actually quite an unusual sample, they're not very representative.
+And I think the modern approach is to recruit larger samples and to measure these other things like depression, stress, anxiety and look at their impact on whatever constructure interested in.
+Craving, for example.
+And with depression, I don't think this is our research really, but the wider field, the effects seem to be in both directions that certainly some people gamble as a form of escape.
+And I would say this is a particularly powerful explanation of of slot machine gambling slot machines are very immersive, they're very absorbing.
+And so people with depression and stress and anxiety and boredom will often use slot machines as a way to escape those unpleasant states.
+At the same time, one of the main consequences as gambling spirals out of control is financial debt.
+And so we can often see stress and depression as consequences of gambling problems as well.
+So that's why I say this link does seem to be bidirectional.
+And so, you know, and that has clinical implications that if the gambling is driving the mood, the main thing to address is the gambling.
+So you've done a decent amount of work on gambling environments, design, architecture, however, it would be the best way to frame that and we've sort of hit on some of these things already.
+But I'm curious, what are some of the other things that you're seeing that are, you know, particularly notable in terms of how these environments are being engineered.
+Yes, so, you know, we spent a long time studying slot machines as a particular gambling product that we have known for a long time is one of the more harmful potentially the most harmful form of gambling.
+You know, we would often compare that against weekly lottery tickets, a lot of the population by lottery tickets at least occasionally.
+We barely ever see people with gambling problems who would say my problem is with buying weekly lottery tickets that just that more or less doesn't exist.
+And if we do study is in, you know, groups of people with gambling problems, the majority of those cases will have their problems in relation to slot machines.
+So trying to figure out what exactly is it about the design of slot machines that is driving that the speed of play is obviously a massive difference on a slot machine each spin just takes a few seconds.
+On a weekly lottery, you know, you're waiting days for the outcome.
+Audio visuals like the bells and whistles of it, when you win on a slot machine, you get a lot of flashing lights and sounds and those become sort of have low of the effects that can sort of reinforce the the excitement and you don't really get that side of things with the lottery as well.
+So, you know, we've spent, you know, over the last 12 years at UBC, we have some real authentic commercial slot machines in my lab at UBC.
+We do some studies on real machines.
+We also have some quite realistic slot machine games that we've programmed ourselves in the lab so that we can deliver and manipulate the particular kind of ingredients that we're interested in.
+I would say the, you know, a big change in Canada in the last five years is around sports betting.
+And this is where a lot of our research is sort of pivoting, you know, how the approach we've taken to slot machines trying to apply that to sports betting.
+So, when there was a federal bill in Canada in 2021, which legalized single event sports betting.
+And before that bill, the only sports betting that was really available was with Parlay bets, where you're betting on multiple things at once.
+That's where the single event comes from.
+A Parlay would be two or more outcomes, two or more predictions that get packaged within one bet.
+The way that used to work in practice was that we had, you know, these kind of ticket based systems where the gambler is mainly predicting, you know, which teams are going to win in the league this weekend.
+You're making a series of match predictions before the match starts.
+What has really happened following the federal bill, a single event means in play sports betting.
+So now you can place bets online after the match has started and you can bet on very kind of short term events, like which team is going to score the next goal?
+Is this player going to score, you can bet on penalties, corner kicks in soccer, you know, in something like tennis, you can bet on whether the next serve is going to be an ace or not.
+That's going to, that event is going to be resolved within a matter of seconds.
+And you can then go and bet again.
+So with this kind of new format, and I should say it's kind of new in Canada, but this in play betting was one of the things that became popular in the UK.
+Over a decade ago.
+We know that this format is very appealing to people with gambling problems.
+It's very fast.
+You can chase losses for people with, you know, higher levels of impulsivity.
+They're very attracted to these bets that seem, you know, seem to really kind of fit with your hunches.
+I think this players, you know, this players on, he's going to score next.
+So we're trying to understand, you know, these ingredients.
+I think we are starting to see evidence from across Canada that rates of gambling problems are increasing, particularly around sports betting.
+There's been some data published this year from the gambling helpline in Ontario that they're seeing quite a kind of uptick in callers seeking help.
+For, for gambling problems, particularly around sports betting.
+This is particularly kind of younger men that we see as the average demographic.
+And yeah, there are again, a lot of ingredients within modern sports betting that, yeah, this is really, we all house to try and understand these ingredients.
+And, you know, and then, you know, the website itself also becomes an interesting unit.
+Like in the past, we really just think about the product, like, am I playing a slot machine or am I playing a bingo game or sports betting.
+But the gambling website has its own aspects of design, like what we were talking about earlier, how we're easier is it to make deposits.
+And with draw rules, never have some sports betting apps and websites now, you can, you know, can you watch some of the sport inside the app?
+So they're actually kind of broadcast rights to see the game that you're betting on like sports is an exciting thing to watch.
+So what if I can just watch the sport in the app while also placing bets.
+So we're starting to think more about the kind of website design as well as the actual kind of mechanics of the bet.
+So a few, a few more fun ones, if you will, before we, to close up the conversation.
+I asked this to everyone, have you gotten much or any pushback for your work?
+I think a common question that I've often got, particularly about our work on products and slot machine design, going back to everyone working on near missies.
+Are we as the researchers just helping the industry make more harmful products?
+Like don't the kind of gambling companies have researchers like us sort of doing the same studies, but from the different perspective, we're trying to understand the harm, but the gambling industry doing the same thing.
+And it's, you know, the gambling industry don't sort of publish in academic journals.
+So it's quite difficult to know.
+But I've thought about that question a lot.
+And I think gambling games, slot machines themselves have been evolving constantly for decades actually.
+Like they went, they became fully kind of digital games, been 20 to 30 years ago.
+But they continue to evolve.
+And each time I visit a casino and I walk around the slot machine floor, I'll notice new features.
+I don't like, you know, chairs that are built into the slot machine or vibration feedback.
+And these things just like, I've never noticed that before.
+So they're always evolving.
+And I actually think that gambling, the slot machine manufacturers, design companies don't need to be very research oriented.
+They just program a lot of different things, they try things out.
+They see very quickly what works.
+This happens even faster online.
+Like they launch a new online slot machine game and they know within hours whether it's popular.
+So they're getting this very sort of fast feedback that allows for just this continual sort of like trial and error learning or sort of, you know, evolutionary principles really.
+And you know, for the researchers, we're in a position where I feel like we're trying to kind of reverse engineer these games, trying to unscramble all of this.
+And that's much harder to do.
+And we can't just sort of launch multiple versions of a super realistic product on a website and get fast feedback.
+So yeah, I suppose that's a question that I get a lot and I still, you know, we never quite know, but that's, yeah, that's a kind of interesting feature.
+And that was something, you know, that was curious about was if any of the gambling companies ever have reached out to you.
+Do you either try to get you to work for them or to try to just get insight into whatever in terms of your research?
+No, no, I can't say they have like there is this interesting field now around online gambling, where you know, a gambling website records every bet that is placed.
+And that bet is linked to a customer's account.
+Now that person has to make deposits from some kind of banking card to place those bets.
+So, you know, one of the kind of exciting fields in this area is this point, like the industry would call it play a tracking or academics tend to call it behavioral tracking.
+Can we look at these huge data sets and figure out behavioral patterns like expressions of loss chasing.
+So, you know, my lab have been able to work with a couple of data sets from the DC lottery corporations and platform in BC.
+But we've been able to access some data from Mary casino for these kinds of studies.
+And with I think that's one of the benefits of a monopoly model in Canada, if there are many benefits.
+But with private gambling companies in other countries, certainly academics have had a lot of difficulty setting up that access to the data for questions like that.
+So, yeah, that is an interesting area and something that you know, I'm very pleased that we've been able to do some of that work in at UBC.
+It's been challenging work to do.
+It really requires data science, like we're working with a year of data that's from 30,000 people, it's like half a billion bets.
+It's really challenging to work with, but it's incredibly rich as well.
+So, you know, that's an area where some gambling researchers really kind of come into contact with the operators and the industry.
+So, what's I think an obvious question maybe I should have started out with this, but do you gamble?
+What's your relationship to gambling?
+From my background getting into it through risk taking, I've never been a big gambler and as a gambling researcher.
+Like I'm always interested to visit casinos, we do some kind of lab field trips to casinos around the lower mainland and in BC.
+And, you know, I'm always interested to kind of see what the economy features are.
+And yeah, I think it, you know, certainly changes one's been attitude to gambling as well during research in this area and lacking out the design and the question of which.
+And design features are just economic motives versus, you know, at what point does this become sort of exploiting people's psychological biases and tendencies.
+So, yeah, that's sort of shaped my relationship to gambling as well.
+Are there people who are listening to this and want to read more about your work and that sort of thing?
+Are there one or two resources that you want to point people to that I can link in the show notes?
+Yeah, like not from my research, but for people watching this based in BC and who might be experiencing and gambling problems themselves.
+So, gambling support BC is the provincial website that is the kind of hub for the provincial resources and I'm not connected to that to that website.
+In terms of our research, we have an article in psyche, which is an online website called how to control your gambling, which is kind of introduction to what's happened and different strategies that people might consider if they gamble themselves.
+And through the centers website at SCGR site, you can get pretty much all of our research papers.
+Great.
+I will link to all of those that's wonderful.
+Well, I can't tell you how much I appreciate this.
+I've learned a lot.
+Yeah, this has been great.
+Thank you.
+Ladies and gentlemen, Dr.
+Luke Clark.
+That's a wrap on our conversation.
+As I noted at the top of the show, be much appreciated if you spread the word to anyone else who you think might enjoy it.
+Until next time.
+[Music]

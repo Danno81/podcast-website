@@ -400,7 +400,7 @@
     "18857898": {
       "videoId": "BI-VJc4lLLE",
       "confidence": 66,
-      "ytTitle": "Why Mental Health Tools Die — and How to Keep Them Alive"
+      "ytTitle": "Why Mental Health Tools Die \u2014 and How to Keep Them Alive"
     },
     "18889043": {
       "videoId": "oo5hYAh5IT8",
@@ -440,7 +440,7 @@
     "19161260": {
       "videoId": "g7RW_WXQnmg",
       "confidence": 80,
-      "ytTitle": "Why Suicidal Thoughts Don’t Always Lead to Action with Dr. David Klonsky (Encore)"
+      "ytTitle": "Why Suicidal Thoughts Don\u2019t Always Lead to Action with Dr. David Klonsky (Encore)"
     },
     "19192485": {
       "videoId": "HuRvH0QKCYE",
@@ -471,6 +471,16 @@
       "videoId": "hhOgIR-Dg-U",
       "confidence": 80,
       "ytTitle": "What Makes Gambling Addictive with Dr. Luke Clark"
+    },
+    "19364206": {
+      "videoId": "swya35p2s5s",
+      "confidence": 95,
+      "ytTitle": "Loss Chasing, Sports Betting, And Online Gambling with Dr. Luke Clark"
+    },
+    "19455538": {
+      "videoId": "xAc6ObvMbP4",
+      "confidence": 95,
+      "ytTitle": "Clinical Training, Supervision, and the Limits of Suicide Risk Prediction: Listener Feedback"
     }
   }
 }
